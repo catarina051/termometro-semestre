@@ -1,0 +1,24 @@
+# Dependências e build
+node_modules/
+.next/
+out/
+.vercel/
+
+# Python / DuckDB
+__pycache__/
+*.pyc
+.venv/
+*.duckdb
+*.duckdb.wal
+
+# Dados brutos da UFRN (grandes e baixados por script; nunca versionar dados pessoais)
+dados/brutos/
+
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
+Thumbs.db
