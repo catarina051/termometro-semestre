@@ -1,5 +1,7 @@
 # Termômetro do Semestre
 
+[![testes](https://github.com/catarina051/termometro-semestre/actions/workflows/testes.yml/badge.svg)](https://github.com/catarina051/termometro-semestre/actions/workflows/testes.yml)
+
 **Resultado em uma linha:** analisei 82.690 matrículas de graduação da UFRN (2015 a 2019) e vi que 9 das 12 combinações de disciplinas que pareciam perigosas eram, na verdade, alunos atrasados repetindo uma delas; o sinal que sobrevive às checagens é pequeno e vem de uma única disciplina, Probabilidade e Estatística.
 
 ## O problema
