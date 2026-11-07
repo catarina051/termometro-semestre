@@ -67,6 +67,8 @@ Todo número abaixo vem de `resultados/*.csv`, gerados pelos scripts da pasta `s
 
 ## O que eu não afirmo
 
+> Dados históricos agregados da UFRN (2015 a 2019). As taxas são por tentativa de matrícula. Os resultados mostram associações, não causas, e não são previsão individual nem recomendação de grade. Este projeto não classifica alunos nem estima a chance de evasão de ninguém.
+
 - Não afirmo que cursar uma disciplina cause reprovação em outra, nem recomendo combinações de matrícula.
 - Não afirmo que a taxa vale para outra universidade. O mapeamento para as disciplinas do CEFET-MG, que revisei linha a linha, serve para a próxima etapa, não prova que os resultados se repetem lá.
 - A identificação de calouro é aproximada: os dados abertos não ligam a matrícula à data de ingresso.

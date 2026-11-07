@@ -117,7 +117,7 @@ def main():
         "avisos": {
             "unidade": "As taxas são por tentativa de matrícula, não por aluno: quem repete conta de novo.",
             "causalidade": "Associação observada. Não indica que cursar uma disciplina cause reprovação em outra.",
-            "etico": None,  # texto a ser decidido pela Catarina (Dia 4)
+            "etico": (RAIZ / "dados" / "aviso_etico.txt").read_text(encoding="utf-8").strip(),  # decisao da Catarina (opcao C)
         },
         "disciplinas": disciplinas,
         "curva_carga": curva_json,

@@ -45,7 +45,7 @@ def test_mapeamento_so_aparece_depois_da_revisao(j):
     for x in j["disciplinas"]:
         if x["mapeamento_status"] == "pendente":
             assert x["cefet"] is None
-    assert j["avisos"]["etico"] is None or isinstance(j["avisos"]["etico"], str)
+    assert isinstance(j["avisos"]["etico"], str) and "não classifica alunos" in j["avisos"]["etico"]
 
 
 def test_achados_sem_linguagem_de_recomendacao(j):

@@ -19,7 +19,7 @@
   "avisos": {
     "unidade": "As taxas são por tentativa de matrícula, não por aluno: quem repete conta de novo.",
     "causalidade": "Associação observada. Não indica que cursar uma disciplina cause reprovação em outra.",
-    "etico": null
+    "etico": "Dados históricos agregados da UFRN (2015 a 2019). As taxas são por tentativa de matrícula. Os resultados mostram associações, não causas, e não são previsão individual nem recomendação de grade. Este projeto não classifica alunos nem estima a chance de evasão de ninguém."
   },
   "disciplinas": [
     {
