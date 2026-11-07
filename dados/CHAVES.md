@@ -40,4 +40,7 @@ matriculas-componentes.id_curso  (1 curso por aluno)    -> nome do curso via dis
 1. Uma matrícula vira várias linhas (uma por `unidade`/nota). Antes de contar, reduzir a 1 linha por `(id_turma, discente)`.
 2. Valores de `descricao` incluem situações que não são aprovação nem reprovação (CANCELADO, EXCLUIDA, TRANCADO, INDEFERIDO, DESISTENCIA, MATRICULADO etc.). A regra do que conta como "reprovou" é decisão de método.
 3. Alunos que entraram antes de 2015.1 têm histórico cortado no início da janela. Sem a data de ingresso, a "tentativa número N" só vale a partir de 2015.1.
-4. Os arquivos de `discentes` têm o nome do aluno. Ficam só em `dados/brutos/` (ignorado pelo Git) e não entram no pipeline.
+4. Os CSV de `turmas` repetem turmas entre arquivos (148.761 linhas, 89.594 turmas distintas, sem divergência de conteúdo). Sem `DISTINCT`, o join com as matrículas multiplica as linhas.
+5. Numa mesma matrícula aparecem, às vezes, linhas EXCLUIDA ou INDEFERIDO (pedido anterior) ao lado do resultado real. O pipeline fica com a linha de maior prioridade: resultado final > trancado/desistência/cancelado > excluída/indeferida.
+6. Os textos da UFRN chegam com acentos perdidos (`GRADUA��O`). Filtros por nome usam só o começo ASCII (`LIKE 'GRADUA%'`).
+7. Os arquivos de `discentes` têm o nome do aluno. Ficam só em `dados/brutos/` (ignorado pelo Git) e não entram no pipeline.

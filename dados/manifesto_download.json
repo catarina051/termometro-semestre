@@ -217,6 +217,14 @@
   },
   {
     "conjunto": "componentes-curriculares",
+    "recurso": "Componentes Curriculares de EAD",
+    "arquivo": "componentes-curriculares/componentes-curriculares-ead.csv",
+    "url": "https://dados.ufrn.br/dataset/3fea67e8-6916-4ed0-aaa6-9a8ca06a9bdc/resource/d1de5b44-0ae6-4a22-8dac-ae44aa1c3248/download/componentes-curriculares-ead.csv",
+    "bytes": 2573247,
+    "sha256": "2f90e95e4a529f9eaa15766c82c8d7a6cc0be5ae86f6827a8ac3e1343f35b4e8"
+  },
+  {
+    "conjunto": "componentes-curriculares",
     "recurso": " Dicionário de Dados - Componentes Curriculares",
     "arquivo": "componentes-curriculares/dicionario-de-dados---componente-curricular.pdf",
     "url": "https://dados.ufrn.br/dataset/3fea67e8-6916-4ed0-aaa6-9a8ca06a9bdc/resource/206b013e-fec3-4d5b-89e2-66e0bf6f46cb/download/dicionario-de-dados---componente-curricular.pdf",

@@ -23,7 +23,9 @@ CONJUNTOS = {
     "matriculas-componentes": lambda r: any(a in r["name"] for a in ANOS),
     "turmas": lambda r: any(a in r["name"] for a in ANOS),
     "discentes": lambda r: any(a in r["name"] for a in ANOS),
+    # presenciais, semi-presenciais e EAD (turmas a distancia apontam para os dois ultimos)
     "componentes-curriculares": lambda r: "Presenciais" in r["name"]
+    or "EAD" in r["name"]
     or "Dicion" in r["name"],
 }
 
@@ -36,6 +38,12 @@ def get_json(url):
 def baixar(url, destino):
     h = hashlib.sha256()
     tamanho = 0
+    if destino.exists():  # ja baixado: so recalcula o hash
+        with open(destino, "rb") as f:
+            while chunk := f.read(1 << 20):
+                h.update(chunk)
+                tamanho += len(chunk)
+        return tamanho, h.hexdigest()
     with urllib.request.urlopen(url, timeout=120) as resp, open(destino, "wb") as f:
         while chunk := resp.read(1 << 20):
             f.write(chunk)
