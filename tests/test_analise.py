@@ -59,3 +59,23 @@ def test_checagens_da_auditoria():
     assert len(sob) >= 1
     assert (sob["n_com_par"] >= 100).all() and (sob["n_sem_par"] >= 100).all()
     assert (sob["ic_cluster_inf"] > 0).all()  # a regra de entrada exige IC por aluno acima de zero
+
+
+def test_validacao_por_divisao_de_alunos():
+    res = ler("validacao_resumo.csv").set_index("procedimento")
+    assert set(res.index) == {"original", "revisado"}
+    assert (res["divisoes"] == 100).all()
+    # a escolha pelo maior efeito infla: descoberta > validacao nos dois procedimentos
+    assert (res["inflacao_media_pp"] > 0).all()
+    div = ler("validacao_divisoes.csv")
+    assert (div["val_n_com_par"] > 0).all() and (div["val_n_sem_par"] > 0).all()
+    assert div.groupby(["divisao", "procedimento"]).size().max() <= 4  # ate 4 finalistas
+
+
+def test_achados_gerados_dos_arquivos():
+    txt = (R.parent / "achados" / "ACHADOS.md").read_text(encoding="utf-8")
+    assert txt.count("## Achado ") == 4
+    for proibido in ("[PREENCHER]", "[A MEDIR]", "nan", "None"):
+        assert proibido not in txt
+    # nenhuma frase de recomendacao ou causalidade solta
+    assert "evite" not in txt.lower() and "aumenta o risco" not in txt.lower()

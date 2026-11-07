@@ -1,0 +1,733 @@
+divisao,procedimento,disciplina,nome,dado_par,nome_par,dif_descoberta_pp,dif_validacao_pp,val_ic_inf,val_ic_sup,val_n_com_par,val_n_sem_par,confirma
+0,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,21.019,11.912,2.698,20.763,103,954,True
+0,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",16.166,19.778,10.629,28.024,114,1564,True
+0,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,15.672,15.853,6.767,23.118,112,1272,True
+0,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.619,17.943,11.264,24.979,233,1151,True
+0,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.491,7.96,0.979,15.017,347,402,True
+0,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.858,13.285,6.147,19.395,376,378,True
+1,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,23.411,8.109,-0.829,16.805,109,1250,False
+1,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",22.925,13.604,4.069,23.302,133,1578,True
+1,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.033,14.409,4.529,23.566,99,922,True
+1,original,ECT2103,Cálculo I,ECT2105,Práticas de Leitura e Escrita I,17.364,9.633,0.139,18.889,41,1028,True
+1,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.327,11.07,3.825,17.949,400,365,True
+1,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.685,9.028,1.951,16.312,530,198,True
+1,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.674,8.801,2.275,16.135,379,372,True
+1,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.626,5.505,-1.64,12.498,270,622,False
+2,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",21.22,14.665,4.564,23.365,131,1580,True
+2,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.762,15.857,9.629,22.002,225,1165,True
+2,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.413,14.861,6.246,24.693,103,931,True
+2,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,16.87,9.415,3.982,15.373,635,397,True
+2,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,13.156,5.328,-2.235,12.7,515,218,False
+2,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",11.599,-0.529,-7.604,6.297,389,388,False
+2,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.48,12.516,6.245,18.931,388,386,True
+2,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.17,8.022,1.306,14.505,360,392,True
+3,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,19.031,9.522,3.639,16.005,426,613,True
+3,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.942,15.672,8.12,22.895,133,906,True
+3,original,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,17.885,5.469,0.432,11.321,409,630,True
+3,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.367,18.507,9.395,27.575,116,1571,True
+3,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.241,5.795,-0.796,12.213,389,400,False
+3,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,15.17,1.785,-4.062,7.941,360,419,False
+3,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.278,7.835,0.56,14.537,514,234,True
+3,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.497,2.337,-4.012,8.479,390,399,False
+4,original,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2106,"Ciência, Tecnologia e Sociedade",24.623,11.355,-3.392,27.903,33,1334,False
+4,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.972,17.544,11.76,23.329,263,1160,True
+4,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.962,13.077,7.037,19.709,411,654,True
+4,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",15.85,20.035,10.819,28.631,123,1575,True
+4,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,14.255,8.337,1.46,14.953,374,410,True
+4,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,13.826,3.937,-3.114,10.42,361,408,False
+4,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,13.283,5.008,-2.652,11.743,187,499,False
+4,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.241,7.05,-0.183,14.069,512,224,False
+5,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,20.266,13.042,5.085,21.327,129,900,True
+5,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,19.439,12.246,3.256,21.245,117,1301,True
+5,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.549,14.986,8.556,22.005,235,1183,True
+5,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.734,16.525,5.189,26.364,103,930,True
+5,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.711,11.447,4.01,18.401,401,373,True
+5,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.998,8.523,1.258,14.469,373,392,True
+5,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.711,5.279,-0.294,10.839,266,665,False
+5,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.492,9.888,3.06,18.125,531,213,True
+6,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.566,14.13,7.71,20.516,234,1148,True
+6,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.681,14.877,6.975,23.356,139,869,True
+6,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.153,12.307,5.701,18.299,415,593,True
+6,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,15.845,15.166,6.353,23.181,110,1272,True
+6,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.266,3.75,-3.406,10.547,499,211,False
+6,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.931,8.993,1.408,16.664,377,379,True
+6,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.67,5.203,-2.575,12.855,359,387,False
+6,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",9.759,0.482,-7.395,7.799,380,380,False
+7,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.03,13.615,4.601,23.075,102,980,True
+7,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.954,17.666,10.776,23.146,230,1174,True
+7,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.57,13.218,7.142,18.664,427,600,True
+7,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,15.082,11.386,5.355,16.629,630,397,True
+7,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.228,10.062,3.716,16.955,387,381,True
+7,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.834,7.669,0.941,16.1,501,225,True
+7,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.857,7.543,1.868,14.16,370,385,True
+8,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,20.271,11.623,-0.049,22.212,57,936,False
+8,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.838,14.539,4.237,23.75,97,928,True
+8,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,15.479,15.653,5.784,24.082,109,1268,True
+8,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.388,18.148,11.744,23.984,251,1126,True
+8,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.63,11.609,4.875,19.215,378,370,True
+8,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.124,9.162,2.098,15.423,356,385,True
+8,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,7.394,6.603,-0.063,12.952,257,647,False
+8,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,6.647,11.909,3.685,20.27,500,206,True
+9,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",21.872,14.328,5.328,21.591,127,1596,True
+9,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.583,13.175,3.071,21.507,102,953,True
+9,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.44,15.122,6.987,23.174,130,882,True
+9,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,17.387,14.78,1.169,28.372,47,965,True
+9,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,11.975,5.043,-2.161,12.573,171,504,False
+9,revisado,ECT2303,Linguagem de Programação,ECT2204,Introdução à Física Clássica I,11.883,8.085,-2.35,17.581,120,489,False
+9,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.337,12.658,4.904,19.082,380,391,True
+9,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.456,8.796,1.061,16.028,364,393,True
+10,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,20.994,13.094,5.268,21.684,141,937,True
+10,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.83,17.241,8.15,25.157,129,1583,True
+10,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.565,14.854,4.256,22.711,97,985,True
+10,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.531,16.539,9.854,22.416,241,1179,True
+10,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.038,9.256,2.257,15.828,396,394,True
+10,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,12.657,1.867,-5.196,7.938,283,623,False
+10,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.857,7.72,0.996,14.734,514,239,True
+10,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.798,8.049,1.921,14.855,366,409,True
+11,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,23.298,9.68,-2.183,20.728,60,1004,False
+11,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",20.979,14.89,4.867,24.452,118,1591,True
+11,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.749,14.186,7.891,20.586,239,1184,True
+11,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,18.712,10.3,4.716,16.618,442,622,True
+11,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.613,6.819,-0.425,13.827,401,394,False
+11,revisado,ECT2303,Linguagem de Programação,ECT2204,Introdução à Física Clássica I,15.403,5.88,-2.234,14.455,135,515,False
+11,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.57,8.129,0.327,14.742,521,233,True
+11,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.504,6.962,0.219,13.038,372,411,True
+12,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",20.333,15.664,7.681,24.88,126,1590,True
+12,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.719,13.485,4.056,22.139,130,902,True
+12,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.304,18.156,12.062,24.204,247,1162,True
+12,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.093,11.918,5.012,17.275,640,392,True
+12,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.267,8.936,1.205,17.28,516,211,True
+12,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.651,5.521,-1.017,12.394,263,643,False
+12,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.444,13.698,8.041,20.957,389,374,True
+13,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,23.278,11.197,3.098,20.196,134,944,True
+13,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.183,13.985,8.016,21.849,228,1174,True
+13,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.71,18.201,8.829,25.982,128,1602,True
+13,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.593,14.828,4.263,24.325,104,946,True
+13,revisado,ECT2303,Linguagem de Programação,ECT2204,Introdução à Física Clássica I,15.595,4.409,-6.123,12.474,124,494,False
+13,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.928,8.536,1.97,14.511,368,418,True
+13,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.807,13.168,6.168,19.855,390,402,True
+14,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.183,17.847,8.533,27.203,119,1564,True
+14,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.436,16.307,7.299,24.606,136,888,True
+14,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,17.366,11.349,5.147,17.662,418,606,True
+14,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.731,18.078,12.241,24.522,236,1182,True
+14,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.859,8.387,2.035,14.257,387,378,True
+14,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.061,6.242,-1.758,13.83,364,384,False
+14,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.105,8.169,0.547,15.519,503,199,True
+15,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.655,12.276,-1.356,24.476,51,953,False
+15,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,16.805,17.041,9.602,24.436,150,854,True
+15,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,15.551,16.819,7.879,26.05,101,940,True
+15,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.003,12.42,6.802,19.06,626,378,True
+15,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,9.822,4.374,-2.054,10.422,278,634,False
+15,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.981,9.933,1.711,16.074,505,215,True
+15,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.498,13.795,6.861,20.005,383,382,True
+15,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.344,10.063,3.442,16.99,359,401,True
+16,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.087,15.814,8.736,22.252,222,1147,True
+16,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.157,16.629,6.915,25.973,106,911,True
+16,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.925,17.927,9.641,25.937,127,889,True
+16,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.469,13.831,8.119,19.391,622,394,True
+16,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.452,3.202,-3.418,9.519,247,650,False
+16,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,7.485,14.8,7.849,21.683,376,379,True
+16,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.024,11.4,4.214,18.45,495,224,True
+17,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.335,17.64,8.908,26.226,122,1592,True
+17,original,ECT2303,Linguagem de Programação,ECT2102,Vetores e Geometria Analítica,17.525,1.499,-9.649,12.138,90,1002,False
+17,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,15.354,16.975,7.957,26.27,101,991,True
+17,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.098,18.527,10.823,26.72,153,920,True
+17,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.051,13.17,6.137,19.843,397,391,True
+17,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.6,11.186,3.682,18.324,528,205,True
+18,original,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2106,"Ciência, Tecnologia e Sociedade",21.9,17.315,-0.011,33.042,35,1354,False
+18,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.209,13.448,5.173,22.886,103,957,True
+18,original,ECT2101,Pré-Cálculo,ECT2106,"Ciência, Tecnologia e Sociedade",17.095,0.618,-8.83,12.177,82,620,False
+18,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,16.239,17.576,11.134,23.27,212,1123,True
+18,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.762,2.838,-4.349,9.993,267,610,False
+18,revisado,ECT2207,Probabilidade e Estatística,ECT2305,Prática de Leitura em Inglês,10.663,-1.433,-9.706,7.13,141,637,False
+18,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.61,13.625,6.8,20.212,381,383,True
+18,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.506,9.845,2.428,16.805,496,231,True
+19,original,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,16.373,7.529,2.038,13.177,445,617,True
+19,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",16.212,20.062,9.485,29.13,116,1586,True
+19,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.9,17.878,11.292,24.399,246,1172,True
+19,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,15.771,10.592,5.008,16.044,657,405,True
+19,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.885,11.301,5.195,18.651,405,396,True
+19,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.48,7.938,1.682,14.337,396,396,True
+19,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.048,9.608,3.234,16.878,535,230,True
+20,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,21.772,10.515,0.904,20.274,98,931,True
+20,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.495,16.312,8.531,26.634,114,1603,True
+20,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.585,13.496,3.785,22.062,106,1285,True
+20,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.045,16.622,9.302,23.319,243,1148,True
+20,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,12.731,3.775,-4.107,11.147,161,513,False
+20,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.405,5.698,-1.922,11.471,252,653,False
+21,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.843,12.684,1.856,25.496,58,969,True
+21,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.883,15.735,6.446,23.273,128,899,True
+21,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.608,16.264,9.268,22.661,234,1115,True
+21,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.443,14.963,5.91,25.608,99,984,True
+21,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.027,6.578,-0.359,13.267,498,226,False
+21,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.987,2.738,-3.137,9.349,258,629,False
+21,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,10.551,6.958,0.155,15.092,182,501,True
+21,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.439,12.751,5.909,20.03,384,377,True
+22,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.341,13.064,2.289,22.573,99,969,True
+22,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.199,12.581,2.566,25.898,56,997,True
+22,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,18.795,9.96,3.316,15.833,436,617,True
+22,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.304,17.616,8.114,26.885,119,1562,True
+22,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.745,6.276,-1.179,12.412,397,391,False
+22,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,14.41,3.045,-3.036,10.161,376,400,False
+22,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.633,8.882,1.584,16.299,520,222,True
+22,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",9.326,2.202,-5.165,9.244,404,381,False
+23,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.694,13.862,7.176,20.317,228,1159,True
+23,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.263,17.772,7.795,26.886,121,1535,True
+23,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.376,13.749,5.399,22.129,107,1280,True
+23,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.744,18.545,9.933,26.679,122,899,True
+23,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,12.36,1.558,-4.033,7.383,261,638,False
+23,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,7.686,14.725,8.239,20.613,390,382,True
+24,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.619,12.595,0.588,25.739,54,1025,True
+24,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.252,17.895,8.071,26.505,111,1578,True
+24,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,18.14,13.227,3.11,23.212,107,1325,True
+24,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.053,16.642,11.145,23.699,238,1194,True
+24,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.138,6.407,-0.855,13.996,542,215,False
+24,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.724,10.568,3.583,17.036,396,410,True
+24,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.774,9.325,2.99,15.881,381,411,True
+24,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",7.045,4.274,-1.906,11.409,393,421,False
+25,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",20.76,15.364,6.544,23.972,126,1578,True
+25,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.637,15.054,4.066,25.463,92,933,True
+25,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.561,16.201,9.801,22.881,249,1189,True
+25,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.397,13.251,7.116,19.262,453,594,True
+25,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.257,6.893,-0.708,12.656,524,211,False
+25,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.075,11.109,4.275,18.044,416,369,True
+25,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.278,7.071,0.245,14.07,392,378,True
+26,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,22.77,11.591,4.587,18.884,151,914,True
+26,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,21.735,10.136,0.41,21.206,97,977,True
+26,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,18.136,10.758,4.562,16.774,442,623,True
+26,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.921,15.877,9.32,22.399,243,1185,True
+26,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.271,6.317,-0.18,12.532,402,393,False
+26,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,13.129,4.625,-2.39,11.633,378,406,False
+26,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",10.225,1.074,-5.332,7.665,391,405,False
+26,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.168,7.789,1.465,14.758,535,214,True
+27,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.044,12.47,2.712,23.281,84,947,True
+27,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.719,17.282,9.314,26.516,119,1558,True
+27,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.64,15.706,6.79,24.734,124,884,True
+27,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.353,13.543,4.954,22.511,103,1276,True
+27,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.701,3.374,-3.409,9.934,252,650,False
+27,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.047,14.337,7.465,21.172,391,359,True
+28,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,23.039,9.769,0.74,20.165,101,966,True
+28,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",22.158,14.6,5.372,23.387,137,1610,True
+28,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.366,15.58,9.38,22.114,261,1190,True
+28,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.677,16.409,7.834,24.972,145,915,True
+28,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,9.03,5.293,-1.351,11.048,280,661,False
+29,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.817,14.464,7.521,20.39,249,1159,True
+29,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.436,13.625,4.982,23.167,113,981,True
+29,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.362,14.372,6.359,21.707,143,901,True
+29,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.167,12.706,0.477,24.713,53,991,True
+29,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.989,9.066,2.58,14.936,372,402,True
+29,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,7.127,14.724,8.066,21.241,398,389,True
+30,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,27.713,4.065,-6.14,16.09,56,986,False
+30,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,22.565,10.323,0.261,20.501,124,918,True
+30,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",21.176,14.736,3.945,24.084,118,1568,True
+30,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.511,14.297,7.889,20.501,246,1159,True
+30,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.722,8.481,1.621,15.732,395,386,True
+30,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,9.705,4.429,-1.481,11.167,267,663,False
+30,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.481,7.923,2.068,15.221,383,385,True
+30,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.952,9.489,2.513,16.242,524,224,True
+31,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,22.233,7.468,-1.973,16.695,98,1237,False
+31,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.754,14.443,8.803,20.451,221,1114,True
+31,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.574,14.988,6.078,24.454,133,880,True
+31,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.001,15.388,6.119,24.584,102,940,True
+31,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.158,8.808,1.871,15.951,387,368,True
+31,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,10.876,6.311,-1.544,14.966,159,500,False
+31,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.875,7.543,-0.11,14.557,502,201,False
+31,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.241,3.505,-3.586,10.185,256,614,False
+32,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.395,14.259,7.473,20.819,227,1207,True
+32,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.96,15.815,7.786,24.016,141,924,True
+32,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,14.31,16.771,7.517,23.894,109,1325,True
+32,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",13.599,22.7,13.568,31.878,115,1569,True
+32,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.394,3.914,-2.214,9.514,287,639,False
+32,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.267,12.829,5.566,19.104,413,387,True
+32,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.189,9.184,2.464,15.893,400,386,True
+32,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.134,11.329,4.386,18.226,546,215,True
+33,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",22.126,13.647,4.291,22.689,113,1565,True
+33,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,21.024,12.804,4.875,21.008,138,861,True
+33,original,ECT2302,Metodologia Científica e Tecnológica,ECT2106,"Ciência, Tecnologia e Sociedade",18.695,-4.364,-15.59,6.771,51,1191,False
+33,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.802,14.524,3.282,24.477,87,917,True
+33,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.058,14.151,7.363,21.061,383,368,True
+33,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,7.594,6.37,0.486,12.846,257,626,True
+33,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.202,11.494,3.431,18.306,490,205,True
+34,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",23.633,13.452,4.506,22.142,136,1590,True
+34,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,20.366,13.381,7.161,19.503,238,1166,True
+34,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.98,15.343,7.102,24.799,95,953,True
+34,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,16.213,15.165,7.436,23.136,117,1287,True
+34,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,15.279,2.702,-4.65,10.23,182,515,False
+34,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.048,9.217,2.049,15.989,390,390,True
+34,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.411,6.933,0.097,13.825,376,389,True
+34,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,7.708,6.101,-0.981,12.083,254,661,False
+35,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",21.724,13.684,3.288,24.8,109,1580,True
+35,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.79,13.391,2.96,22.919,95,953,True
+35,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.105,18.718,12.476,24.629,232,1169,True
+35,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,14.217,13.985,8.088,20.383,408,610,True
+35,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.375,11.559,5.015,17.781,377,389,True
+35,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.248,10.188,3.084,16.936,501,213,True
+35,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.964,9.194,2.972,16.209,368,383,True
+36,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,24.315,9.01,-0.436,17.242,132,918,False
+36,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",24.274,12.1,3.155,21.39,124,1550,True
+36,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,20.627,12.364,1.252,22.614,91,967,True
+36,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.511,16.008,9.971,23.058,229,1181,True
+36,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.353,12.003,4.308,18.389,413,374,True
+36,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.76,2.616,-3.565,10.17,415,369,False
+36,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.57,8.774,3.18,15.063,389,389,True
+37,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,21.667,13.085,5.889,21.4,163,906,True
+37,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,20.734,12.526,2.135,22.17,102,996,True
+37,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.592,14.189,7.559,21.466,246,1185,True
+37,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,18.568,13.628,3.016,24.11,56,1013,True
+37,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,13.01,4.348,-3.718,12.85,177,500,False
+37,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.258,11.896,5.419,18.976,387,389,True
+37,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.568,8.388,1.326,15.455,538,203,True
+38,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,22.514,9.488,-1.114,21.414,59,957,False
+38,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,21.582,11.81,2.269,20.641,109,931,True
+38,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.278,14.585,8.098,21.322,250,1133,True
+38,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,19.198,11.919,2.566,19.999,112,1271,True
+38,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.708,7.572,-0.443,15.429,489,223,False
+38,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.934,12.548,5.484,20.142,371,388,True
+38,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.045,8.041,-0.23,15.314,346,395,False
+38,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.036,3.567,-4.169,10.23,384,377,False
+39,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",24.177,12.364,3.967,19.792,129,1575,True
+39,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,22.805,9.222,0.159,19.307,94,964,True
+39,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,22.799,10.717,3.861,16.795,228,1176,True
+39,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,21.662,8.753,-1.531,18.862,101,1303,False
+39,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.074,3.877,-2.612,11.279,263,643,False
+39,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.003,14.049,6.654,19.94,379,399,True
+40,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.889,16.123,7.365,25.894,124,1582,True
+40,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.649,14.195,6.186,21.556,143,926,True
+40,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.365,16.444,10.178,23.059,244,1223,True
+40,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.235,16.089,5.325,25.776,90,992,True
+40,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.333,12.724,6.012,19.367,391,387,True
+40,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.775,5.745,-0.139,12.075,270,642,False
+40,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.526,8.871,1.018,15.757,372,402,True
+41,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.059,16.971,7.991,25.767,120,1599,True
+41,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.021,13.397,2.665,22.895,57,1010,True
+41,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.464,14.29,4.271,24.698,103,1009,True
+41,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,18.102,8.684,3.234,14.36,649,418,True
+41,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,14.418,7.967,0.948,15.828,382,392,True
+41,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,13.199,5.509,-2.344,13.873,504,220,False
+41,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.289,8.326,1.215,15.335,356,399,True
+42,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.436,13.319,4.939,23.446,90,917,True
+42,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.595,16.257,10.389,22.883,227,1195,True
+42,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.591,18.151,9.975,26.127,128,906,True
+42,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",14.381,21.41,13.898,29.903,133,1596,True
+42,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.056,6.224,-1.221,13.664,525,211,False
+42,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.517,10.547,3.794,18.586,391,384,True
+42,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,9.53,4.741,-2.052,11.022,257,655,False
+42,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.615,9.738,2.38,15.61,369,398,True
+43,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",25.357,11.246,2.436,19.778,126,1546,True
+43,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,20.013,13.831,4.742,23.303,130,863,True
+43,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.715,12.88,2.244,23.171,99,936,True
+43,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,15.111,15.918,5.489,25.931,90,1246,True
+43,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.923,11.195,3.78,18.238,354,381,True
+43,revisado,ECT2207,Probabilidade e Estatística,ECT2305,Prática de Leitura em Inglês,8.863,0.936,-5.698,9.134,152,605,False
+43,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.557,9.99,3.921,15.967,331,388,True
+43,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.545,10.965,3.736,17.635,459,226,True
+44,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,24.532,6.249,-5.126,16.901,89,975,False
+44,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.55,18.575,9.238,26.755,137,1539,True
+44,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,16.783,16.827,8.239,24.829,138,915,True
+44,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.994,17.786,10.456,24.286,236,1116,True
+44,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.577,11.517,4.671,18.175,385,392,True
+44,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.673,10.735,3.331,17.892,517,216,True
+45,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.154,16.611,6.931,25.664,109,1578,True
+45,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.295,15.265,9.542,21.841,240,1146,True
+45,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,15.634,16.274,6.65,25.451,102,948,True
+45,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,15.616,15.622,7.417,23.668,105,1281,True
+45,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.412,12.931,6.532,19.086,388,371,True
+45,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.398,8.864,1.355,15.742,360,389,True
+45,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,7.061,7.268,0.748,14.044,243,655,True
+46,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,22.382,10.167,-1.099,22.172,59,983,False
+46,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.205,15.645,9.664,20.832,253,1176,True
+46,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.013,18.183,8.494,27.262,123,1565,True
+46,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,14.45,18.074,8.535,28.108,85,956,True
+46,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,7.777,14.423,8.045,21.743,397,377,True
+47,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",22.458,13.174,4.261,21.264,115,1580,True
+47,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.411,15.171,5.521,25.575,101,942,True
+47,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,16.8,16.759,8.145,24.544,148,905,True
+47,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.88,11.379,5.511,16.991,660,393,True
+47,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,11.396,2.673,-4.831,9.27,264,656,False
+47,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.42,8.042,1.532,16.677,523,216,True
+47,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.332,6.879,0.708,14.839,377,396,True
+47,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.469,12.611,6.276,19.754,402,383,True
+48,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.982,16.727,8.222,25.8,122,1553,True
+48,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.75,14.767,6.201,23.634,140,902,True
+48,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,18.439,10.04,3.029,15.669,399,643,True
+48,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,18.34,12.658,4.245,21.661,107,1307,True
+48,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.464,6.778,0.916,13.952,367,412,True
+48,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.955,5.106,-1.787,12.765,524,205,False
+48,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,12.588,4.712,-1.545,12.344,368,388,False
+48,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.268,3.05,-3.321,9.343,379,401,False
+49,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,23.503,8.462,-1.236,19.635,87,947,False
+49,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,22.408,10.328,1.566,19.119,124,887,True
+49,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,16.483,17.084,10.917,23.653,219,1135,True
+49,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.298,12.292,5.962,17.526,413,598,True
+49,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.343,8.882,1.996,16.105,377,370,True
+49,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.82,7.589,-0.547,14.589,500,204,False
+49,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.589,6.559,-1.358,13.356,355,382,False
+49,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",9.827,0.811,-5.296,8.054,367,382,False
+50,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.423,16.422,8.225,26.084,121,1593,True
+50,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.953,14.981,6.553,24.851,99,998,True
+50,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,16.88,16.628,7.087,25.524,131,933,True
+50,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.307,18.504,11.983,24.897,225,1182,True
+50,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.572,3.55,-2.562,10.079,264,653,False
+50,revisado,ECT2203,Lógica de Programação,ECT2302,Metodologia Científica e Tecnológica,8.628,0.882,-3.883,5.42,366,870,False
+50,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,7.723,14.454,8.123,20.832,406,376,True
+51,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,19.382,11.994,2.58,21.577,107,1318,True
+51,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.353,13.36,2.906,22.866,90,1014,True
+51,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.9,17.939,8.742,27.104,123,1558,True
+51,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.653,16.087,9.741,23.426,239,1186,True
+51,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,12.651,4.561,-2.128,11.389,369,386,False
+51,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.56,9.547,1.354,16.469,403,374,True
+51,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.272,8.149,0.701,16.575,514,212,True
+52,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.868,14.74,6.179,23.445,128,861,True
+52,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.779,16.956,8.02,25.681,124,1572,True
+52,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.652,15.989,9.642,23.19,234,1137,True
+52,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,16.749,9.39,4.058,14.789,616,373,True
+52,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.222,3.814,-3.762,10.028,483,209,False
+52,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.284,10.789,3.533,17.368,370,364,True
+52,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.852,7.116,-1.275,14.003,349,378,False
+52,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",9.478,1.031,-5.897,7.679,377,366,False
+53,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.212,12.657,1.239,22.056,94,982,True
+53,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,18.045,13.938,-0.444,25.874,55,997,False
+53,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.72,12.835,2.216,22.427,84,1314,True
+53,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,16.503,17.39,10.158,24.36,216,1182,True
+53,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.573,9.45,2.129,16.024,409,377,True
+53,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.634,6.662,-0.336,13.372,375,398,False
+53,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.962,8.407,0.522,16.577,515,223,True
+53,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",7.965,2.884,-3.894,10.085,391,389,False
+54,original,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2106,"Ciência, Tecnologia e Sociedade",21.97,16.608,-1.051,30.781,35,1345,False
+54,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,18.566,13.517,2.125,25.644,53,998,True
+54,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,18.147,12.95,4.032,22.972,99,1317,True
+54,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.049,16.978,9.845,22.632,222,1194,True
+54,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.264,9.073,1.984,15.629,383,402,True
+54,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.438,5.54,-0.433,11.922,264,644,False
+54,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",7.595,3.284,-4.236,10.156,391,398,False
+55,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,21.002,9.186,0.061,18.626,98,1273,True
+55,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.911,16.433,5.716,24.69,110,1590,True
+55,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,18.847,12.918,0.972,25.737,51,990,True
+55,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.641,14.668,5.699,24.256,130,911,True
+55,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.846,5.132,-2.556,12.739,515,221,False
+55,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.476,10.572,3.732,16.91,391,388,True
+55,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.856,7.275,-0.307,13.882,371,396,False
+55,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,7.857,6.136,-0.49,13.425,264,633,False
+56,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",24.487,12.073,3.434,21.245,127,1550,True
+56,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,21.554,10.879,1.788,20.628,100,962,True
+56,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,12.427,21.544,14.795,28.271,231,1133,True
+56,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.913,14.525,8.067,20.276,634,402,True
+56,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.51,12.934,6.057,19.379,384,374,True
+56,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,9.029,4.804,-2.166,11.883,244,650,False
+56,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.384,10.533,3.888,17.511,494,219,True
+57,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,21.317,9.482,-0.083,18.108,103,1277,False
+57,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,20.599,11.943,2.059,21.438,122,908,True
+57,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.073,16.637,9.99,23.265,224,1156,True
+57,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.105,13.507,7.011,19.38,428,602,True
+57,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.561,4.561,-2.661,12.273,498,231,False
+57,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,14.094,7.753,1.172,14.463,388,378,True
+57,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.503,5.44,-0.212,12.465,353,397,False
+58,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,18.864,12.96,1.587,24.312,51,994,True
+58,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.796,18.119,8.631,27.485,124,1579,True
+58,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.737,11.98,6.835,18.171,423,622,True
+58,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.453,18.091,9.312,26.329,142,903,True
+58,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.07,8.794,1.686,15.98,379,396,True
+58,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.449,8.973,0.411,16.68,520,213,True
+58,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.89,9.477,2.514,15.917,374,390,True
+59,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",29.584,6.676,-2.672,16.49,123,1590,False
+59,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,21.308,9.645,-0.284,18.849,110,1269,False
+59,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.998,13.729,4.749,22.448,140,892,True
+59,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.591,12.613,1.949,22.079,94,955,True
+59,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.791,9.006,2.583,15.773,399,367,True
+59,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.051,6.909,0.111,14.249,525,205,True
+59,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.3,6.591,-0.448,13.28,377,382,False
+59,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.3,2.057,-4.518,8.414,408,360,False
+60,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",23.266,12.692,2.378,24.174,121,1604,True
+60,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.369,13.19,0.649,25.449,58,1012,True
+60,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.156,13.46,3.218,24.374,77,952,True
+60,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,18.039,13.068,4.827,21.402,106,1326,True
+60,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.136,9.359,2.697,16.224,523,226,True
+60,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.835,13.091,6.251,19.44,406,396,True
+60,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.602,5.777,-0.551,11.237,275,664,False
+61,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",16.728,19.302,11.174,28.714,120,1569,True
+61,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.603,12.078,5.923,17.839,438,602,True
+61,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,15.319,11.124,5.368,16.537,644,396,True
+61,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,14.394,19.026,12.892,24.795,250,1171,True
+61,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.207,10.09,4.158,16.496,401,379,True
+61,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.932,6.542,0.136,12.774,503,223,True
+61,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.581,7.961,1.689,14.975,372,394,True
+61,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,7.952,6.057,0.068,13.0,273,636,True
+62,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,23.731,9.726,0.513,19.732,109,939,True
+62,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,18.926,12.248,-1.858,25.077,49,989,False
+62,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.655,15.809,8.997,22.453,213,1184,True
+62,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.555,18.294,9.54,27.029,121,1576,True
+62,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.691,13.615,7.287,19.926,375,407,True
+62,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,7.676,6.194,0.423,13.072,258,650,True
+63,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.568,13.294,1.836,24.33,58,1000,True
+63,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.419,14.097,3.502,23.67,98,944,True
+63,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,16.745,10.025,4.418,15.61,664,394,True
+63,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",15.457,20.508,11.064,29.121,121,1595,True
+63,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,13.364,5.286,-1.341,11.891,532,221,False
+63,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.643,12.97,5.844,19.664,412,382,True
+63,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.749,9.782,3.473,16.969,396,382,True
+64,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,18.43,10.338,3.662,16.556,423,601,True
+64,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.614,16.15,6.865,25.993,140,884,True
+64,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,16.821,17.308,11.606,23.313,242,1151,True
+64,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,16.625,15.163,7.357,24.197,104,1289,True
+64,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.963,8.304,1.976,15.057,380,384,True
+64,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.476,6.13,-0.371,12.085,372,384,False
+64,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.128,8.745,0.953,15.171,512,210,True
+65,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,22.148,10.203,-3.482,23.652,60,998,False
+65,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,20.882,12.96,5.298,20.54,141,917,True
+65,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.491,14.19,6.694,20.637,237,1182,True
+65,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.747,12.855,6.769,18.491,463,595,True
+65,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.837,9.96,3.172,17.225,419,359,True
+65,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,11.315,2.813,-3.111,9.436,267,647,False
+65,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.26,6.129,-1.202,13.024,388,385,False
+65,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.447,10.884,3.36,18.066,540,207,True
+66,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,21.329,10.594,-1.085,22.171,55,988,False
+66,original,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2106,"Ciência, Tecnologia e Sociedade",20.612,17.817,1.35,35.179,27,1364,True
+66,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.748,13.705,4.78,23.872,129,914,True
+66,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.085,13.37,4.882,22.254,102,1313,True
+66,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",10.64,0.667,-6.021,7.211,401,404,False
+66,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.134,8.805,1.541,16.092,523,237,True
+66,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.017,12.619,6.361,19.949,401,398,True
+66,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.657,8.265,0.167,15.228,384,400,True
+67,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,23.993,9.403,-2.947,20.794,62,964,False
+67,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.094,14.404,5.445,23.556,125,901,True
+67,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.569,14.511,5.266,24.235,107,924,True
+67,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.256,16.278,9.858,22.151,211,1154,True
+67,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.129,11.002,4.543,17.581,392,375,True
+67,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.689,9.774,3.031,16.94,500,224,True
+67,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.648,8.576,1.729,14.605,373,376,True
+68,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,23.911,5.47,-6.559,17.871,49,970,False
+68,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.522,15.249,8.372,21.927,226,1218,True
+68,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.869,15.644,7.09,24.116,126,893,True
+68,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.141,16.241,6.453,27.052,95,951,True
+68,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.795,7.457,0.46,14.38,512,215,True
+68,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.131,11.889,4.801,18.054,392,388,True
+68,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.089,6.715,-0.712,13.625,368,398,False
+68,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.654,5.059,-1.908,11.443,258,665,False
+69,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,21.037,12.556,5.188,18.749,238,1132,True
+69,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.751,17.463,7.522,25.635,116,1563,True
+69,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.778,13.136,2.716,22.505,102,1268,True
+69,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.846,15.414,6.14,24.443,105,918,True
+69,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.529,11.652,5.093,19.044,377,359,True
+69,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.686,9.523,2.465,15.969,346,374,True
+70,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,22.258,10.299,-0.634,19.933,59,976,False
+70,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,20.018,14.179,7.29,20.46,267,1119,True
+70,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.796,18.063,9.59,26.159,121,1573,True
+70,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.179,12.517,7.016,18.653,424,611,True
+70,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.232,9.844,3.167,15.838,389,394,True
+70,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.199,7.099,0.625,14.025,510,219,True
+70,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.414,8.711,1.841,14.863,362,402,True
+70,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.336,5.815,-0.821,11.814,272,640,False
+71,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",25.257,10.379,1.509,19.95,118,1579,True
+71,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.405,15.288,6.415,24.625,135,899,True
+71,original,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,17.045,6.605,-0.025,13.124,411,623,False
+71,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,16.522,9.804,3.456,15.922,632,402,True
+71,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.165,5.959,0.662,13.153,371,391,True
+71,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,14.66,2.689,-4.331,9.396,359,394,False
+71,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.308,7.266,0.963,15.26,506,219,True
+71,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.409,2.496,-4.338,7.874,371,401,False
+72,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",21.152,15.215,5.079,24.299,125,1565,True
+72,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.386,13.954,2.447,23.442,104,926,True
+72,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.337,16.432,9.496,22.485,242,1160,True
+72,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,16.381,14.654,5.687,22.7,106,1296,True
+72,revisado,ECT2201,Cálculo II,ECT2302,Metodologia Científica e Tecnológica,9.486,-1.44,-8.88,5.05,219,584,False
+72,revisado,ECT2207,Probabilidade e Estatística,ECT2305,Prática de Leitura em Inglês,8.814,0.883,-7.645,8.348,154,654,False
+73,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",22.478,13.026,2.966,21.295,114,1581,True
+73,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,21.249,10.789,0.636,19.932,94,939,True
+73,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.154,15.137,8.726,21.65,219,1138,True
+73,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,14.701,18.901,9.746,27.29,143,914,True
+73,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,6.217,10.798,4.638,18.05,374,396,True
+74,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.736,11.827,-1.412,25.448,53,985,False
+74,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",16.485,19.483,9.383,28.546,122,1550,True
+74,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.4,18.329,10.51,27.276,126,912,True
+74,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,13.206,20.812,14.591,27.446,224,1133,True
+74,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.208,5.788,-1.223,12.729,261,642,False
+75,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,20.643,11.947,1.309,22.168,59,983,True
+75,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.46,14.187,8.174,20.24,247,1160,True
+75,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.165,15.377,7.379,22.965,140,902,True
+75,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.317,18.537,9.715,26.784,140,1589,True
+75,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.063,10.816,3.74,17.408,382,377,True
+75,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.5,2.207,-5.125,8.371,384,376,False
+75,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.628,9.192,2.519,15.147,362,384,True
+76,original,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2106,"Ciência, Tecnologia e Sociedade",28.391,7.926,-8.813,26.334,34,1342,False
+76,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,26.06,6.951,-4.039,16.705,59,953,False
+76,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.927,15.806,9.478,22.456,231,1141,True
+76,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.556,13.801,3.932,22.681,101,1271,True
+76,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.431,8.489,1.958,15.364,374,384,True
+76,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.534,5.641,-1.675,13.502,494,219,False
+76,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,12.057,4.881,-2.115,11.497,361,382,False
+76,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",6.771,3.76,-3.214,11.698,364,397,False
+77,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.716,13.778,6.712,21.535,239,1127,True
+77,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.66,13.483,3.736,22.233,125,869,True
+77,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.845,17.084,8.216,25.715,128,1566,True
+77,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.177,12.134,6.759,18.62,400,594,True
+77,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.311,8.391,1.446,14.719,366,374,True
+77,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.57,6.402,-0.706,13.232,480,220,False
+77,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.928,2.996,-3.784,10.403,265,615,False
+77,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.596,7.461,-0.482,15.707,347,373,False
+78,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.29,18.561,8.416,27.226,123,1560,True
+78,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.887,17.672,10.963,24.158,243,1191,True
+78,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.057,12.201,6.301,18.432,632,399,True
+78,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,13.531,20.013,12.057,29.209,134,897,True
+78,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.013,9.411,2.113,16.301,509,217,True
+78,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.941,13.082,6.597,20.365,378,394,True
+79,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,21.183,10.346,-2.57,21.894,53,972,False
+79,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.522,16.325,6.862,25.514,131,1577,True
+79,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.846,13.433,3.788,22.841,109,1266,True
+79,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.643,14.816,6.403,24.467,101,961,True
+79,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.331,5.927,-2.22,13.626,512,201,False
+79,revisado,ECT2207,Probabilidade e Estatística,ECT2305,Prática de Leitura em Inglês,10.558,-0.822,-8.648,7.461,145,635,False
+79,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.467,14.022,7.61,21.017,381,374,True
+79,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.096,9.351,2.489,15.594,363,377,True
+80,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",23.104,12.456,2.508,21.61,115,1572,True
+80,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.921,11.231,0.985,21.635,84,1001,True
+80,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.249,14.514,4.97,23.3,136,921,True
+80,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,18.444,12.672,3.155,22.19,107,1335,True
+80,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.885,5.863,-0.368,11.677,404,386,False
+80,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,13.742,4.236,-2.988,11.128,386,393,False
+80,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",12.363,-0.325,-6.614,5.975,393,394,False
+80,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.945,8.461,1.251,15.343,515,219,True
+81,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.516,13.935,6.198,21.84,141,883,True
+81,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,19.431,13.63,4.337,22.026,110,954,True
+81,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,16.776,14.143,2.32,24.15,92,1296,True
+81,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.151,18.801,11.68,25.037,229,1159,True
+81,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,10.196,8.237,-0.473,15.854,512,192,False
+81,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.97,12.154,5.827,18.733,385,373,True
+81,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.854,5.745,-1.392,12.79,245,646,False
+81,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.306,9.039,0.941,16.382,359,378,True
+82,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",22.205,14.475,6.028,24.195,130,1579,True
+82,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,19.856,13.575,6.494,19.375,227,1155,True
+82,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,16.41,14.614,4.574,23.869,103,1279,True
+82,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.834,17.704,8.752,26.283,136,905,True
+82,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.441,10.624,3.919,17.734,391,384,True
+82,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.125,9.511,1.909,15.964,508,226,True
+82,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.95,8.324,1.025,15.794,363,397,True
+83,original,ECT2103,Cálculo I,ECT2105,Práticas de Leitura e Escrita I,22.161,3.955,-8.102,13.633,41,1031,False
+83,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,21.032,12.709,7.231,19.214,243,1150,True
+83,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.701,18.292,8.673,28.032,115,1572,True
+83,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,16.944,16.283,6.544,27.179,103,928,True
+83,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.246,9.854,3.408,16.902,398,382,True
+83,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.906,9.64,1.887,16.834,521,215,True
+83,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.149,9.071,-0.344,15.168,376,383,False
+84,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",20.377,14.954,5.491,24.878,112,1583,True
+84,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,18.375,13.294,0.181,26.615,54,999,True
+84,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,18.357,10.744,1.769,20.122,89,1307,True
+84,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.779,16.003,7.916,24.098,141,912,True
+84,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.872,11.394,4.715,17.896,398,391,True
+84,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",9.331,1.643,-4.597,8.537,395,386,False
+84,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.233,9.768,2.467,17.43,525,221,True
+84,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.246,9.854,3.355,15.884,372,399,True
+85,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",20.406,15.692,6.312,25.266,129,1585,True
+85,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.697,13.574,5.951,21.439,115,1286,True
+85,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.108,16.958,8.642,24.303,135,944,True
+85,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,16.542,17.149,10.065,23.681,231,1170,True
+85,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,10.71,6.299,-1.895,13.672,178,492,False
+85,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.563,13.647,7.226,20.593,388,395,True
+85,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.203,10.156,4.117,16.876,521,227,True
+85,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.47,10.01,3.179,17.107,366,403,True
+86,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,22.102,10.574,-0.834,19.577,103,961,False
+86,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,17.784,11.136,4.809,17.492,447,592,True
+86,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.613,15.981,7.989,24.871,128,911,True
+86,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,17.575,8.673,3.128,14.529,660,379,True
+86,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.592,8.771,1.915,15.82,401,384,True
+86,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,13.094,5.59,-2.693,12.803,513,222,False
+86,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.542,6.716,-0.361,13.503,370,402,False
+86,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",9.107,1.853,-4.893,8.802,394,390,False
+87,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,23.193,10.548,1.098,20.09,108,978,True
+87,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,22.824,10.225,-0.302,20.214,61,1005,False
+87,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,20.484,11.057,3.183,20.439,115,1294,True
+87,original,ECT2101,Pré-Cálculo,ECT2106,"Ciência, Tecnologia e Sociedade",17.622,-1.341,-11.904,11.483,74,661,False
+87,revisado,ECT2303,Linguagem de Programação,ECT2204,Introdução à Física Clássica I,15.131,4.826,-5.004,14.532,116,512,False
+87,revisado,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,12.256,4.79,-3.973,14.3,165,513,False
+87,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,8.163,14.191,7.289,19.591,398,387,True
+88,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.078,16.742,8.185,26.553,116,1584,True
+88,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.939,15.784,8.997,22.506,229,1174,True
+88,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,14.172,19.879,10.572,28.41,128,898,True
+88,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,13.992,17.281,9.059,26.672,105,1298,True
+88,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.928,9.284,2.231,16.27,362,388,True
+88,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,7.757,14.323,6.977,20.856,384,382,True
+89,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",22.117,13.232,3.581,22.31,112,1583,True
+89,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,17.231,15.121,5.644,25.379,83,953,True
+89,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,15.872,17.724,11.805,23.208,246,1181,True
+89,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,15.265,13.473,7.374,19.188,436,596,True
+89,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.067,11.129,5.076,18.63,397,372,True
+89,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.742,6.528,-0.322,13.267,366,395,False
+89,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,9.748,8.832,1.19,15.568,508,221,True
+90,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",24.108,10.31,0.882,19.452,108,1582,True
+90,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.445,13.512,2.123,24.823,94,1020,True
+90,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,16.208,14.896,4.8,22.786,98,1354,True
+90,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,15.21,18.571,10.146,27.431,135,936,True
+90,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.575,9.872,4.168,16.844,404,402,True
+90,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.696,6.953,-0.114,14.176,525,230,False
+90,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,7.514,9.901,3.921,15.954,385,396,True
+91,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,24.759,8.687,-3.271,17.933,101,969,False
+91,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,16.503,17.015,10.251,23.066,255,1204,True
+91,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",14.465,21.876,12.764,30.911,109,1579,True
+91,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.74,15.866,9.84,22.013,432,606,True
+91,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",10.342,0.233,-8.108,7.027,387,375,False
+91,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,10.038,11.88,5.204,18.946,389,378,True
+91,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,9.709,4.654,-2.077,11.869,248,666,False
+91,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.579,8.23,0.995,15.19,369,391,True
+92,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,20.663,11.449,-0.063,24.846,54,981,False
+92,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.33,14.116,4.34,25.251,97,982,True
+92,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,14.623,11.594,5.58,17.502,639,396,True
+92,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,14.524,14.839,8.961,20.351,426,609,True
+92,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.656,10.885,4.18,16.981,387,391,True
+92,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.139,7.517,-0.463,15.049,509,224,False
+92,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,10.143,7.629,0.319,15.267,371,389,True
+92,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",9.337,1.865,-4.226,8.088,373,405,False
+93,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,22.008,10.842,-1.239,20.537,103,1000,False
+93,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",20.45,15.731,5.367,26.117,125,1565,True
+93,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,18.143,15.56,9.836,21.467,237,1193,True
+93,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.857,13.28,3.926,20.98,105,1325,True
+93,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,13.915,5.033,-1.779,11.321,512,219,False
+93,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,13.634,8.695,1.771,16.029,385,389,True
+93,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.529,5.792,-2.435,12.436,359,395,False
+93,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,10.698,3.601,-2.732,10.299,279,637,False
+94,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,20.537,11.64,0.482,23.36,56,970,True
+94,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.108,17.775,7.794,26.681,122,1560,True
+94,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.778,16.118,6.925,23.977,125,901,True
+94,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.182,12.575,5.675,18.573,420,606,True
+94,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,14.06,8.315,0.928,16.178,385,391,True
+94,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,12.867,6.11,-1.877,13.325,516,221,False
+94,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.767,7.82,0.587,14.116,372,393,True
+94,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.78,5.483,-1.285,12.307,257,645,False
+95,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,19.652,14.366,6.242,21.429,146,913,True
+95,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.706,17.508,9.116,26.832,116,1573,True
+95,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,17.276,11.338,5.239,18.306,430,629,True
+95,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,17.072,16.623,10.701,22.748,249,1179,True
+95,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,14.025,7.87,1.231,14.822,390,398,True
+95,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.962,5.204,-1.785,12.268,377,401,False
+95,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.768,9.554,3.163,15.663,531,220,True
+95,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.719,2.222,-4.849,8.678,394,401,False
+96,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.054,13.103,-1.337,26.147,55,965,False
+96,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",17.64,18.382,9.837,26.085,123,1558,True
+96,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,17.428,16.674,7.724,24.823,141,879,True
+96,original,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,17.134,14.053,6.382,22.197,107,1292,True
+96,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,11.707,7.064,-0.58,13.467,526,215,False
+96,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.934,7.204,0.151,13.216,367,407,True
+96,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,9.846,12.382,5.385,18.792,401,382,True
+96,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.348,2.693,-4.405,8.792,388,399,False
+97,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,19.136,13.185,2.166,24.625,57,928,True
+97,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",19.017,16.893,6.763,26.852,118,1544,True
+97,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,16.543,17.404,9.29,25.774,130,855,True
+97,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,15.458,17.021,5.935,27.832,82,889,True
+97,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,11.558,10.445,4.447,17.534,383,369,True
+97,revisado,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,8.849,5.329,-0.701,11.52,263,621,False
+97,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,8.635,8.329,2.088,14.503,360,379,True
+97,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,7.221,11.321,4.202,18.101,498,208,True
+98,original,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,18.867,13.726,3.499,23.124,102,987,True
+98,original,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",18.578,17.142,7.959,25.782,117,1597,True
+98,original,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,16.931,16.917,10.361,23.648,235,1202,True
+98,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,16.619,16.853,8.602,25.293,137,897,True
+98,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.039,9.985,3.206,16.647,385,390,True
+98,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,9.518,7.596,0.399,14.426,372,385,True
+98,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",8.276,2.71,-4.198,10.577,390,388,False
+98,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,8.267,9.78,2.604,16.859,516,214,True
+99,original,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,18.395,15.092,7.476,23.53,142,896,True
+99,original,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,17.409,14.969,1.881,27.369,47,991,True
+99,original,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,17.178,9.257,3.463,15.034,642,396,True
+99,original,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,16.053,12.733,5.835,18.709,418,620,True
+99,revisado,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,13.298,5.281,-2.619,12.99,495,214,False
+99,revisado,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,12.012,10.36,3.092,16.958,374,388,True
+99,revisado,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",11.875,-1.326,-9.109,5.559,377,387,False
+99,revisado,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,11.496,5.46,-2.368,12.433,362,389,False
