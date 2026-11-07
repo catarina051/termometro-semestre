@@ -22,3 +22,6 @@ dados/brutos/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Plano interno de execucao (nao publicar)
+Plano de execu*.md

@@ -1,0 +1,226 @@
+[
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2019.2",
+    "arquivo": "matriculas-componentes/matricula-componente-20192.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/0d573a4f-de65-4c3d-b6bb-337473bc4e44/download/matricula-componente-20192.csv",
+    "bytes": 69081423,
+    "sha256": "793a35a79abad89acb5b7dbe35bcee3e5cbd7f5944b52fa6a30c87cdfedb7079"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2019.1",
+    "arquivo": "matriculas-componentes/matricula-componente-20191.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/6d66d15a-8d0f-43a3-902b-d314f4a2a296/download/matricula-componente-20191.csv",
+    "bytes": 76511911,
+    "sha256": "3bbab5043224c7a27bf3d9c7ef9dfee64434efd585b430a973a3a309e8381d2c"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2018.2",
+    "arquivo": "matriculas-componentes/matricula-componente-20182.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/0bfcaf6a-4424-4983-8ba8-d330350a8fbe/download/matricula-componente-20182.csv",
+    "bytes": 69975787,
+    "sha256": "05de80b1dd6e6b658ae42958e40f2b1d183c31af870993407e0eda669c4a6863"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2018.1",
+    "arquivo": "matriculas-componentes/matricula-componente-20181.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/3c1feba4-ced1-466e-8e94-a040224a51dc/download/matricula-componente-20181.csv",
+    "bytes": 71105239,
+    "sha256": "930ee99ad72c19b270fdb096cf996d0e2d9148a1e9f8e228f2fea2a482eddc3a"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2017.2",
+    "arquivo": "matriculas-componentes/matricula-componente-20172.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/55dfe713-ff7c-4fa8-8d1d-d4294a025bff/download/matricula-componente-20172.csv",
+    "bytes": 67216626,
+    "sha256": "c336a77e84de08bd3893bdb8cad16a3229c058e7962d5d11c44000249044a102"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2017.1",
+    "arquivo": "matriculas-componentes/matricula-componente-20171.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/79071c21-e32c-438f-b930-d1b6ccc02ec2/download/matricula-componente-20171.csv",
+    "bytes": 67265162,
+    "sha256": "f6d50ede3e188b68eecd5be1a3b0dd7163bef2314b4fffaea71c49d5570952ba"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2016.2",
+    "arquivo": "matriculas-componentes/matriculas-de-2016.2.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/f6179838-b619-4d7d-af9c-18c438b80dd4/download/matriculas-de-2016.2.csv",
+    "bytes": 64023997,
+    "sha256": "684c76a9ea74087d2a714c38bc2aabc60b3b283b81016b9495236ec0ecc9036a"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2016.1",
+    "arquivo": "matriculas-componentes/matriculas-de-2016.1.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/4778d3ce-8898-46a8-a623-ee6a480a2980/download/matriculas-de-2016.1.csv",
+    "bytes": 71853268,
+    "sha256": "24295a8feaf71e248b222525edfad39d90c97b2e6abbe806728aa4b80994d6db"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2015.2",
+    "arquivo": "matriculas-componentes/matriculas-de-2015.2.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/baa6c8b4-2072-417f-b238-c028ccc8c14b/download/matriculas-de-2015.2.csv",
+    "bytes": 68231338,
+    "sha256": "de332254f319caf34ff67a43f2fe513247d6b7c2e232fe00033a1caa2351459f"
+  },
+  {
+    "conjunto": "matriculas-componentes",
+    "recurso": "Matrículas de 2015.1",
+    "arquivo": "matriculas-componentes/matriculas-de-2015.1.csv",
+    "url": "https://dados.ufrn.br/dataset/c8650d55-3c5a-4787-a126-d28a4ef902a6/resource/9e7ba1c2-f92d-4b9c-9e91-3b026ecdf913/download/matriculas-de-2015.1.csv",
+    "bytes": 88473856,
+    "sha256": "e8f17029925154fe21c0a50a8cb617d4c692249854dd7964e895c5db644a337c"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2019.2",
+    "arquivo": "turmas/turmas-2019.2.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/d9c2863e-d1b2-4afd-b7dd-09517d5ed17d/download/turmas-2019.2.csv",
+    "bytes": 4468799,
+    "sha256": "f94ed1a7e470c4836b43ec1d2d2c056b0f0104cc2c796d11f2dcc1c0aba2d31f"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2019.1",
+    "arquivo": "turmas/turmas-2019.1.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/1e42cd66-69d6-48d5-a346-d46766fd2c9c/download/turmas-2019.1.csv",
+    "bytes": 4673160,
+    "sha256": "42e799eec54cb4a0f64cc57eb0fa2a6bbc27a708effc999ebba7059178e95b6a"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2018.1",
+    "arquivo": "turmas/turmas-2018.1.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/3ae16138-4214-4a30-ac2d-6cffd6237031/download/turmas-2018.1.csv",
+    "bytes": 4266808,
+    "sha256": "fdfde8cc59104e99bd3b7413dc27c2a49b3885077260e8f77dee828e3c421b5e"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2018.2",
+    "arquivo": "turmas/turmas-2018.2.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/77fe7603-0e71-4e21-8cd4-cb823353023f/download/turmas-2018.2.csv",
+    "bytes": 4527091,
+    "sha256": "f036c9d80c021a2fc684b54cc5ee84c531bc84a5ea519bf3dd3c034c0615e7c9"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2017.1",
+    "arquivo": "turmas/turmas-2017.1.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/5e77d066-d506-45eb-a21e-76aa79616fef/download/turmas-2017.1.csv",
+    "bytes": 3931431,
+    "sha256": "b529a373116fcbb8b9013d96049ff16db40d7cdf92bbf46761673b0622e4a6fd"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2017.2",
+    "arquivo": "turmas/turmas-2017.2.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/01fe7343-fdf0-4a67-b915-2386b7c2fecb/download/turmas-2017.2.csv",
+    "bytes": 4134780,
+    "sha256": "b439fff19a0bbde4d66cedca16c890e64a517619953ee91a5951543e7ee407d6"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2016.1",
+    "arquivo": "turmas/turmas-2016.1.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/322d9977-ba15-47f1-8216-75a1ca78e197/download/turmas-2016.1.csv",
+    "bytes": 4202644,
+    "sha256": "56c65a12edd5a2cf60982a72ebb7fe10296215cd80412d5bb3bc4369ad71b6e3"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2016.2",
+    "arquivo": "turmas/turmas-2016.2.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/5e8e3228-7f22-40a2-9efd-561c44844567/download/turmas-2016.2.csv",
+    "bytes": 4073981,
+    "sha256": "7244193370baadbfa8773ca7111da09f0897d3d5e75dc1e359877be776fbefc8"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2015.1",
+    "arquivo": "turmas/turmas-2015.1.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/4d5aee5a-00b0-4ed6-a4be-59fa77a56797/download/turmas-2015.1.csv",
+    "bytes": 4053191,
+    "sha256": "51cb1ab089c80952c58231d37848f592acdd58c1c0c8da2f9bdd493c0fdb43b5"
+  },
+  {
+    "conjunto": "turmas",
+    "recurso": "Turmas de 2015.2",
+    "arquivo": "turmas/turmas-2015.2.csv",
+    "url": "https://dados.ufrn.br/dataset/1938623d-fb07-41a4-a55a-1691f7c3b8b5/resource/7c59621c-4a8b-49d4-b319-83cfea9bdf28/download/turmas-2015.2.csv",
+    "bytes": 4103939,
+    "sha256": "93352546dfefc9953a1073e680dff9e41dc3c5dda6f51205f7bc87fe3ba744cc"
+  },
+  {
+    "conjunto": "discentes",
+    "recurso": " Ingressantes em 2019",
+    "arquivo": "discentes/discentes-2019.csv",
+    "url": "https://dados.ufrn.br/dataset/554c2d41-cfce-4278-93c6-eb9aa49c5d16/resource/a55aef81-e094-4267-8643-f283524e3dd7/download/discentes-2019.csv",
+    "bytes": 4132504,
+    "sha256": "6239806a5e3da340ac4708498c18749a2a54b62aa07e1c14594ff34e8a6088f7"
+  },
+  {
+    "conjunto": "discentes",
+    "recurso": "Ingressantes em 2018",
+    "arquivo": "discentes/discentes-2018.csv",
+    "url": "https://dados.ufrn.br/dataset/554c2d41-cfce-4278-93c6-eb9aa49c5d16/resource/146b749b-b9d0-49b2-b114-ac6cc82a4051/download/discentes-2018.csv",
+    "bytes": 5285878,
+    "sha256": "e7e92d71dff9de795facad72f0ce59341bdadf32ad81e43ab16753bdf5e5fb8b"
+  },
+  {
+    "conjunto": "discentes",
+    "recurso": "Ingressantes em 2017",
+    "arquivo": "discentes/discentes-2017.csv",
+    "url": "https://dados.ufrn.br/dataset/554c2d41-cfce-4278-93c6-eb9aa49c5d16/resource/dc732572-a51a-4d4a-a39d-2db37cbe5382/download/discentes-2017.csv",
+    "bytes": 6017497,
+    "sha256": "348a3b527b397d8bdd9c6a7714a119278804eb6199d9bdbd670f8182ad73f686"
+  },
+  {
+    "conjunto": "discentes",
+    "recurso": "Ingressantes em 2016",
+    "arquivo": "discentes/discentes-2016.csv",
+    "url": "https://dados.ufrn.br/dataset/554c2d41-cfce-4278-93c6-eb9aa49c5d16/resource/7d2fa5b3-743f-465f-8450-91719b34a002/download/discentes-2016.csv",
+    "bytes": 4717207,
+    "sha256": "6c7f6201e119afcf77cb830f9288b60732350e240bac119a27b89c8a80c95803"
+  },
+  {
+    "conjunto": "discentes",
+    "recurso": "Ingressantes em 2015",
+    "arquivo": "discentes/discentes-2015.csv",
+    "url": "https://dados.ufrn.br/dataset/554c2d41-cfce-4278-93c6-eb9aa49c5d16/resource/e2b5b843-4f58-497e-8979-44daf8df8f94/download/discentes-2015.csv",
+    "bytes": 5017419,
+    "sha256": "e1f2b2390b6583efe8ffbf75871077dc1fca397d0414250651c28782f1624b4f"
+  },
+  {
+    "conjunto": "componentes-curriculares",
+    "recurso": "Componentes Curriculares Presenciais",
+    "arquivo": "componentes-curriculares/componentes-curriculares-presenciais.csv",
+    "url": "https://dados.ufrn.br/dataset/3fea67e8-6916-4ed0-aaa6-9a8ca06a9bdc/resource/9a3521d2-4bc5-4fda-93f0-f701c8a20727/download/componentes-curriculares-presenciais.csv",
+    "bytes": 45670570,
+    "sha256": "f53b347ff25ecf983d0f45a21a1a72034451db6b5a1d8bb79cf539e3df98128a"
+  },
+  {
+    "conjunto": "componentes-curriculares",
+    "recurso": "Componentes Curriculares Semi-Presenciais",
+    "arquivo": "componentes-curriculares/componentes-curriculares-semi-presenciais.csv",
+    "url": "https://dados.ufrn.br/dataset/3fea67e8-6916-4ed0-aaa6-9a8ca06a9bdc/resource/99dd0a7d-4908-4e85-9f20-d58c8195260e/download/componentes-curriculares-semi-presenciais.csv",
+    "bytes": 598685,
+    "sha256": "8fea46968c3a9ec5a5c1456a50dd17537fa8d90cb664ba3923e4d5f627faf87b"
+  },
+  {
+    "conjunto": "componentes-curriculares",
+    "recurso": " Dicionário de Dados - Componentes Curriculares",
+    "arquivo": "componentes-curriculares/dicionario-de-dados---componente-curricular.pdf",
+    "url": "https://dados.ufrn.br/dataset/3fea67e8-6916-4ed0-aaa6-9a8ca06a9bdc/resource/206b013e-fec3-4d5b-89e2-66e0bf6f46cb/download/dicionario-de-dados---componente-curricular.pdf",
+    "bytes": 53873,
+    "sha256": "9fb173dd3c6f03af107246472325ccb3bae67e37b3c2f8f8b3a725c38ed76c6f"
+  }
+]
