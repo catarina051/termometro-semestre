@@ -15,3 +15,7 @@ Esta pasta guarda **todos** os prompts usados no v0, na ordem, porque eles são 
 - A tela só lê o JSON. Nada de calcular taxa, intervalo ou média no código da tela.
 - Nenhuma frase que recomende evitar ou escolher uma combinação de disciplinas.
 - Nenhum dado de aluno. O JSON só tem agregados.
+
+## Como foi na prática (07/11/2026)
+
+O `01-prompt-enviado.md` é o prompt final, com o visual do GradMent e os dados por URL em vez de anexo. Ele foi enviado ao v0 pelo Claude, no navegador integrado, a pedido da Catarina, que depois publicou o site. O v0 gerou o app numa única geração, sem iterações no v0; as mudanças seguintes (rota `/api/explicar`, validação de tipos, README) foram feitas com o Claude Code no repositório do app.

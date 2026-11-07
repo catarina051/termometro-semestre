@@ -58,6 +58,10 @@ Todo número abaixo vem de `resultados/*.csv`, gerados pelos scripts da pasta `s
 
 ![Curva da carga do semestre](docs/img/curva_carga.png)
 
+## A tela
+
+O site [termometro-psi.vercel.app](https://termometro-psi.vercel.app) mostra estes resultados: as 15 disciplinas com reprovação e desistência e seus intervalos, a curva da carga do semestre, as combinações de disciplinas e os achados. Foi feito com vibe coding no v0, com o mesmo visual do front do GradMent, e o código está em [termometro-semestre-app](https://github.com/catarina051/termometro-semestre-app). O prompt está em [`prompts/v0/01-prompt-enviado.md`](prompts/v0/01-prompt-enviado.md): ele manda buscar os dados por URL deste repositório, proíbe número inventado e frase de recomendação, e define o visual. Os números da tela foram conferidos, por script, contra o `dados/termometro.json`: a reprovação e a desistência das 15 disciplinas batem. O botão "Explicar" chama uma rota que pede ao Gemini um texto simples e descarta qualquer resposta com número que não estava nos dados.
+
 ## Como conferi o trabalho
 
 - Separei o que **decidi** (população, cursos, disciplinas, método, suporte mínimo, correção para múltiplas comparações, o mapeamento para o CEFET) do que a IA calculou. O registro, com as opções que me foram apresentadas, está no [DIARIO.md](DIARIO.md).
