@@ -25,3 +25,6 @@ Thumbs.db
 
 # Plano interno de execucao (nao publicar)
 Plano de execu*.md
+
+# Consultas e anotacoes privadas (nao publicar)
+privado/

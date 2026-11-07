@@ -1,0 +1,794 @@
+{
+  "versao": 1,
+  "fonte": {
+    "instituicao": "UFRN",
+    "origem": "dados.ufrn.br (dados abertos)",
+    "periodo": "2015.1 a 2019.2",
+    "nivel": "graduação presencial",
+    "grupos_de_curso": [
+      "Ciências e Tecnologia",
+      "Engenharias",
+      "Computação"
+    ]
+  },
+  "populacao": {
+    "linhas_analisadas": 82690,
+    "linhas_calouros": 64749,
+    "definicao_calouro": "aluno cuja primeira matrícula efetiva observada é de 2015.2 ou depois"
+  },
+  "avisos": {
+    "unidade": "As taxas são por tentativa de matrícula, não por aluno: quem repete conta de novo.",
+    "causalidade": "Associação observada. Não indica que cursar uma disciplina cause reprovação em outra.",
+    "etico": null
+  },
+  "disciplinas": [
+    {
+      "codigo": "ECT2103",
+      "nome": "Cálculo I",
+      "tentativas_concluidas": 7442,
+      "reprovacao_pct": 65.49,
+      "reprovacao_ic": [
+        64.41,
+        66.56
+      ],
+      "desistencia_pct": 13.08,
+      "desistencia_ic": [
+        12.38,
+        13.81
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2102",
+      "nome": "Vetores e Geometria Analítica",
+      "tentativas_concluidas": 7603,
+      "reprovacao_pct": 64.37,
+      "reprovacao_ic": [
+        63.29,
+        65.44
+      ],
+      "desistencia_pct": 11.4,
+      "desistencia_ic": [
+        10.74,
+        12.09
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2101",
+      "nome": "Pré-Cálculo",
+      "tentativas_concluidas": 6696,
+      "reprovacao_pct": 54.7,
+      "reprovacao_ic": [
+        53.51,
+        55.89
+      ],
+      "desistencia_pct": 8.98,
+      "desistencia_ic": [
+        8.35,
+        9.66
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2201",
+      "nome": "Cálculo II",
+      "tentativas_concluidas": 3758,
+      "reprovacao_pct": 54.26,
+      "reprovacao_ic": [
+        52.66,
+        55.85
+      ],
+      "desistencia_pct": 6.75,
+      "desistencia_ic": [
+        6.02,
+        7.57
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2204",
+      "nome": "Introdução à Física Clássica I",
+      "tentativas_concluidas": 4378,
+      "reprovacao_pct": 50.37,
+      "reprovacao_ic": [
+        48.88,
+        51.85
+      ],
+      "desistencia_pct": 5.87,
+      "desistencia_ic": [
+        5.23,
+        6.58
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2104",
+      "nome": "Química Geral",
+      "tentativas_concluidas": 5925,
+      "reprovacao_pct": 47.98,
+      "reprovacao_ic": [
+        46.71,
+        49.26
+      ],
+      "desistencia_pct": 12.89,
+      "desistencia_ic": [
+        12.12,
+        13.71
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2207",
+      "nome": "Probabilidade e Estatística",
+      "tentativas_concluidas": 3401,
+      "reprovacao_pct": 45.25,
+      "reprovacao_ic": [
+        43.58,
+        46.93
+      ],
+      "desistencia_pct": 4.39,
+      "desistencia_ic": [
+        3.76,
+        5.11
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2303",
+      "nome": "Linguagem de Programação",
+      "tentativas_concluidas": 3364,
+      "reprovacao_pct": 45.18,
+      "reprovacao_ic": [
+        43.51,
+        46.87
+      ],
+      "desistencia_pct": 7.48,
+      "desistencia_ic": [
+        6.67,
+        8.38
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2203",
+      "nome": "Lógica de Programação",
+      "tentativas_concluidas": 4152,
+      "reprovacao_pct": 39.69,
+      "reprovacao_ic": [
+        38.21,
+        41.19
+      ],
+      "desistencia_pct": 6.47,
+      "desistencia_ic": [
+        5.78,
+        7.23
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2106",
+      "nome": "Ciência, Tecnologia e Sociedade",
+      "tentativas_concluidas": 5958,
+      "reprovacao_pct": 28.21,
+      "reprovacao_ic": [
+        27.09,
+        29.37
+      ],
+      "desistencia_pct": 9.41,
+      "desistencia_ic": [
+        8.73,
+        10.14
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2205",
+      "nome": "Práticas de Leitura e Escrita II",
+      "tentativas_concluidas": 4635,
+      "reprovacao_pct": 27.27,
+      "reprovacao_ic": [
+        26.01,
+        28.57
+      ],
+      "desistencia_pct": 4.28,
+      "desistencia_ic": [
+        3.74,
+        4.88
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2206",
+      "nome": "Gestão e Economia da Ciência, Tecnologia e Inovação",
+      "tentativas_concluidas": 4787,
+      "reprovacao_pct": 25.99,
+      "reprovacao_ic": [
+        24.76,
+        27.25
+      ],
+      "desistencia_pct": 7.59,
+      "desistencia_ic": [
+        6.9,
+        8.34
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2302",
+      "nome": "Metodologia Científica e Tecnológica",
+      "tentativas_concluidas": 4536,
+      "reprovacao_pct": 19.55,
+      "reprovacao_ic": [
+        18.43,
+        20.73
+      ],
+      "desistencia_pct": 6.15,
+      "desistencia_ic": [
+        5.5,
+        6.86
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2105",
+      "nome": "Práticas de Leitura e Escrita I",
+      "tentativas_concluidas": 5391,
+      "reprovacao_pct": 18.72,
+      "reprovacao_ic": [
+        17.7,
+        19.78
+      ],
+      "desistencia_pct": 8.6,
+      "desistencia_ic": [
+        7.91,
+        9.34
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    },
+    {
+      "codigo": "ECT2305",
+      "nome": "Prática de Leitura em Inglês",
+      "tentativas_concluidas": 3534,
+      "reprovacao_pct": 12.11,
+      "reprovacao_ic": [
+        11.08,
+        13.23
+      ],
+      "desistencia_pct": 5.63,
+      "desistencia_ic": [
+        4.94,
+        6.42
+      ],
+      "mapeamento_status": "pendente",
+      "cefet": null
+    }
+  ],
+  "curva_carga": {
+    "desistencia": [
+      {
+        "disciplinas_no_semestre": "1",
+        "n": 529,
+        "taxa_pct": 43.29,
+        "ic": [
+          39.13,
+          47.54
+        ],
+        "taxa_padronizada_pct": 46.05
+      },
+      {
+        "disciplinas_no_semestre": "2",
+        "n": 1364,
+        "taxa_pct": 17.08,
+        "ic": [
+          15.18,
+          19.17
+        ],
+        "taxa_padronizada_pct": 17.51
+      },
+      {
+        "disciplinas_no_semestre": "3",
+        "n": 3433,
+        "taxa_pct": 9.82,
+        "ic": [
+          8.87,
+          10.86
+        ],
+        "taxa_padronizada_pct": 10.36
+      },
+      {
+        "disciplinas_no_semestre": "4",
+        "n": 7362,
+        "taxa_pct": 6.62,
+        "ic": [
+          6.07,
+          7.21
+        ],
+        "taxa_padronizada_pct": 6.97
+      },
+      {
+        "disciplinas_no_semestre": "5",
+        "n": 12494,
+        "taxa_pct": 7.64,
+        "ic": [
+          7.18,
+          8.11
+        ],
+        "taxa_padronizada_pct": 8.73
+      },
+      {
+        "disciplinas_no_semestre": "6",
+        "n": 40208,
+        "taxa_pct": 6.27,
+        "ic": [
+          6.04,
+          6.51
+        ],
+        "taxa_padronizada_pct": 5.91
+      },
+      {
+        "disciplinas_no_semestre": "7",
+        "n": 11321,
+        "taxa_pct": 6.65,
+        "ic": [
+          6.21,
+          7.13
+        ],
+        "taxa_padronizada_pct": 10.48
+      },
+      {
+        "disciplinas_no_semestre": "8",
+        "n": 3662,
+        "taxa_pct": 13.6,
+        "ic": [
+          12.53,
+          14.75
+        ],
+        "taxa_padronizada_pct": 22.69
+      },
+      {
+        "disciplinas_no_semestre": "9+",
+        "n": 2317,
+        "taxa_pct": 48.25,
+        "ic": [
+          46.22,
+          50.29
+        ],
+        "taxa_padronizada_pct": 47.39
+      }
+    ],
+    "nao_aprovacao": [
+      {
+        "disciplinas_no_semestre": "1",
+        "n": 529,
+        "taxa_pct": 76.75,
+        "ic": [
+          72.96,
+          80.15
+        ],
+        "taxa_padronizada_pct": 78.56
+      },
+      {
+        "disciplinas_no_semestre": "2",
+        "n": 1364,
+        "taxa_pct": 67.08,
+        "ic": [
+          64.54,
+          69.52
+        ],
+        "taxa_padronizada_pct": 68.87
+      },
+      {
+        "disciplinas_no_semestre": "3",
+        "n": 3433,
+        "taxa_pct": 58.52,
+        "ic": [
+          56.86,
+          60.16
+        ],
+        "taxa_padronizada_pct": 59.53
+      },
+      {
+        "disciplinas_no_semestre": "4",
+        "n": 7362,
+        "taxa_pct": 56.32,
+        "ic": [
+          55.18,
+          57.45
+        ],
+        "taxa_padronizada_pct": 56.22
+      },
+      {
+        "disciplinas_no_semestre": "5",
+        "n": 12494,
+        "taxa_pct": 49.99,
+        "ic": [
+          49.12,
+          50.87
+        ],
+        "taxa_padronizada_pct": 51.17
+      },
+      {
+        "disciplinas_no_semestre": "6",
+        "n": 40208,
+        "taxa_pct": 45.65,
+        "ic": [
+          45.16,
+          46.13
+        ],
+        "taxa_padronizada_pct": 43.18
+      },
+      {
+        "disciplinas_no_semestre": "7",
+        "n": 11321,
+        "taxa_pct": 34.63,
+        "ic": [
+          33.75,
+          35.51
+        ],
+        "taxa_padronizada_pct": 41.96
+      },
+      {
+        "disciplinas_no_semestre": "8",
+        "n": 3662,
+        "taxa_pct": 37.55,
+        "ic": [
+          35.99,
+          39.13
+        ],
+        "taxa_padronizada_pct": 48.87
+      },
+      {
+        "disciplinas_no_semestre": "9+",
+        "n": 2317,
+        "taxa_pct": 64.65,
+        "ic": [
+          62.68,
+          66.57
+        ],
+        "taxa_padronizada_pct": 65.42
+      }
+    ],
+    "reprovacao": [
+      {
+        "disciplinas_no_semestre": "1",
+        "n": 300,
+        "taxa_pct": 59.0,
+        "ic": [
+          53.35,
+          64.42
+        ],
+        "taxa_padronizada_pct": 63.62
+      },
+      {
+        "disciplinas_no_semestre": "2",
+        "n": 1131,
+        "taxa_pct": 60.3,
+        "ic": [
+          57.42,
+          63.11
+        ],
+        "taxa_padronizada_pct": 62.51
+      },
+      {
+        "disciplinas_no_semestre": "3",
+        "n": 3096,
+        "taxa_pct": 54.01,
+        "ic": [
+          52.25,
+          55.75
+        ],
+        "taxa_padronizada_pct": 55.12
+      },
+      {
+        "disciplinas_no_semestre": "4",
+        "n": 6875,
+        "taxa_pct": 53.22,
+        "ic": [
+          52.04,
+          54.4
+        ],
+        "taxa_padronizada_pct": 53.04
+      },
+      {
+        "disciplinas_no_semestre": "5",
+        "n": 11540,
+        "taxa_pct": 45.86,
+        "ic": [
+          44.95,
+          46.77
+        ],
+        "taxa_padronizada_pct": 46.74
+      },
+      {
+        "disciplinas_no_semestre": "6",
+        "n": 37687,
+        "taxa_pct": 42.01,
+        "ic": [
+          41.51,
+          42.51
+        ],
+        "taxa_padronizada_pct": 39.88
+      },
+      {
+        "disciplinas_no_semestre": "7",
+        "n": 10568,
+        "taxa_pct": 29.97,
+        "ic": [
+          29.1,
+          30.85
+        ],
+        "taxa_padronizada_pct": 35.53
+      },
+      {
+        "disciplinas_no_semestre": "8",
+        "n": 3164,
+        "taxa_pct": 27.72,
+        "ic": [
+          26.19,
+          29.3
+        ],
+        "taxa_padronizada_pct": 35.08
+      },
+      {
+        "disciplinas_no_semestre": "9+",
+        "n": 1199,
+        "taxa_pct": 31.69,
+        "ic": [
+          29.12,
+          34.38
+        ],
+        "taxa_padronizada_pct": 34.25
+      }
+    ]
+  },
+  "pares": {
+    "candidatos": [
+      {
+        "disciplina": "ECT2205",
+        "nome": "Práticas de Leitura e Escrita II",
+        "cursada_junto_com": "ECT2106",
+        "nome_par": "Ciência, Tecnologia e Sociedade",
+        "alunos_com_par": 242,
+        "pct_repetindo_a_outra": 97.9,
+        "dif_mh_pp": 18.0,
+        "alunos_com_par_na_primeira_vez": 5
+      },
+      {
+        "disciplina": "ECT2204",
+        "nome": "Introdução à Física Clássica I",
+        "cursada_junto_com": "ECT2102",
+        "nome_par": "Vetores e Geometria Analítica",
+        "alunos_com_par": 475,
+        "pct_repetindo_a_outra": 98.9,
+        "dif_mh_pp": 16.9,
+        "alunos_com_par_na_primeira_vez": 4
+      },
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2102",
+        "nome_par": "Vetores e Geometria Analítica",
+        "alunos_com_par": 271,
+        "pct_repetindo_a_outra": 97.4,
+        "dif_mh_pp": 16.9,
+        "alunos_com_par_na_primeira_vez": 5
+      },
+      {
+        "disciplina": "ECT2303",
+        "nome": "Linguagem de Programação",
+        "cursada_junto_com": "ECT2103",
+        "nome_par": "Cálculo I",
+        "alunos_com_par": 195,
+        "pct_repetindo_a_outra": 100.0,
+        "dif_mh_pp": 16.2,
+        "alunos_com_par_na_primeira_vez": null
+      },
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2101",
+        "nome_par": "Pré-Cálculo",
+        "alunos_com_par": 114,
+        "pct_repetindo_a_outra": 91.2,
+        "dif_mh_pp": 16.1,
+        "alunos_com_par_na_primeira_vez": 10
+      },
+      {
+        "disciplina": "ECT2204",
+        "nome": "Introdução à Física Clássica I",
+        "cursada_junto_com": "ECT2101",
+        "nome_par": "Pré-Cálculo",
+        "alunos_com_par": 216,
+        "pct_repetindo_a_outra": 93.5,
+        "dif_mh_pp": 15.6,
+        "alunos_com_par_na_primeira_vez": 13
+      },
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2205",
+        "nome_par": "Práticas de Leitura e Escrita II",
+        "alunos_com_par": 854,
+        "pct_repetindo_a_outra": 8.5,
+        "dif_mh_pp": 14.3,
+        "alunos_com_par_na_primeira_vez": 778
+      },
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2204",
+        "nome_par": "Introdução à Física Clássica I",
+        "alunos_com_par": 1291,
+        "pct_repetindo_a_outra": 20.0,
+        "dif_mh_pp": 13.1,
+        "alunos_com_par_na_primeira_vez": 1027
+      },
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2203",
+        "nome_par": "Lógica de Programação",
+        "alunos_com_par": 840,
+        "pct_repetindo_a_outra": 11.7,
+        "dif_mh_pp": 11.8,
+        "alunos_com_par_na_primeira_vez": 736
+      },
+      {
+        "disciplina": "ECT2303",
+        "nome": "Linguagem de Programação",
+        "cursada_junto_com": "ECT2102",
+        "nome_par": "Vetores e Geometria Analítica",
+        "alunos_com_par": 188,
+        "pct_repetindo_a_outra": 97.3,
+        "dif_mh_pp": 9.7,
+        "alunos_com_par_na_primeira_vez": 1
+      },
+      {
+        "disciplina": "ECT2101",
+        "nome": "Pré-Cálculo",
+        "cursada_junto_com": "ECT2104",
+        "nome_par": "Química Geral",
+        "alunos_com_par": 229,
+        "pct_repetindo_a_outra": 97.4,
+        "dif_mh_pp": 9.2,
+        "alunos_com_par_na_primeira_vez": 1
+      },
+      {
+        "disciplina": "ECT2103",
+        "nome": "Cálculo I",
+        "cursada_junto_com": "ECT2106",
+        "nome_par": "Ciência, Tecnologia e Sociedade",
+        "alunos_com_par": 208,
+        "pct_repetindo_a_outra": 98.1,
+        "dif_mh_pp": 8.2,
+        "alunos_com_par_na_primeira_vez": 2
+      }
+    ],
+    "sobreviventes": [
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2205",
+        "nome_par": "Práticas de Leitura e Escrita II",
+        "alunos_com_par": 778,
+        "alunos_sem_par": 768,
+        "dif_pp": 11.1,
+        "ic": [
+          6.4,
+          15.5
+        ],
+        "odds_ratio_sem_carga": 1.93,
+        "or_ic": [
+          1.35,
+          2.74
+        ],
+        "p_regressao": 0.0,
+        "divisoes_escolhido": 95,
+        "pct_confirma_na_validacao": 95.0
+      },
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2204",
+        "nome_par": "Introdução à Física Clássica I",
+        "alunos_com_par": 1027,
+        "alunos_sem_par": 432,
+        "dif_pp": 9.2,
+        "ic": [
+          3.9,
+          14.4
+        ],
+        "odds_ratio_sem_carga": 1.33,
+        "or_ic": [
+          0.97,
+          1.81
+        ],
+        "p_regressao": 0.075,
+        "divisoes_escolhido": 75,
+        "pct_confirma_na_validacao": 64.0
+      },
+      {
+        "disciplina": "ECT2207",
+        "nome": "Probabilidade e Estatística",
+        "cursada_junto_com": "ECT2203",
+        "nome_par": "Lógica de Programação",
+        "alunos_com_par": 736,
+        "alunos_sem_par": 784,
+        "dif_pp": 8.6,
+        "ic": [
+          3.6,
+          13.8
+        ],
+        "odds_ratio_sem_carga": 1.46,
+        "or_ic": [
+          1.05,
+          2.04
+        ],
+        "p_regressao": 0.025,
+        "divisoes_escolhido": 76,
+        "pct_confirma_na_validacao": 63.0
+      }
+    ]
+  },
+  "validacao": {
+    "original": {
+      "divisoes": 100,
+      "efeito_descoberta_pp": 18.5,
+      "efeito_validacao_pp": 14.1,
+      "inflacao_pp": 4.4,
+      "pct_confirma": 90.0
+    },
+    "revisado": {
+      "divisoes": 100,
+      "efeito_descoberta_pp": 10.3,
+      "efeito_validacao_pp": 7.6,
+      "inflacao_pp": 2.7,
+      "pct_confirma": 58.0
+    }
+  },
+  "achados": [
+    {
+      "id": 1,
+      "titulo": "O ciclo básico concentra a reprovação em três disciplinas de entrada",
+      "numero": "7.442 tentativas concluídas em Cálculo I: 65,5% terminaram em reprovação (IC 95% 64,4 a 66,6). Vetores e Geometria Analítica: 64,4%. Pré-Cálculo: 54,7%. No extremo oposto, Prática de Leitura em Inglês: 12,1%. A desistência (trancamento ou desistência formal) também é maior nas de entrada: 13,1% em Cálculo I.",
+      "e_dai": "Quem planeja o primeiro semestre enfrenta o maior risco em Cálculo I, Vetores e Pré-Cálculo, e não na carga de leitura ou de gestão. Um simulador de grade deveria mostrar essa diferença entre disciplinas antes de qualquer conversa sobre combinações.",
+      "limitacao": "a taxa é por tentativa e inclui repetentes. Não vale ler \"65% dos alunos reprovam em Cálculo I\". Os dados descrevem a UFRN em 2015 a 2019; o CEFET não está neles, e o mapeamento entre as duas instituições é uma etapa à parte."
+    },
+    {
+      "id": 2,
+      "titulo": "\"Cursar duas disciplinas juntas\" costuma significar \"estar atrasado\"",
+      "numero": "em 9 dos 12 maiores candidatos a \"par de risco\", entre 91% e 100% dos alunos que cursaram a segunda disciplina junto estavam **repetindo** essa segunda disciplina. Em Práticas de Leitura e Escrita II dado Ciência, Tecnologia e Sociedade, o par com o maior efeito aparente, eram 97,9%. Em Introdução à Física Clássica I dado Vetores e Geometria Analítica, 98,9%. Refazendo as comparações só com alunos na primeira vez, esses 9 pares ficam com no máximo 13 alunos no grupo com o par (em 1 deles, nenhum), longe dos 100 exigidos para concluir.",
+      "e_dai": "Um \"par perigoso\" medido sem separar repetência mostra o perfil do aluno atrasado, não o efeito da combinação. Qualquer ferramenta que oriente a escolha de combinações com esse tipo de número erra o alvo.",
+      "limitacao": "a repetição só é observada a partir de 2015.1, e a \"primeira vez\" de um aluno que já cursava antes é desconhecida. O vínculo entre matrículas e data de ingresso não existe nos dados abertos."
+    },
+    {
+      "id": 3,
+      "titulo": "Só Probabilidade e Estatística mantém um sinal depois das checagens",
+      "numero": "entre os 12 candidatos de risco, só ficaram comparações com Probabilidade e Estatística como disciplina de interesse (A e B na primeira vez, pelo menos 100 alunos nos dois grupos, IC por aluno acima de zero). Nelas, alunos que a cursaram no mesmo semestre de outra disciplina (ambas na primeira vez, calouros com histórico) reprovaram mais do que alunos que a cursaram sem ela:\n\n| Cursada junto com | Alunos com / sem a outra | Diferença em pontos percentuais (IC 95%) | OR da regressão sem carga (IC 95%) | Escolhida na descoberta | Confirmada na validação |\n| --- | --- | --- | --- | --- | --- |\n| Práticas de Leitura e Escrita II | 778 / 768 | +11,1 (6,4 a 15,5) | 1,93 (1,35 a 2,74) | 95 de 100 | 95% |\n| Lógica de Programação | 736 / 784 | +8,6 (3,6 a 13,8) | 1,46 (1,05 a 2,04) | 76 de 100 | 63% |\n| Introdução à Física Clássica I | 1027 / 432 | +9,2 (3,9 a 14,4) | 1,33 (0,97 a 1,81) | 75 de 100 | 64% |\n\n  Nas 100 divisões aleatórias de alunos, o efeito médio dos finalistas caiu de 10,3 pp na metade de descoberta para 7,6 pp na de validação (inflação média de 2,7 pp, cerca de 26%).",
+      "e_dai": "É uma hipótese concreta para investigar (oferta, horários, curso), não uma recomendação de grade.",
+      "limitacao": "é associação, não causa. Introdução à Física Clássica I não se sustenta na regressão (p = 0,075). \"Leitura e Escrita II\" é uma disciplina de formação geral, improvável como causa direta, o que sugere perfil de curso ou de trajetória ainda não controlado. A validação com divisão de alunos mede a inflação por seleção, **não** elimina confundimento: o procedimento original, sem o filtro de repetência, \"confirma\" em 90% das validações justamente porque o artefato da repetência se repete em qualquer metade dos alunos."
+    },
+    {
+      "id": 4,
+      "titulo": "A carga do semestre tem forma de U quando se junta reprovação e desistência",
+      "numero": "considerando reprovação ou desistência sobre todas as matrículas, a taxa é 76,8% com 1 disciplina no semestre, 34,6% com 7 e 64,7% com 9 ou mais. Olhando só a reprovação entre os que concluíram, ela cai de 59,0% (1 disciplina) para 27,7% (8), o que esconde que 48,2% das matrículas com 9 ou mais disciplinas terminam em trancamento ou desistência.",
+      "e_dai": "Cargas muito baixas ou muito altas se associam a não concluir, não a aprender mais ou menos. Mostrar só reprovação passaria a mensagem errada de que \"mais disciplinas reprova menos\".",
+      "limitacao": "a carga é medida no fim do semestre e conta disciplinas depois trancadas; quem cursa uma ou duas disciplinas é, em geral, um aluno irregular. Não dá para dizer que alterar a carga muda o resultado."
+    }
+  ]
+}
