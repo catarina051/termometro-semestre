@@ -79,3 +79,15 @@ def test_achados_gerados_dos_arquivos():
         assert proibido not in txt
     # nenhuma frase de recomendacao ou causalidade solta
     assert "evite" not in txt.lower() and "aumenta o risco" not in txt.lower()
+
+
+@pytest.mark.skipif(not (R / "gradment_vs_ufrn.csv").exists(), reason="aguardando a consulta 3 corrigida do GradMent")
+def test_conferencia_gradment_so_agregados_e_celulas_minimas():
+    import json
+    g = ler("gradment_vs_ufrn.csv")
+    resumo = json.loads((R / "gradment_vs_ufrn_resumo.json").read_text(encoding="utf-8"))
+    assert (g["gradment_tentativas"] >= resumo["min_tentativas_publicadas"]).all()
+    assert "curso_id" not in g.columns and "alunos_distintos" not in g.columns  # sem quebra por curso
+    assert len(g) == resumo["n_pares"]
+    assert -1 <= resumo["spearman_rho"] <= 1
+    assert resumo["definicao"] == "reprovacao_REP_REPMF_entre_concluidas"  # a v1 (em andamento incluido) nao pode ser publicada

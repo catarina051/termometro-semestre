@@ -28,6 +28,19 @@ def main():
     cand = j["pares"]["candidatos"]
     n_forte = sum(c["pct_repetindo_a_outra"] > 90 for c in cand)
     rev = j["validacao"]["revisado"]
+    gm_arq = RAIZ / "resultados" / "gradment_vs_ufrn_resumo.json"
+    gm = json.loads(gm_arq.read_text(encoding="utf-8")) if gm_arq.exists() else None
+    bloco_gm = ""
+    if gm and gm.get("definicao") == "reprovacao_REP_REPMF_entre_concluidas":
+        import csv
+        tent = [int(r["gradment_tentativas"]) for r in csv.DictReader(open(RAIZ / "resultados" / "gradment_vs_ufrn.csv", encoding="utf-8"))]
+        bloco_gm = f"""
+## Conferência com alunos reais do GradMent
+
+Rodei consultas somente de leitura, com agregados, no banco de produção do GradMent e comparei a ordem de dificuldade. Nas {gm["n_pares"]} disciplinas da UFRN que têm equivalente no CEFET-MG (pelo mapeamento que revisei) e pelo menos {gm["min_tentativas_publicadas"]} tentativas no GradMent, a correlação de Spearman entre a reprovação da UFRN e a taxa de "não aprovadas" do GradMent é **ρ = {f(gm["spearman_rho"], 2)}** (p = {f(gm["spearman_p"], 4)}). Ou seja, as disciplinas que mais reprovam lá também são as que menos aprovam aqui, e as de menor reprovação, como Inglês e Metodologia, ficam entre as mais baixas nos dois lados. A tabela está em [`resultados/gradment_vs_ufrn.csv`](resultados/gradment_vs_ufrn.csv).
+
+Ressalvas: no GradMent, "reprovou" é a situação REP ou REPMF entre as disciplinas concluídas; é uma amostra pequena de alunos reais (de {min(tent)} a {max(tent)} tentativas por disciplina); e Pré-Cálculo e Cálculo I compartilham o mesmo equivalente. Isso confere a direção, não a taxa.
+"""
     achados = "\n\n".join(
         f"### {a['id']}. {a['titulo']}\n\n**Número.** {cap(a['numero'])}\n\n**E daí?** {cap(a['e_dai'])}\n\n**Limitação.** {cap(a['limitacao'])}"
         for a in j["achados"]
@@ -67,7 +80,7 @@ Todo número abaixo vem de `resultados/*.csv`, gerados pelos scripts da pasta `s
 - Pedi a crítica a dois revisores independentes: um modelo da OpenAI e um agente de outro modelo, sem contexto. Eles apontaram erros no trabalho (por exemplo, um indicador de "direção mantida" que na verdade testava significância). O que cada crítica mudou está no diário.
 - Validei por divisão de alunos, repetida {rev["divisoes"]} vezes: escolho os pares numa metade e estimo na outra. O efeito dos finalistas cai de {f(rev["efeito_descoberta_pp"])} para {f(rev["efeito_validacao_pp"])} pontos percentuais, o que mede quanto a escolha pelo maior efeito infla o resultado.
 - Os testes automáticos conferem, entre outras coisas, que o suporte mínimo foi respeitado, que nenhum dado de aluno entra nos resultados e que 10 alunos recalculados por um código independente, direto dos arquivos brutos, batem com a tabela.
-
+{bloco_gm}
 ## O que eu não afirmo
 
 > {j['avisos']['etico']}
