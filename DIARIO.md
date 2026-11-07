@@ -3,7 +3,7 @@
 Registro de autoria deste repositório: o que a Catarina decidiu e fez, e o que a IA fez.
 Uma entrada por sessão de trabalho.
 
-## 2026-11-07 · [começo: 13:45] h
+## 2026-11-07 · [começo: 13:45 termino:] h
 **Catarina decidiu:** criar o repositório separado `termometro-semestre`, público, com o mesmo stack do front do GradMent (Next.js, Tailwind e shadcn), publicado na Vercel.
 **Catarina decidiu (população de análise):** como não há ligação entre matrículas e discentes, não se sabe a data de ingresso. Opções apresentadas: (1) todos os alunos com a janela como está; (2) só quem aparece pela primeira vez em 2015.2 ou depois (40.941 de 71.565 alunos de graduação); (3) híbrida. Escolha: **(3)**. Taxas de reprovação por disciplina e curva por carga usam todos os alunos; tentativa, desempenho anterior e pares de risco usam só quem foi visto entrando (primeiro semestre observado em 2015.2 ou depois).
 **Catarina decidiu (cursos):** opções apresentadas: (1) só Ciências e Tecnologia (BC&T), 9.116 alunos; (2) BC&T + Engenharias + Computação, 19.630 alunos (12.713 calouros), 370.882 tentativas; (3) Engenharias + Computação sem BC&T, 10.514 alunos e só 27 de 63 pares com 30 ou mais alunos. Escolha: **(2)**. Recomendação da IA era a mesma.
