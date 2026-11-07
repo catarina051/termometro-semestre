@@ -1,0 +1,148 @@
+n_com_par,n_sem_par,reprov_com_par_pct,reprov_sem_par_pct,dif_risco_pp,ic_inf_pp,ic_sup_pp,odds_ratio_mh,p_cmh,n_estratos,familia,disciplina,nome,dado_par,nome_par,q_bh,passa_bh
+480,1565,41.0417,73.3546,-20.4057,-25.4236,-14.9803,0.4082,0.0,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2204,Introdução à Física Clássica I,0.0,True
+475,2335,72.4211,46.2099,16.8556,12.1097,21.3381,2.1813,0.0,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,0.0,True
+854,1222,46.37,43.617,14.3451,10.0522,18.4886,1.9454,0.0,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,0.0,True
+1291,785,47.7924,39.7452,13.1286,9.0729,17.1704,1.8169,0.0,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,0.0,True
+242,3153,57.0248,25.7533,17.9835,11.5532,24.4051,2.144,0.0,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",0.0,True
+840,1236,46.4286,43.6084,11.8238,7.5506,15.984,1.7149,0.0,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,0.0,True
+271,1805,67.1587,41.385,16.8546,10.9611,22.8037,2.1398,0.0,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,0.0,True
+279,1766,40.5018,69.7622,-16.335,-22.4075,-9.7664,0.4848,0.0,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2207,Probabilidade e Estatística,0.0,True
+223,1201,22.87,61.1157,-18.75,-25.6586,-11.5051,0.3974,0.0,3,com_historico,ECT2101,Pré-Cálculo,ECT2204,Introdução à Física Clássica I,0.0,True
+863,2162,18.8876,45.0509,-8.8752,-12.3284,-5.3835,0.5919,0.0,3,com_historico,ECT2203,Lógica de Programação,ECT2207,Probabilidade e Estatística,0.0,True
+216,2594,72.2222,48.8435,15.579,9.3717,21.5711,2.0871,0.0,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,0.0001,True
+1382,1643,21.8524,50.8217,-8.4374,-12.1546,-4.4973,0.6539,0.0,3,com_historico,ECT2203,Lógica de Programação,ECT2204,Introdução à Física Clássica I,0.0002,True
+195,1923,69.2308,39.3656,16.1837,9.1774,23.0533,2.0602,0.0,3,com_historico,ECT2303,Linguagem de Programação,ECT2103,Cálculo I,0.0002,True
+1305,1505,47.0498,53.7542,8.1661,4.1256,11.9174,1.4455,0.0001,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2205,Práticas de Leitura e Escrita II,0.0005,True
+1318,1492,43.8543,56.6354,-6.9758,-10.5219,-3.6184,0.7358,0.0002,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2207,Probabilidade e Estatística,0.0014,True
+2150,1245,22.0465,38.2329,-6.2732,-9.5209,-2.9768,0.7261,0.0002,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2203,Lógica de Programação,0.0014,True
+1358,1452,48.3063,52.8237,7.3644,3.8268,10.7391,1.3933,0.0001,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2203,Lógica de Programação,0.0014,True
+1057,1968,18.4484,47.8659,-7.4171,-11.3536,-3.3593,0.6659,0.0002,3,com_historico,ECT2203,Lógica de Programação,ECT2201,Cálculo II,0.0018,True
+118,1306,18.6441,58.4227,-17.052,-25.0458,-8.9261,0.3767,0.0003,3,com_historico,ECT2101,Pré-Cálculo,ECT2207,Probabilidade e Estatística,0.0021,True
+784,2026,54.7194,49.0622,7.3083,3.4775,11.3174,1.3881,0.0003,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2302,Metodologia Científica e Tecnológica,0.0022,True
+726,2084,48.4848,51.3916,-7.5371,-11.4142,-3.5419,0.7148,0.0003,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2303,Linguagem de Programação,0.0023,True
+1773,1622,22.335,34.1554,-5.2676,-8.0929,-2.2874,0.747,0.0005,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.0031,True
+880,1165,59.7727,70.3004,-6.9258,-10.9151,-3.154,0.7061,0.0006,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2203,Lógica de Programação,0.0039,True
+876,1200,43.8356,45.4167,7.6473,3.3949,11.9533,1.4119,0.0006,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.0039,True
+107,596,28.972,56.7114,-17.9644,-26.9287,-9.2988,0.4222,0.0007,3,com_historico,ECT2104,Química Geral,ECT2204,Introdução à Física Clássica I,0.004,True
+114,1962,65.7895,43.527,16.1155,8.18,24.3417,2.12,0.0008,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,0.0043,True
+531,2000,17.5141,15.65,-6.8048,-10.7023,-3.0455,0.6348,0.0012,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2102,Vetores e Geometria Analítica,0.0064,True
+745,1300,76.6443,59.5385,6.8508,2.9263,10.9381,1.4386,0.0013,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2101,Pré-Cálculo,0.0068,True
+371,1674,77.8976,63.0824,8.2046,3.3429,12.821,1.6003,0.0013,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2104,Química Geral,0.0068,True
+1583,1442,30.7012,45.1456,-5.168,-8.3369,-2.0208,0.7676,0.0019,3,com_historico,ECT2203,Lógica de Programação,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.0094,True
+1004,1041,74.1036,57.7329,6.4278,2.2211,10.3982,1.384,0.0021,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2103,Cálculo I,0.0101,True
+765,1664,5.098,14.4231,-3.8783,-6.1003,-1.6992,0.5628,0.0027,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2303,Linguagem de Programação,0.0124,True
+1094,1329,44.4241,56.8849,-5.9852,-9.9057,-2.2182,0.7668,0.0029,3,com_historico,ECT2201,Cálculo II,ECT2207,Probabilidade e Estatística,0.0125,True
+490,934,45.102,60.3854,-7.9064,-12.9972,-2.8966,0.6866,0.0029,3,com_historico,ECT2101,Pré-Cálculo,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.0125,True
+460,1616,41.7391,45.6064,-7.6858,-12.4789,-2.9121,0.7138,0.003,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2303,Linguagem de Programação,0.0125,True
+199,1901,50.7538,66.1231,-10.3897,-17.4049,-3.5806,0.6125,0.0034,3,com_historico,ECT2103,Cálculo I,ECT2303,Linguagem de Programação,0.0138,True
+1247,2148,33.0393,25.0466,-5.0423,-8.3884,-1.6807,0.7758,0.0038,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2103,Cálculo I,0.0152,True
+622,802,45.8199,62.3441,-7.3235,-12.6887,-2.5475,0.7121,0.0046,3,com_historico,ECT2101,Pré-Cálculo,ECT2203,Lógica de Programação,0.0177,True
+229,1195,69.4323,52.3849,9.1506,2.4719,15.4608,1.5559,0.0085,3,com_historico,ECT2101,Pré-Cálculo,ECT2104,Química Geral,0.0314,True
+321,1779,76.6355,62.507,7.2224,2.0107,11.8845,1.4775,0.0085,3,com_historico,ECT2103,Cálculo I,ECT2104,Química Geral,0.0314,True
+196,1849,54.0816,67.0092,-9.2686,-16.337,-2.5592,0.6516,0.0089,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2303,Linguagem de Programação,0.0319,True
+328,2203,19.5122,15.5243,-6.9508,-11.6527,-2.2739,0.6496,0.0101,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2101,Pré-Cálculo,0.0355,True
+533,1512,60.9756,67.4603,-5.881,-10.4453,-1.3168,0.7478,0.0104,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2305,Prática de Leitura em Inglês,0.0356,True
+853,571,49.7069,63.2224,-6.5752,-11.5,-1.6141,0.7381,0.0111,3,com_historico,ECT2101,Pré-Cálculo,ECT2205,Práticas de Leitura e Escrita II,0.0372,True
+208,1892,81.25,62.8436,8.2501,2.8927,13.3302,1.6771,0.0117,3,com_historico,ECT2103,Cálculo I,ECT2106,"Ciência, Tecnologia e Sociedade",0.0384,True
+713,1405,46.1431,40.0712,5.5167,1.3253,9.8854,1.2868,0.0124,3,com_historico,ECT2303,Linguagem de Programação,ECT2201,Cálculo II,0.0397,True
+188,1930,64.8936,39.8964,9.7486,2.4551,16.8775,1.5312,0.0129,3,com_historico,ECT2303,Linguagem de Programação,ECT2102,Vetores e Geometria Analítica,0.0402,True
+1085,991,43.871,45.7114,5.4322,1.4745,9.6219,1.2751,0.0131,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2201,Cálculo II,0.0402,True
+205,1840,81.4634,64.0217,7.7275,2.0243,13.3763,1.6221,0.0179,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2106,"Ciência, Tecnologia e Sociedade",0.0537,False
+678,1853,8.8496,18.6724,-3.5902,-6.4146,-0.7353,0.689,0.0197,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2303,Linguagem de Programação,0.0578,False
+713,1716,6.4516,13.5781,-3.0443,-5.3612,-0.7498,0.6571,0.0223,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2204,Introdução à Física Clássica I,0.0643,False
+1014,2381,12.5247,34.5653,-3.9548,-7.386,-0.5365,0.7532,0.0259,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2201,Cálculo II,0.0732,False
+382,1694,48.6911,43.8607,6.0898,0.921,11.283,1.3154,0.0276,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2305,Prática de Leitura em Inglês,0.0766,False
+166,1258,71.0843,53.0207,8.8387,1.2458,16.0828,1.5019,0.0285,3,com_historico,ECT2101,Pré-Cálculo,ECT2106,"Ciência, Tecnologia e Sociedade",0.0777,False
+1073,1027,59.3663,70.2045,-4.3016,-8.1823,-0.3669,0.8074,0.0349,3,com_historico,ECT2103,Cálculo I,ECT2203,Lógica de Programação,0.0932,False
+1554,1223,23.4878,32.0523,-3.4335,-6.6946,-0.3435,0.8256,0.0409,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2203,Lógica de Programação,0.1073,False
+847,2548,35.8914,25.3532,-4.0578,-7.8005,-0.3603,0.8265,0.046,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2101,Pré-Cálculo,0.1187,False
+873,2522,14.6621,32.5932,-3.2273,-6.4908,-0.1277,0.7902,0.0541,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2207,Probabilidade e Estatística,0.137,False
+878,1899,16.7426,32.1222,-3.4642,-6.6965,0.1483,0.7969,0.0558,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2207,Probabilidade e Estatística,0.139,False
+622,1807,5.7878,13.4477,-2.5535,-4.8693,-0.152,0.6801,0.0586,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2201,Cálculo II,0.1435,False
+624,1476,58.1731,67.4119,-4.1738,-8.4483,0.1396,0.8182,0.0629,3,com_historico,ECT2103,Cálculo I,ECT2305,Prática de Leitura em Inglês,0.1516,False
+361,342,52.0776,52.924,-6.9871,-14.1305,0.1197,0.7325,0.0677,3,com_historico,ECT2104,Química Geral,ECT2102,Vetores e Geometria Analítica,0.1606,False
+1326,2069,15.6863,35.8627,-3.1272,-6.548,0.2038,0.8227,0.0717,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2204,Introdução à Física Clássica I,0.1673,False
+220,483,46.3636,55.2795,-7.1004,-14.898,0.5395,0.7302,0.0814,3,com_historico,ECT2104,Química Geral,ECT2203,Lógica de Programação,0.176,False
+881,2144,40.2951,36.4739,3.1442,-0.2102,6.4994,1.1759,0.0802,3,com_historico,ECT2203,Lógica de Programação,ECT2302,Metodologia Científica e Tecnológica,0.176,False
+472,2305,34.1102,25.8568,-4.4557,-8.9972,0.4249,0.8052,0.0789,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2101,Pré-Cálculo,0.176,False
+717,1401,46.583,39.8287,3.9038,-0.477,8.256,1.1917,0.0811,3,com_historico,ECT2303,Linguagem de Programação,ECT2204,Introdução à Física Clássica I,0.176,False
+712,1717,9.4101,12.3471,-2.5072,-4.9651,0.2043,0.7565,0.0771,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.176,False
+161,310,44.7205,49.3548,-9.0279,-18.8842,0.5172,0.6934,0.0877,3,com_historico,ECT2106,"Ciência, Tecnologia e Sociedade",ECT2101,Pré-Cálculo,0.1867,False
+825,1275,58.1818,68.8627,-3.4936,-7.5234,0.6189,0.8422,0.1004,3,com_historico,ECT2103,Cálculo I,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.2108,False
+829,1600,11.0977,11.6875,-2.3032,-4.9101,0.2624,0.7869,0.102,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2203,Lógica de Programação,0.2111,False
+1040,1383,41.8269,58.3514,-3.5866,-7.7733,0.658,0.8538,0.1059,3,com_historico,ECT2201,Cálculo II,ECT2203,Lógica de Programação,0.2133,False
+332,2097,16.2651,10.7296,-4.1244,-8.486,0.3731,0.7436,0.1046,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2101,Pré-Cálculo,0.2133,False
+202,269,45.5446,49.4424,-7.9544,-17.2229,1.4,0.7214,0.1144,3,com_historico,ECT2106,"Ciência, Tecnologia e Sociedade",ECT2102,Vetores e Geometria Analítica,0.2242,False
+915,2480,29.071,27.5806,2.6364,-0.4714,5.7612,1.1624,0.1138,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2302,Metodologia Científica e Tecnológica,0.2242,False
+112,2698,68.75,49.8888,7.5942,-1.7909,16.1883,1.406,0.1186,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2104,Química Geral,0.2284,False
+539,1506,61.7811,67.1979,-3.6119,-8.1541,0.6361,0.8331,0.1196,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2302,Metodologia Científica e Tecnológica,0.2284,False
+103,2428,32.0388,15.3624,7.2608,-1.7614,15.6503,1.4577,0.1225,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2106,"Ciência, Tecnologia e Sociedade",0.2309,False
+2138,887,32.1328,50.7328,-3.0855,-7.1197,1.0027,0.8668,0.1293,3,com_historico,ECT2203,Lógica de Programação,ECT2205,Práticas de Leitura e Escrita II,0.2405,False
+624,1799,52.2436,50.9172,3.1278,-1.173,7.5293,1.1482,0.1704,3,com_historico,ECT2201,Cálculo II,ECT2302,Metodologia Científica e Tecnológica,0.3131,False
+881,2144,50.6243,32.2295,2.7073,-1.1637,6.7938,1.1315,0.1884,3,com_historico,ECT2203,Lógica de Programação,ECT2102,Vetores e Geometria Analítica,0.3393,False
+678,1440,39.233,43.4722,2.9976,-1.2724,7.1265,1.151,0.1893,3,com_historico,ECT2303,Linguagem de Programação,ECT2302,Metodologia Científica e Tecnológica,0.3393,False
+676,1369,62.426,67.4215,-2.8503,-6.9831,1.3313,0.8677,0.1925,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.3408,False
+847,1576,42.621,55.901,-2.8323,-6.8749,1.2643,0.8806,0.2035,3,com_historico,ECT2201,Cálculo II,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.3519,False
+1061,1716,18.1904,32.8671,-2.2911,-5.5968,1.0411,0.8661,0.2034,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2204,Introdução à Física Clássica I,0.3519,False
+1107,938,66.3053,65.1386,2.4662,-1.3414,6.3843,1.1336,0.229,3,com_historico,ECT2102,Vetores e Geometria Analítica,ECT2205,Práticas de Leitura e Escrita II,0.3913,False
+580,1520,60.5172,66.25,-2.7487,-7.0157,1.4597,0.8753,0.2343,3,com_historico,ECT2103,Cálculo I,ECT2302,Metodologia Científica e Tecnológica,0.396,False
+1115,2280,35.7848,24.1667,-2.2485,-5.7912,1.2715,0.8994,0.2371,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2102,Vetores e Geometria Analítica,0.396,False
+136,335,42.6471,49.8507,-6.3957,-16.0501,3.1409,0.7673,0.243,3,com_historico,ECT2106,"Ciência, Tecnologia e Sociedade",ECT2203,Lógica de Programação,0.3978,False
+663,2114,38.009,23.8884,2.6591,-1.5967,7.045,1.1332,0.2436,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2102,Vetores e Geometria Analítica,0.3978,False
+839,2186,38.2598,37.3285,-2.1415,-5.5734,1.4962,0.8939,0.2534,3,com_historico,ECT2203,Lógica de Programação,ECT2305,Prática de Leitura em Inglês,0.4094,False
+201,502,48.7562,53.9841,-4.8168,-12.5901,3.3492,0.8084,0.2626,3,com_historico,ECT2104,Química Geral,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.4195,False
+609,2416,48.4401,34.851,-2.5155,-6.6312,2.1506,0.8904,0.277,3,com_historico,ECT2203,Lógica de Programação,ECT2101,Pré-Cálculo,0.4379,False
+1758,665,49.7156,55.3383,2.4378,-1.7517,6.8961,1.1145,0.2889,3,com_historico,ECT2201,Cálculo II,ECT2204,Introdução à Física Clássica I,0.4425,False
+839,1590,9.5352,12.5157,-1.4722,-3.9625,1.139,0.8476,0.2852,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2302,Metodologia Científica e Tecnológica,0.4425,False
+836,1264,72.488,59.4937,2.3105,-1.8946,6.349,1.1249,0.289,3,com_historico,ECT2103,Cálculo I,ECT2101,Pré-Cálculo,0.4425,False
+694,2083,28.2421,26.9323,2.0182,-1.3986,5.6068,1.1208,0.2958,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2305,Prática de Leitura em Inglês,0.4482,False
+994,1429,40.5433,58.7124,-2.4558,-6.8842,2.1642,0.8973,0.3073,3,com_historico,ECT2201,Cálculo II,ECT2205,Práticas de Leitura e Escrita II,0.461,False
+982,1118,70.9776,59.1234,2.1215,-1.8368,6.1534,1.1118,0.3229,3,com_historico,ECT2103,Cálculo I,ECT2102,Vetores e Geometria Analítica,0.4746,False
+528,1901,15.5303,10.363,-1.9885,-5.5454,1.6061,0.8554,0.3222,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2102,Vetores e Geometria Analítica,0.4746,False
+466,1652,43.9914,41.586,2.3844,-2.5127,7.3279,1.1125,0.3598,3,com_historico,ECT2303,Linguagem de Programação,ECT2207,Probabilidade e Estatística,0.511,False
+1215,885,61.5638,68.9266,-1.9242,-5.8364,2.0581,0.9077,0.3613,3,com_historico,ECT2103,Cálculo I,ECT2205,Práticas de Leitura e Escrita II,0.511,False
+525,2252,29.3333,26.7762,-2.0819,-6.2958,2.0151,0.896,0.357,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2302,Metodologia Científica e Tecnológica,0.511,False
+1072,1953,48.6007,31.5412,1.7755,-1.8923,5.5003,1.0881,0.3615,3,com_historico,ECT2203,Lógica de Programação,ECT2103,Cálculo I,0.511,False
+358,1718,45.2514,44.6449,-2.601,-8.1595,2.7092,0.8897,0.3811,3,com_historico,ECT2207,Probabilidade e Estatística,ECT2302,Metodologia Científica e Tecnológica,0.5308,False
+1733,1044,25.9665,29.4061,1.557,-1.7859,4.6878,1.0891,0.3827,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2205,Práticas de Leitura e Escrita II,0.5308,False
+881,1650,15.891,16.1212,-1.2686,-4.1592,1.8137,0.9048,0.4269,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2203,Lógica de Programação,0.5824,False
+384,2045,6.5104,12.4205,-1.3467,-4.0351,1.2935,0.8146,0.4279,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2207,Probabilidade e Estatística,0.5824,False
+836,1941,16.866,31.7362,-1.5312,-5.0673,1.9624,0.9047,0.4331,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2201,Cálculo II,0.5841,False
+543,1988,19.7053,15.0402,1.4704,-2.2112,4.9675,1.1115,0.4555,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.6088,False
+911,1620,15.5873,16.2963,-1.1449,-4.0125,1.7899,0.9134,0.4703,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2205,Práticas de Leitura e Escrita II,0.6228,False
+212,491,59.9057,49.2872,3.1337,-4.6245,11.2198,1.1465,0.4958,3,com_historico,ECT2104,Química Geral,ECT2101,Pré-Cálculo,0.645,False
+809,1968,35.1051,24.0346,1.4275,-2.3227,5.3662,1.0738,0.495,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2103,Cálculo I,0.645,False
+842,1689,14.3705,16.8739,-1.0436,-3.9044,1.9033,0.917,0.5175,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2305,Prática de Leitura em Inglês,0.6674,False
+201,2576,41.791,26.1258,2.276,-5.1486,9.5254,1.1035,0.5754,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2104,Química Geral,0.7355,False
+640,1789,15.1562,10.1733,-0.9204,-4.2764,2.4379,0.9245,0.6284,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2103,Cálculo I,0.7828,False
+333,1091,53.7538,55.5454,-1.5966,-7.2768,3.9369,0.9274,0.6255,3,com_historico,ECT2101,Pré-Cálculo,ECT2302,Metodologia Científica e Tecnológica,0.7828,False
+237,234,46.8354,48.7179,-2.6931,-11.2519,6.4326,0.8951,0.62,3,com_historico,ECT2106,"Ciência, Tecnologia e Sociedade",ECT2205,Práticas de Leitura e Escrita II,0.7828,False
+157,2374,22.293,15.6276,-1.8338,-8.5375,4.7508,0.8955,0.6717,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2104,Química Geral,0.8298,False
+139,2886,56.1151,36.6944,1.9879,-5.724,9.8426,1.0939,0.6981,3,com_historico,ECT2203,Lógica de Programação,ECT2106,"Ciência, Tecnologia e Sociedade",0.8552,False
+788,1743,12.0558,17.8428,-0.6484,-3.3475,2.1356,0.9417,0.7068,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2204,Introdução à Física Clássica I,0.8587,False
+139,2290,16.5468,11.179,-1.4756,-7.5694,5.1085,0.8977,0.7451,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2104,Química Geral,0.8978,False
+362,2169,12.9834,16.5514,-0.7711,-4.3315,3.0451,0.9324,0.7513,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2207,Probabilidade e Estatística,0.8978,False
+366,2411,24.8634,27.6234,0.8547,-3.7131,5.5354,1.0511,0.7618,3,com_historico,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",ECT2303,Linguagem de Programação,0.9022,False
+304,3091,39.8026,26.8198,1.0465,-4.6312,6.9277,1.0469,0.7672,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2104,Química Geral,0.9022,False
+751,1367,37.9494,44.4038,0.675,-3.4522,4.915,1.0321,0.7918,3,com_historico,ECT2303,Linguagem de Programação,ECT2305,Prática de Leitura em Inglês,0.9164,False
+577,1954,21.4905,14.4319,-0.6566,-4.7386,3.3136,0.9602,0.7887,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2103,Cálculo I,0.9164,False
+134,569,52.9851,52.3726,1.4804,-7.1512,10.2507,1.0673,0.8259,3,com_historico,ECT2104,Química Geral,ECT2305,Prática de Leitura em Inglês,0.9244,False
+834,2561,28.1775,27.9188,-0.4705,-3.9676,2.792,0.9738,0.8171,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2305,Prática de Leitura em Inglês,0.9244,False
+1771,1039,46.8662,57.0741,-0.5308,-4.3647,3.2196,0.9769,0.818,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2201,Cálculo II,0.9244,False
+229,2796,51.5284,36.4449,-0.9591,-7.609,5.6726,0.9593,0.8288,3,com_historico,ECT2203,Lógica de Programação,ECT2104,Química Geral,0.9244,False
+235,3160,28.9362,27.9114,0.8436,-4.9867,6.7892,1.0467,0.8301,3,com_historico,ECT2205,Práticas de Leitura e Escrita II,ECT2303,Linguagem de Programação,0.9244,False
+640,1891,11.4062,17.6097,-0.4208,-3.1737,2.5433,0.9597,0.8386,3,com_historico,ECT2302,Metodologia Científica e Tecnológica,ECT2201,Cálculo II,0.9269,False
+294,409,52.381,52.5672,0.9964,-6.046,8.0555,1.0446,0.8466,3,com_historico,ECT2104,Química Geral,ECT2205,Práticas de Leitura e Escrita II,0.9287,False
+714,1709,55.042,49.6782,0.426,-3.7069,4.5563,1.0194,0.8793,3,com_historico,ECT2201,Cálculo II,ECT2303,Linguagem de Programação,0.9574,False
+818,1611,12.4694,10.987,0.2337,-2.5549,2.877,1.0242,0.9163,3,com_historico,ECT2305,Prática de Leitura em Inglês,ECT2205,Práticas de Leitura e Escrita II,0.9741,False
+320,383,55.9375,49.6084,0.6117,-6.527,7.6445,1.0265,0.9319,3,com_historico,ECT2104,Química Geral,ECT2103,Cálculo I,0.9741,False
+235,1883,47.6596,41.4233,0.0044,-6.1705,6.4366,1.0002,0.941,3,com_historico,ECT2303,Linguagem de Programação,ECT2205,Práticas de Leitura e Escrita II,0.9741,False
+373,1745,42.3592,42.063,0.3907,-4.4055,5.3953,1.0189,0.9316,3,com_historico,ECT2303,Linguagem de Programação,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.9741,False
+154,549,51.2987,52.8233,-0.0633,-8.1591,8.3798,0.9972,0.935,3,com_historico,ECT2104,Química Geral,ECT2302,Metodologia Científica e Tecnológica,0.9741,False
+619,1804,50.5654,51.4967,-0.2545,-4.45,4.2351,0.9886,0.9476,3,com_historico,ECT2201,Cálculo II,ECT2305,Prática de Leitura em Inglês,0.9741,False
+710,2100,50.7042,50.619,-0.3359,-4.3039,3.4822,0.985,0.907,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2305,Prática de Leitura em Inglês,0.9741,False
+878,546,58.7699,49.2674,-0.3991,-5.5022,4.6401,0.9812,0.9262,3,com_historico,ECT2101,Pré-Cálculo,ECT2103,Cálculo I,0.9741,False
+759,665,59.1568,50.5263,0.0554,-4.8793,4.9927,1.0026,0.9703,3,com_historico,ECT2101,Pré-Cálculo,ECT2102,Vetores e Geometria Analítica,0.9905,False
+1070,1740,45.1402,54.023,0.0709,-3.4703,3.7154,1.0032,0.9954,3,com_historico,ECT2204,Introdução à Física Clássica I,ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",0.9954,False
+213,258,50.2347,45.7364,0.512,-8.8093,10.2092,1.0212,0.9914,3,com_historico,ECT2106,"Ciência, Tecnologia e Sociedade",ECT2103,Cálculo I,0.9954,False
+338,1086,56.5089,54.6961,-0.153,-6.1295,5.6306,0.993,0.9884,3,com_historico,ECT2101,Pré-Cálculo,ECT2305,Prática de Leitura em Inglês,0.9954,False

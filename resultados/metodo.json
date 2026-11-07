@@ -1,0 +1,20 @@
+{
+  "semente": 20261107,
+  "suporte_minimo": 100,
+  "alfa_bh": 0.05,
+  "bootstrap": 2000,
+  "cortes_desempenho_anterior_tercis": [
+    4.283333333333333,
+    5.647268673355629
+  ],
+  "linhas_total": 82690,
+  "linhas_calouros": 64749,
+  "linhas_calouros_com_historico": 32449,
+  "linhas_calouros_primeiro_semestre": 32300,
+  "comparacoes_testadas_com_historico": 147,
+  "sem_suporte_com_historico": 63,
+  "passam_bh_com_historico": 48,
+  "comparacoes_testadas_primeiro_semestre": 50,
+  "sem_suporte_primeiro_semestre": 160,
+  "passam_bh_primeiro_semestre": 14
+}

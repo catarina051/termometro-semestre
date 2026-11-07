@@ -1,0 +1,16 @@
+codigo,disciplina,n_concluidas,reprovacao_pct,reprov_ic_inf,reprov_ic_sup,n_matriculas,desistencia_pct,desist_ic_inf,desist_ic_sup
+ECT2103,Cálculo I,7442,65.49,64.41,66.56,8562,13.08,12.38,13.81
+ECT2102,Vetores e Geometria Analítica,7603,64.37,63.29,65.44,8581,11.4,10.74,12.09
+ECT2101,Pré-Cálculo,6696,54.7,53.51,55.89,7357,8.98,8.35,9.66
+ECT2201,Cálculo II,3758,54.26,52.66,55.85,4030,6.75,6.02,7.57
+ECT2204,Introdução à Física Clássica I,4378,50.37,48.88,51.85,4651,5.87,5.23,6.58
+ECT2104,Química Geral,5925,47.98,46.71,49.26,6802,12.89,12.12,13.71
+ECT2207,Probabilidade e Estatística,3401,45.25,43.58,46.93,3557,4.39,3.76,5.11
+ECT2303,Linguagem de Programação,3364,45.18,43.51,46.87,3636,7.48,6.67,8.38
+ECT2203,Lógica de Programação,4152,39.69,38.21,41.19,4439,6.47,5.78,7.23
+ECT2106,"Ciência, Tecnologia e Sociedade",5958,28.21,27.09,29.37,6577,9.41,8.73,10.14
+ECT2205,Práticas de Leitura e Escrita II,4635,27.27,26.01,28.57,4842,4.28,3.74,4.88
+ECT2206,"Gestão e Economia da Ciência, Tecnologia e Inovação",4787,25.99,24.76,27.25,5180,7.59,6.9,8.34
+ECT2302,Metodologia Científica e Tecnológica,4536,19.55,18.43,20.73,4833,6.15,5.5,6.86
+ECT2105,Práticas de Leitura e Escrita I,5391,18.72,17.7,19.78,5898,8.6,7.91,9.34
+ECT2305,Prática de Leitura em Inglês,3534,12.11,11.08,13.23,3745,5.63,4.94,6.42

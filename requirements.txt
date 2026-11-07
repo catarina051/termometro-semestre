@@ -1,2 +1,7 @@
 duckdb
 pytest
+pandas
+numpy
+scipy
+statsmodels
+tabulate

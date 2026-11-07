@@ -1,0 +1,49 @@
+"""Testes dos resultados agregados em resultados/ (versionados, sem dados de aluno)."""
+from pathlib import Path
+
+import pandas as pd
+import pytest
+
+R = Path(__file__).resolve().parent.parent / "resultados"
+pytestmark = pytest.mark.skipif(not (R / "metodo.json").exists(), reason="rode scripts/analise.py")
+
+
+def ler(nome):
+    return pd.read_csv(R / nome)
+
+
+@pytest.mark.parametrize("arq", ["pares_com_historico.csv", "pares_primeiro_semestre.csv"])
+def test_pares_respeitam_suporte_e_correcao(arq):
+    p = ler(arq)
+    assert (p["n_com_par"] >= 100).all()                     # suporte minimo decidido
+    assert (p["q_bh"] >= p["p_cmh"] - 1e-9).all()            # BH nunca diminui o p-valor
+    assert (p["passa_bh"] == (p["q_bh"] < 0.05)).all()
+    assert (p["ic_inf_pp"] <= p["dif_risco_pp"] + 1e-6).all() and (p["dif_risco_pp"] <= p["ic_sup_pp"] + 1e-6).all()
+    assert ((p["disciplina"] != p["dado_par"])).all()
+
+
+def test_taxas_por_disciplina_dentro_do_ic():
+    d = ler("disciplinas.csv")
+    assert len(d) == 15
+    assert ((d["reprov_ic_inf"] <= d["reprovacao_pct"]) & (d["reprovacao_pct"] <= d["reprov_ic_sup"])).all()
+    assert ((d["desist_ic_inf"] <= d["desistencia_pct"]) & (d["desistencia_pct"] <= d["desist_ic_sup"])).all()
+
+
+def test_nenhum_dado_de_aluno_nos_resultados():
+    proibidas = {"aluno", "matricula", "discente", "nome_discente"}
+    for arq in R.glob("*.csv"):
+        assert not (set(pd.read_csv(arq, nrows=1).columns) & proibidas), arq.name
+
+
+def test_regressao_so_para_candidatos_que_passaram_na_correcao():
+    reg, ph = ler("pares_regressao.csv"), ler("pares_com_historico.csv")
+    ok = ph[ph["passa_bh"] & (ph["dif_risco_pp"] > 0)][["disciplina", "dado_par"]]
+    juntos = reg.merge(ok, on=["disciplina", "dado_par"])
+    assert len(juntos) == len(reg) > 0
+    assert (reg["direcao_mantida"] == ((reg["odds_ratio_regressao"] > 1) & (reg["p_regressao"] < 0.05))).all()
+
+
+def test_curva_cobre_todas_as_faixas_de_carga():
+    c = ler("curva_carga.csv")
+    assert set(c["desfecho"]) == {"reprovacao", "desistencia"}
+    assert c.groupby("desfecho")["disciplinas_no_semestre"].nunique().eq(9).all()

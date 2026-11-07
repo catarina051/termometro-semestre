@@ -1,0 +1,13 @@
+disciplina,nome,dado_par,nome_par,n,n_com_par,dif_risco_simples_pp,odds_ratio_simples,odds_ratio_regressao,or_ic_inf,or_ic_sup,p_regressao,direcao_mantida
+ECT2205,Práticas de Leitura e Escrita II,ECT2106,"Ciência, Tecnologia e Sociedade",3395,242,17.9835,2.144,1.7933,1.3185,2.4391,0.0002,True
+ECT2204,Introdução à Física Clássica I,ECT2102,Vetores e Geometria Analítica,2810,475,16.8556,2.1813,1.7676,1.3607,2.2963,0.0,True
+ECT2207,Probabilidade e Estatística,ECT2102,Vetores e Geometria Analítica,2076,271,16.8546,2.1398,1.7763,1.2952,2.436,0.0004,True
+ECT2303,Linguagem de Programação,ECT2103,Cálculo I,2118,195,16.1837,2.0602,1.4741,1.0216,2.1271,0.0381,True
+ECT2207,Probabilidade e Estatística,ECT2101,Pré-Cálculo,2076,114,16.1155,2.12,1.4162,0.9183,2.1841,0.1154,False
+ECT2204,Introdução à Física Clássica I,ECT2101,Pré-Cálculo,2810,216,15.579,2.0871,1.5115,1.0613,2.1527,0.022,True
+ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,2076,854,14.3451,1.9454,2.4209,1.8721,3.1305,0.0,True
+ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,2076,1291,13.1286,1.8169,1.7067,1.3589,2.1434,0.0,True
+ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,2076,840,11.8238,1.7149,1.8572,1.441,2.3937,0.0,True
+ECT2303,Linguagem de Programação,ECT2102,Vetores e Geometria Analítica,2118,188,9.7486,1.5312,1.0301,0.7173,1.4793,0.8724,False
+ECT2101,Pré-Cálculo,ECT2104,Química Geral,1424,229,9.1506,1.5559,1.4147,0.9817,2.0388,0.0628,False
+ECT2103,Cálculo I,ECT2106,"Ciência, Tecnologia e Sociedade",2100,208,8.2501,1.6771,1.0816,0.7314,1.5994,0.6945,False
