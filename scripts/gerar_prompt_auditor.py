@@ -12,6 +12,16 @@ RAIZ = Path(__file__).resolve().parent.parent
 R = RAIZ / "resultados"
 
 
+CURTO = {
+    "ECT2101": "Pré-Cálculo", "ECT2102": "Vetores e Geom. Analítica", "ECT2103": "Cálculo I",
+    "ECT2104": "Química Geral", "ECT2105": "Leitura e Escrita I", "ECT2106": "Ciência, Tecnologia e Sociedade",
+    "ECT2201": "Cálculo II", "ECT2203": "Lógica de Programação", "ECT2204": "Física Clássica I",
+    "ECT2205": "Leitura e Escrita II", "ECT2206": "Gestão e Economia da CT&I",
+    "ECT2207": "Probabilidade e Estatística", "ECT2302": "Metodologia Científica",
+    "ECT2303": "Linguagem de Programação", "ECT2305": "Leitura em Inglês",
+}
+
+
 def md(df, cols, nomes=None, casas=1):
     d = df[cols].copy()
     for c in d.columns:
@@ -29,9 +39,16 @@ def main():
     reg = pd.read_csv(R / "pares_regressao.csv")
     curva = pd.read_csv(R / "curva_carga.csv")
 
-    ph["par"] = ph["disciplina"] + " dado " + ph["dado_par"]
-    pp["par"] = pp["disciplina"] + " dado " + pp["dado_par"]
-    reg["par"] = reg["disciplina"] + " dado " + reg["dado_par"]
+    def rot(df):
+        return df["disciplina"].map(CURTO) + " dado " + df["dado_par"].map(CURTO)
+
+    def fp(x):  # p-valor legivel: arredondar para 0 apaga a informacao
+        return "<0,001" if x < 0.001 else f"{x:.3f}".replace(".", ",")
+
+    ph["par"], pp["par"], reg["par"] = rot(ph), rot(pp), rot(reg)
+    for df_, col in ((ph, "q_bh"), (pp, "q_bh"), (reg, "p_regressao")):
+        df_[col + "_t"] = df_[col].map(fp)
+    disc["disciplina"] = disc["codigo"].map(CURTO)
     pos = int((ph.passa_bh & (ph.dif_risco_pp > 0)).sum())
     neg = int((ph.passa_bh & (ph.dif_risco_pp < 0)).sum())
     top_ph = ph[ph.passa_bh].sort_values("dif_risco_pp", key=abs, ascending=False).head(10)
@@ -58,6 +75,24 @@ histórico cortado e fica fora das análises que dependem de histórico.
 Populações: taxas por disciplina e curva por carga usam todos os alunos. Pares de risco usam só
 calouros.
 
+Detalhes que importam para a sua crítica:
+- A unidade de análise é a linha aluno-semestre-disciplina. O mesmo aluno aparece em várias linhas
+  (outros semestres, outras disciplinas, repetições da mesma disciplina). As taxas são por
+  tentativa, não por aluno: quem repete uma disciplina conta de novo.
+- "Cursou B junto" = tem matrícula efetiva em B no mesmo semestre, inclusive se depois trancou B.
+- "Carga do semestre" = número de disciplinas distintas de graduação com matrícula efetiva do aluno
+  no semestre (todas, não só as 15), contando as que ele depois trancou. É medida no fim do
+  semestre, não na matrícula. A curva por carga considera só as linhas das 15 disciplinas.
+- "Desempenho anterior" = média das notas finais de todas as disciplinas concluídas em semestres
+  anteriores; só existe a partir do segundo semestre observado.
+- Reprovação inclui REPROVADO, por faltas, por nota, por média e combinações. Trancamento e
+  desistência não entram como reprovação nem como aprovação.
+- Regra de publicação definida antes de ver os resultados: serão mostrados até 4 pares distintos,
+  escolhidos entre os que passam na correção e mantêm a direção na regressão, ordenados pelo
+  tamanho do efeito. Os 12 candidatos da regressão também foram escolhidos pelo tamanho do efeito.
+- Os intervalos de confiança por bootstrap e o teste de Mantel-Haenszel tratam as linhas como
+  independentes; só a regressão agrupa por aluno.
+
 ## Método dos pares de risco
 "A dado B": entre calouros que cursaram A (matrícula concluída), compara a reprovação de quem
 cursou B no mesmo semestre contra quem cursou A sem B. Estratificado por tercil de desempenho
@@ -77,19 +112,21 @@ risco maior com o par, {neg} com risco menor); {meta["comparacoes_testadas_prime
 
 ## Resultados
 ### Reprovação e desistência por disciplina (todos os alunos, %)
-{md(disc, ["codigo", "disciplina", "n_concluidas", "reprovacao_pct", "reprov_ic_inf", "reprov_ic_sup", "desistencia_pct"], ["código", "disciplina", "n", "reprov %", "IC inf", "IC sup", "desist %"])}
+{md(disc, ["codigo", "disciplina", "n_concluidas", "reprovacao_pct", "reprov_ic_inf", "reprov_ic_sup", "desistencia_pct"], ["código", "disciplina", "tentativas concluídas", "reprov %", "IC inf", "IC sup", "desist %"])}
 
 ### Pares com histórico: 10 maiores efeitos entre os que passam na correção
-{md(top_ph, ["par", "n_com_par", "reprov_com_par_pct", "reprov_sem_par_pct", "dif_risco_pp", "ic_inf_pp", "ic_sup_pp", "q_bh"], ["par", "n com par", "reprov com %", "reprov sem %", "dif pp", "IC inf", "IC sup", "q BH"], 3)}
+Leitura: "A dado B" é a reprovação em A de quem cursou B no mesmo semestre (n com par) contra quem
+cursou A sem B. A coluna q BH é o p-valor depois da correção.
+{md(top_ph, ["par", "n_com_par", "reprov_com_par_pct", "reprov_sem_par_pct", "dif_risco_pp", "ic_inf_pp", "ic_sup_pp", "q_bh_t"], ["par", "n com par", "reprov com %", "reprov sem %", "dif pp", "IC inf", "IC sup", "q BH"], 1)}
 
 ### Primeiro semestre (sem histórico): 8 maiores efeitos entre os que passam
-{md(top_pp, ["par", "n_com_par", "reprov_com_par_pct", "reprov_sem_par_pct", "dif_risco_pp", "ic_inf_pp", "ic_sup_pp", "q_bh"], ["par", "n com par", "reprov com %", "reprov sem %", "dif pp", "IC inf", "IC sup", "q BH"], 3)}
+{md(top_pp, ["par", "n_com_par", "reprov_com_par_pct", "reprov_sem_par_pct", "dif_risco_pp", "ic_inf_pp", "ic_sup_pp", "q_bh_t"], ["par", "n com par", "reprov com %", "reprov sem %", "dif pp", "IC inf", "IC sup", "q BH"], 1)}
 
 ### Verificação por regressão (candidatos de risco)
-{md(reg, ["par", "n_com_par", "dif_risco_simples_pp", "odds_ratio_regressao", "or_ic_inf", "or_ic_sup", "p_regressao", "direcao_mantida"], ["par", "n com par", "dif simples pp", "OR regressão", "IC inf", "IC sup", "p", "direção mantida"], 3)}
+{md(reg, ["par", "n_com_par", "dif_risco_simples_pp", "odds_ratio_regressao", "or_ic_inf", "or_ic_sup", "p_regressao_t", "direcao_mantida"], ["par", "n com par", "dif simples pp", "OR regressão", "IC inf", "IC sup", "p", "direção mantida"], 2)}
 
 ### Reprovação e desistência por número de disciplinas no semestre (todos os alunos)
-Colunas "padronizada" ajustam pela mistura de disciplinas.
+"disciplinas" é a carga definida acima. A coluna padronizada ajusta pela mistura das 15 disciplinas.
 {md(curva, ["desfecho", "disciplinas_no_semestre", "n", "taxa_pct", "ic_inf", "ic_sup", "taxa_padronizada_pct"], ["desfecho", "disciplinas", "n", "taxa %", "IC inf", "IC sup", "padronizada %"])}
 
 ## O que eu quero de você
@@ -99,6 +136,11 @@ Colunas "padronizada" ajustam pela mistura de disciplinas.
    os dados que tenho (matrículas, notas, faltas, semestre, curso, tentativa).
 3. Quais conclusões eu poderia sustentar com honestidade e quais devo cortar ou reformular.
 4. Qualquer erro no uso de intervalo de confiança, correção para múltiplas comparações ou testes.
+5. Dado que escolhi os candidatos e os pares publicados pelo tamanho do efeito, quanto isso infla
+   o que vou mostrar (maldição do vencedor)? Há controle de regressão que eu errei, por exemplo
+   controlar por uma variável que é consequência de cursar B junto?
+6. Que linguagem posso usar na tela e no README: o que posso afirmar como associação e o que não
+   posso afirmar como causa.
 Não reescreva o trabalho. Critique.
 """
     saida = RAIZ / "auditoria"

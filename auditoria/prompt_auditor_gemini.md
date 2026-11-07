@@ -19,6 +19,24 @@ histórico cortado e fica fora das análises que dependem de histórico.
 Populações: taxas por disciplina e curva por carga usam todos os alunos. Pares de risco usam só
 calouros.
 
+Detalhes que importam para a sua crítica:
+- A unidade de análise é a linha aluno-semestre-disciplina. O mesmo aluno aparece em várias linhas
+  (outros semestres, outras disciplinas, repetições da mesma disciplina). As taxas são por
+  tentativa, não por aluno: quem repete uma disciplina conta de novo.
+- "Cursou B junto" = tem matrícula efetiva em B no mesmo semestre, inclusive se depois trancou B.
+- "Carga do semestre" = número de disciplinas distintas de graduação com matrícula efetiva do aluno
+  no semestre (todas, não só as 15), contando as que ele depois trancou. É medida no fim do
+  semestre, não na matrícula. A curva por carga considera só as linhas das 15 disciplinas.
+- "Desempenho anterior" = média das notas finais de todas as disciplinas concluídas em semestres
+  anteriores; só existe a partir do segundo semestre observado.
+- Reprovação inclui REPROVADO, por faltas, por nota, por média e combinações. Trancamento e
+  desistência não entram como reprovação nem como aprovação.
+- Regra de publicação definida antes de ver os resultados: serão mostrados até 4 pares distintos,
+  escolhidos entre os que passam na correção e mantêm a direção na regressão, ordenados pelo
+  tamanho do efeito. Os 12 candidatos da regressão também foram escolhidos pelo tamanho do efeito.
+- Os intervalos de confiança por bootstrap e o teste de Mantel-Haenszel tratam as linhas como
+  independentes; só a regressão agrupa por aluno.
+
 ## Método dos pares de risco
 "A dado B": entre calouros que cursaram A (matrícula concluída), compara a reprovação de quem
 cursou B no mesmo semestre contra quem cursou A sem B. Estratificado por tercil de desempenho
@@ -38,68 +56,70 @@ risco maior com o par, 26 com risco menor); 50 comparações no primeiro semestr
 
 ## Resultados
 ### Reprovação e desistência por disciplina (todos os alunos, %)
-| código   | disciplina                                          |    n |   reprov % |   IC inf |   IC sup |   desist % |
-|:---------|:----------------------------------------------------|-----:|-----------:|---------:|---------:|-----------:|
-| ECT2103  | Cálculo I                                           | 7442 |       65.5 |     64.4 |     66.6 |       13.1 |
-| ECT2102  | Vetores e Geometria Analítica                       | 7603 |       64.4 |     63.3 |     65.4 |       11.4 |
-| ECT2101  | Pré-Cálculo                                         | 6696 |       54.7 |     53.5 |     55.9 |        9   |
-| ECT2201  | Cálculo II                                          | 3758 |       54.3 |     52.7 |     55.8 |        6.8 |
-| ECT2204  | Introdução à Física Clássica I                      | 4378 |       50.4 |     48.9 |     51.8 |        5.9 |
-| ECT2104  | Química Geral                                       | 5925 |       48   |     46.7 |     49.3 |       12.9 |
-| ECT2207  | Probabilidade e Estatística                         | 3401 |       45.2 |     43.6 |     46.9 |        4.4 |
-| ECT2303  | Linguagem de Programação                            | 3364 |       45.2 |     43.5 |     46.9 |        7.5 |
-| ECT2203  | Lógica de Programação                               | 4152 |       39.7 |     38.2 |     41.2 |        6.5 |
-| ECT2106  | Ciência, Tecnologia e Sociedade                     | 5958 |       28.2 |     27.1 |     29.4 |        9.4 |
-| ECT2205  | Práticas de Leitura e Escrita II                    | 4635 |       27.3 |     26   |     28.6 |        4.3 |
-| ECT2206  | Gestão e Economia da Ciência, Tecnologia e Inovação | 4787 |       26   |     24.8 |     27.2 |        7.6 |
-| ECT2302  | Metodologia Científica e Tecnológica                | 4536 |       19.6 |     18.4 |     20.7 |        6.2 |
-| ECT2105  | Práticas de Leitura e Escrita I                     | 5391 |       18.7 |     17.7 |     19.8 |        8.6 |
-| ECT2305  | Prática de Leitura em Inglês                        | 3534 |       12.1 |     11.1 |     13.2 |        5.6 |
+| código   | disciplina                      |   tentativas concluídas |   reprov % |   IC inf |   IC sup |   desist % |
+|:---------|:--------------------------------|------------------------:|-----------:|---------:|---------:|-----------:|
+| ECT2103  | Cálculo I                       |                    7442 |       65.5 |     64.4 |     66.6 |       13.1 |
+| ECT2102  | Vetores e Geom. Analítica       |                    7603 |       64.4 |     63.3 |     65.4 |       11.4 |
+| ECT2101  | Pré-Cálculo                     |                    6696 |       54.7 |     53.5 |     55.9 |        9   |
+| ECT2201  | Cálculo II                      |                    3758 |       54.3 |     52.7 |     55.8 |        6.8 |
+| ECT2204  | Física Clássica I               |                    4378 |       50.4 |     48.9 |     51.8 |        5.9 |
+| ECT2104  | Química Geral                   |                    5925 |       48   |     46.7 |     49.3 |       12.9 |
+| ECT2207  | Probabilidade e Estatística     |                    3401 |       45.2 |     43.6 |     46.9 |        4.4 |
+| ECT2303  | Linguagem de Programação        |                    3364 |       45.2 |     43.5 |     46.9 |        7.5 |
+| ECT2203  | Lógica de Programação           |                    4152 |       39.7 |     38.2 |     41.2 |        6.5 |
+| ECT2106  | Ciência, Tecnologia e Sociedade |                    5958 |       28.2 |     27.1 |     29.4 |        9.4 |
+| ECT2205  | Leitura e Escrita II            |                    4635 |       27.3 |     26   |     28.6 |        4.3 |
+| ECT2206  | Gestão e Economia da CT&I       |                    4787 |       26   |     24.8 |     27.2 |        7.6 |
+| ECT2302  | Metodologia Científica          |                    4536 |       19.6 |     18.4 |     20.7 |        6.2 |
+| ECT2105  | Leitura e Escrita I             |                    5391 |       18.7 |     17.7 |     19.8 |        8.6 |
+| ECT2305  | Leitura em Inglês               |                    3534 |       12.1 |     11.1 |     13.2 |        5.6 |
 
 ### Pares com histórico: 10 maiores efeitos entre os que passam na correção
-| par                  |   n com par |   reprov com % |   reprov sem % |   dif pp |   IC inf |   IC sup |   q BH |
-|:---------------------|------------:|---------------:|---------------:|---------:|---------:|---------:|-------:|
-| ECT2102 dado ECT2204 |         480 |         41.042 |         73.355 |  -20.406 |  -25.424 |  -14.98  |  0     |
-| ECT2101 dado ECT2204 |         223 |         22.87  |         61.116 |  -18.75  |  -25.659 |  -11.505 |  0     |
-| ECT2205 dado ECT2106 |         242 |         57.025 |         25.753 |   17.984 |   11.553 |   24.405 |  0     |
-| ECT2104 dado ECT2204 |         107 |         28.972 |         56.711 |  -17.964 |  -26.929 |   -9.299 |  0.004 |
-| ECT2101 dado ECT2207 |         118 |         18.644 |         58.423 |  -17.052 |  -25.046 |   -8.926 |  0.002 |
-| ECT2204 dado ECT2102 |         475 |         72.421 |         46.21  |   16.856 |   12.11  |   21.338 |  0     |
-| ECT2207 dado ECT2102 |         271 |         67.159 |         41.385 |   16.855 |   10.961 |   22.804 |  0     |
-| ECT2102 dado ECT2207 |         279 |         40.502 |         69.762 |  -16.335 |  -22.408 |   -9.766 |  0     |
-| ECT2303 dado ECT2103 |         195 |         69.231 |         39.366 |   16.184 |    9.177 |   23.053 |  0     |
-| ECT2207 dado ECT2101 |         114 |         65.79  |         43.527 |   16.116 |    8.18  |   24.342 |  0.004 |
+Leitura: "A dado B" é a reprovação em A de quem cursou B no mesmo semestre (n com par) contra quem
+cursou A sem B. A coluna q BH é o p-valor depois da correção.
+| par                                                        |   n com par |   reprov com % |   reprov sem % |   dif pp |   IC inf |   IC sup | q BH   |
+|:-----------------------------------------------------------|------------:|---------------:|---------------:|---------:|---------:|---------:|:-------|
+| Vetores e Geom. Analítica dado Física Clássica I           |         480 |           41   |           73.4 |    -20.4 |    -25.4 |    -15   | <0,001 |
+| Pré-Cálculo dado Física Clássica I                         |         223 |           22.9 |           61.1 |    -18.8 |    -25.7 |    -11.5 | <0,001 |
+| Leitura e Escrita II dado Ciência, Tecnologia e Sociedade  |         242 |           57   |           25.8 |     18   |     11.6 |     24.4 | <0,001 |
+| Química Geral dado Física Clássica I                       |         107 |           29   |           56.7 |    -18   |    -26.9 |     -9.3 | 0,004  |
+| Pré-Cálculo dado Probabilidade e Estatística               |         118 |           18.6 |           58.4 |    -17.1 |    -25   |     -8.9 | 0,002  |
+| Física Clássica I dado Vetores e Geom. Analítica           |         475 |           72.4 |           46.2 |     16.9 |     12.1 |     21.3 | <0,001 |
+| Probabilidade e Estatística dado Vetores e Geom. Analítica |         271 |           67.2 |           41.4 |     16.9 |     11   |     22.8 | <0,001 |
+| Vetores e Geom. Analítica dado Probabilidade e Estatística |         279 |           40.5 |           69.8 |    -16.3 |    -22.4 |     -9.8 | <0,001 |
+| Linguagem de Programação dado Cálculo I                    |         195 |           69.2 |           39.4 |     16.2 |      9.2 |     23.1 | <0,001 |
+| Probabilidade e Estatística dado Pré-Cálculo               |         114 |           65.8 |           43.5 |     16.1 |      8.2 |     24.3 | 0,004  |
 
 ### Primeiro semestre (sem histórico): 8 maiores efeitos entre os que passam
-| par                  |   n com par |   reprov com % |   reprov sem % |   dif pp |   IC inf |   IC sup |   q BH |
-|:---------------------|------------:|---------------:|---------------:|---------:|---------:|---------:|-------:|
-| ECT2105 dado ECT2106 |        4543 |         17.477 |         45     |  -27.523 |  -43.096 |  -12.456 |  0     |
-| ECT2105 dado ECT2104 |        4441 |         17.046 |         38.732 |  -21.687 |  -30.137 |  -13.319 |  0     |
-| ECT2101 dado ECT2106 |        4230 |         55.556 |         76.316 |  -20.76  |  -30.018 |  -11.171 |  0.003 |
-| ECT2106 dado ECT2104 |        4513 |         25.305 |         43.498 |  -18.193 |  -24.876 |  -11.644 |  0     |
-| ECT2101 dado ECT2104 |        4187 |         55.457 |         72.269 |  -16.812 |  -24.356 |   -8.412 |  0.003 |
-| ECT2102 dado ECT2106 |        4307 |         63.478 |         79.13  |  -16.508 |  -23.712 |   -8.758 |  0.003 |
-| ECT2101 dado ECT2105 |        4188 |         55.492 |         71.186 |  -15.695 |  -23.752 |   -7.636 |  0.004 |
-| ECT2103 dado ECT2101 |        3948 |         65.603 |         76.923 |  -11.32  |  -16.599 |   -5.761 |  0.002 |
+| par                                                            |   n com par |   reprov com % |   reprov sem % |   dif pp |   IC inf |   IC sup | q BH   |
+|:---------------------------------------------------------------|------------:|---------------:|---------------:|---------:|---------:|---------:|:-------|
+| Leitura e Escrita I dado Ciência, Tecnologia e Sociedade       |        4543 |           17.5 |           45   |    -27.5 |    -43.1 |    -12.5 | <0,001 |
+| Leitura e Escrita I dado Química Geral                         |        4441 |           17   |           38.7 |    -21.7 |    -30.1 |    -13.3 | <0,001 |
+| Pré-Cálculo dado Ciência, Tecnologia e Sociedade               |        4230 |           55.6 |           76.3 |    -20.8 |    -30   |    -11.2 | 0,003  |
+| Ciência, Tecnologia e Sociedade dado Química Geral             |        4513 |           25.3 |           43.5 |    -18.2 |    -24.9 |    -11.6 | <0,001 |
+| Pré-Cálculo dado Química Geral                                 |        4187 |           55.5 |           72.3 |    -16.8 |    -24.4 |     -8.4 | 0,003  |
+| Vetores e Geom. Analítica dado Ciência, Tecnologia e Sociedade |        4307 |           63.5 |           79.1 |    -16.5 |    -23.7 |     -8.8 | 0,003  |
+| Pré-Cálculo dado Leitura e Escrita I                           |        4188 |           55.5 |           71.2 |    -15.7 |    -23.8 |     -7.6 | 0,004  |
+| Cálculo I dado Pré-Cálculo                                     |        3948 |           65.6 |           76.9 |    -11.3 |    -16.6 |     -5.8 | 0,002  |
 
 ### Verificação por regressão (candidatos de risco)
-| par                  |   n com par |   dif simples pp |   OR regressão |   IC inf |   IC sup |     p | direção mantida   |
-|:---------------------|------------:|-----------------:|---------------:|---------:|---------:|------:|:------------------|
-| ECT2205 dado ECT2106 |         242 |           17.984 |          1.793 |    1.318 |    2.439 | 0     | True              |
-| ECT2204 dado ECT2102 |         475 |           16.856 |          1.768 |    1.361 |    2.296 | 0     | True              |
-| ECT2207 dado ECT2102 |         271 |           16.855 |          1.776 |    1.295 |    2.436 | 0     | True              |
-| ECT2303 dado ECT2103 |         195 |           16.184 |          1.474 |    1.022 |    2.127 | 0.038 | True              |
-| ECT2207 dado ECT2101 |         114 |           16.116 |          1.416 |    0.918 |    2.184 | 0.115 | False             |
-| ECT2204 dado ECT2101 |         216 |           15.579 |          1.512 |    1.061 |    2.153 | 0.022 | True              |
-| ECT2207 dado ECT2205 |         854 |           14.345 |          2.421 |    1.872 |    3.13  | 0     | True              |
-| ECT2207 dado ECT2204 |        1291 |           13.129 |          1.707 |    1.359 |    2.143 | 0     | True              |
-| ECT2207 dado ECT2203 |         840 |           11.824 |          1.857 |    1.441 |    2.394 | 0     | True              |
-| ECT2303 dado ECT2102 |         188 |            9.749 |          1.03  |    0.717 |    1.479 | 0.872 | False             |
-| ECT2101 dado ECT2104 |         229 |            9.151 |          1.415 |    0.982 |    2.039 | 0.063 | False             |
-| ECT2103 dado ECT2106 |         208 |            8.25  |          1.082 |    0.731 |    1.599 | 0.694 | False             |
+| par                                                        |   n com par |   dif simples pp |   OR regressão |   IC inf |   IC sup | p      | direção mantida   |
+|:-----------------------------------------------------------|------------:|-----------------:|---------------:|---------:|---------:|:-------|:------------------|
+| Leitura e Escrita II dado Ciência, Tecnologia e Sociedade  |         242 |            17.98 |           1.79 |     1.32 |     2.44 | <0,001 | True              |
+| Física Clássica I dado Vetores e Geom. Analítica           |         475 |            16.86 |           1.77 |     1.36 |     2.3  | <0,001 | True              |
+| Probabilidade e Estatística dado Vetores e Geom. Analítica |         271 |            16.85 |           1.78 |     1.3  |     2.44 | <0,001 | True              |
+| Linguagem de Programação dado Cálculo I                    |         195 |            16.18 |           1.47 |     1.02 |     2.13 | 0,038  | True              |
+| Probabilidade e Estatística dado Pré-Cálculo               |         114 |            16.12 |           1.42 |     0.92 |     2.18 | 0,115  | False             |
+| Física Clássica I dado Pré-Cálculo                         |         216 |            15.58 |           1.51 |     1.06 |     2.15 | 0,022  | True              |
+| Probabilidade e Estatística dado Leitura e Escrita II      |         854 |            14.35 |           2.42 |     1.87 |     3.13 | <0,001 | True              |
+| Probabilidade e Estatística dado Física Clássica I         |        1291 |            13.13 |           1.71 |     1.36 |     2.14 | <0,001 | True              |
+| Probabilidade e Estatística dado Lógica de Programação     |         840 |            11.82 |           1.86 |     1.44 |     2.39 | <0,001 | True              |
+| Linguagem de Programação dado Vetores e Geom. Analítica    |         188 |             9.75 |           1.03 |     0.72 |     1.48 | 0,872  | False             |
+| Pré-Cálculo dado Química Geral                             |         229 |             9.15 |           1.41 |     0.98 |     2.04 | 0,063  | False             |
+| Cálculo I dado Ciência, Tecnologia e Sociedade             |         208 |             8.25 |           1.08 |     0.73 |     1.6  | 0,695  | False             |
 
 ### Reprovação e desistência por número de disciplinas no semestre (todos os alunos)
-Colunas "padronizada" ajustam pela mistura de disciplinas.
+"disciplinas" é a carga definida acima. A coluna padronizada ajusta pela mistura das 15 disciplinas.
 | desfecho    | disciplinas   |     n |   taxa % |   IC inf |   IC sup |   padronizada % |
 |:------------|:--------------|------:|---------:|---------:|---------:|----------------:|
 | reprovacao  | 1             |   300 |     59   |     53.4 |     64.4 |            63.6 |
@@ -128,4 +148,9 @@ Colunas "padronizada" ajustam pela mistura de disciplinas.
    os dados que tenho (matrículas, notas, faltas, semestre, curso, tentativa).
 3. Quais conclusões eu poderia sustentar com honestidade e quais devo cortar ou reformular.
 4. Qualquer erro no uso de intervalo de confiança, correção para múltiplas comparações ou testes.
+5. Dado que escolhi os candidatos e os pares publicados pelo tamanho do efeito, quanto isso infla
+   o que vou mostrar (maldição do vencedor)? Há controle de regressão que eu errei, por exemplo
+   controlar por uma variável que é consequência de cursar B junto?
+6. Que linguagem posso usar na tela e no README: o que posso afirmar como associação e o que não
+   posso afirmar como causa.
 Não reescreva o trabalho. Critique.
