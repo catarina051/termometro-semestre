@@ -131,3 +131,23 @@ test("falha do Gemini: o motivo vai para o log e a resposta não revela detalhes
     console.error = original;
   }
 });
+
+test("modelo principal sobrecarregado (503): usa o modelo de reserva", async () => {
+  const original = console.error;
+  console.error = () => {};
+  const urls = [];
+  try {
+    const f = async (url) => {
+      urls.push(url);
+      if (urls.length === 1) return { ok: false, status: 503, text: async () => "high demand", json: async () => ({}) };
+      return respostaGemini("Em Cálculo I, 65,49% reprovaram.")();
+    };
+    const r = await tratar({ body: BODY, env: { GEMINI_API_KEY: "k" }, fetchImpl: f });
+    assert.equal(r.status, 200);
+    assert.equal(urls.length, 2);
+    assert.match(urls[0], /gemini-3\.8-flash:/);
+    assert.match(urls[1], /gemini-3\.5-flash-lite:/);
+  } finally {
+    console.error = original;
+  }
+});

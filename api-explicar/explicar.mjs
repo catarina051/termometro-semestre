@@ -104,6 +104,21 @@ async function chamarGemini({ apiKey, modelo, prompt, fetchImpl, timeoutMs }) {
   }
 }
 
+export const MODELOS_PADRAO = ["gemini-3.8-flash", "gemini-3.5-flash-lite"];
+
+async function chamarComFallback({ modelos, ...resto }) {
+  let ultimo;
+  for (const modelo of modelos) {
+    try {
+      return await chamarGemini({ ...resto, modelo, timeoutMs: 9_000 });
+    } catch (e) {
+      ultimo = e;
+      console.error(`[explicar] modelo ${modelo} falhou:`, e instanceof Error ? e.message.slice(0, 120) : String(e));
+    }
+  }
+  throw ultimo;
+}
+
 // ---- limite de uso e cache simples em memoria (por instancia serverless) ----
 const JANELA_MS = 60_000;
 const MAX_POR_JANELA = 10;
@@ -139,13 +154,14 @@ export async function tratar({ body, ip = "local", env = {}, fetchImpl = fetch, 
   if (!limitar(ip, agora)) return { status: 429, json: { erro: "muitas consultas; tente de novo em um minuto" } };
   if (!env.GEMINI_API_KEY) return { status: 500, json: { erro: "serviço de explicação não configurado" } };
 
-  const modelo = env.GEMINI_MODEL || "gemini-3.8-flash";
+  // se o modelo principal estiver sobrecarregado (503) ou estourar o tempo, tenta o seguinte
+  const modelos = env.GEMINI_MODEL ? [env.GEMINI_MODEL] : MODELOS_PADRAO;
   let correcao;
   for (let tentativa = 0; tentativa < 2; tentativa++) {
     let texto;
     try {
-      texto = await chamarGemini({
-        apiKey: env.GEMINI_API_KEY, modelo, fetchImpl, timeoutMs: 15_000,
+      texto = await chamarComFallback({
+        apiKey: env.GEMINI_API_KEY, modelos, fetchImpl,
         prompt: montarPrompt(entrada.topico, entrada.numeros, correcao),
       });
     } catch (e) {
