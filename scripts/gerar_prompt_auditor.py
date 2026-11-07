@@ -1,6 +1,6 @@
-"""Gera o prompt do "auditor cetico" (para colar no Gemini) a partir de resultados/*.csv.
+"""Gera o prompt do "auditor cetico" (para colar no ChatGPT) a partir de resultados/*.csv.
 
-So numeros agregados entram no texto: nenhum dado de aluno. Saida: auditoria/prompt_auditor_gemini.md
+So numeros agregados entram no texto: nenhum dado de aluno. Saida: auditoria/prompt_auditor.md
 """
 import json
 import sys
@@ -54,7 +54,7 @@ def main():
     top_ph = ph[ph.passa_bh].sort_values("dif_risco_pp", key=abs, ascending=False).head(10)
     top_pp = pp[pp.passa_bh].sort_values("dif_risco_pp", key=abs, ascending=False).head(8)
 
-    texto = f"""# Prompt para o auditor cético (colar no Gemini)
+    texto = f"""# Prompt para o auditor cético (colar no ChatGPT)
 
 Você é um estatístico cético e rigoroso, revisor de um trabalho de uma estudante de graduação.
 Seu papel é procurar falhas, não elogiar. Responda em português, de forma direta.
@@ -145,7 +145,7 @@ Não reescreva o trabalho. Critique.
 """
     saida = RAIZ / "auditoria"
     saida.mkdir(exist_ok=True)
-    (saida / "prompt_auditor_gemini.md").write_text(texto, encoding="utf-8")
+    (saida / "prompt_auditor.md").write_text(texto, encoding="utf-8")
     print(f"{len(texto)} caracteres")
 
 
