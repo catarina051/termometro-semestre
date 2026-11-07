@@ -283,14 +283,8 @@
         6.9,
         8.34
       ],
-      "mapeamento_status": "aceito",
-      "cefet": {
-        "codigo": "EMNE0",
-        "nome": "Empreendedorismo e Modelo de Negócios",
-        "cursos": "Computação",
-        "cobertura": "parcial",
-        "correcao": null
-      }
+      "mapeamento_status": "recusado",
+      "cefet": null
     },
     {
       "codigo": "ECT2302",
