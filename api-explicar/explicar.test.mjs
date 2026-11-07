@@ -115,3 +115,19 @@ test("cache: a mesma pergunta não chama o Gemini de novo", async () => {
   assert.equal(chamadas, 1);
   assert.equal(r2.json.cache, true);
 });
+
+test("falha do Gemini: o motivo vai para o log e a resposta não revela detalhes", async () => {
+  const original = console.error;
+  const logs = [];
+  console.error = (...a) => logs.push(a.join(" "));
+  try {
+    const f = async () => ({ ok: false, status: 403, text: async () => "API key not valid", json: async () => ({}) });
+    const r = await tratar({ body: BODY, env: { GEMINI_API_KEY: "SEGREDO-123" }, fetchImpl: f });
+    assert.equal(r.status, 502);
+    assert.ok(!JSON.stringify(r.json).includes("403"));
+    assert.ok(logs.some((l) => l.includes("gemini 403")));
+    assert.ok(!logs.join(" ").includes("SEGREDO-123"));
+  } finally {
+    console.error = original;
+  }
+});

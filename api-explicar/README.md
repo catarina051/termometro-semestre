@@ -8,7 +8,7 @@ ela é descartada (uma nova tentativa; depois, erro).
 
 1. Copie `explicar.mjs` e `route.ts` para `app/api/explicar/` do app Next.js.
 2. Na Vercel (Settings → Environment Variables), crie `GEMINI_API_KEY` com a sua chave gratuita do
-   Google AI Studio. Opcional: `GEMINI_MODEL` (padrão `gemini-2.5-flash`; se o Google trocar o nome do
+   Google AI Studio. Opcional: `GEMINI_MODEL` (padrão `gemini-3.8-flash`; se o Google trocar o nome do
    modelo gratuito, é só mudar aqui). **A chave nunca vai para o Git.**
 3. Para testar localmente, crie `.env.local` com a mesma variável (o `.gitignore` já ignora).
 

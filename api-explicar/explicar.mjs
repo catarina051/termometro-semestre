@@ -93,7 +93,10 @@ async function chamarGemini({ apiKey, modelo, prompt, fetchImpl, timeoutMs }) {
       }),
       signal: ctrl.signal,
     });
-    if (!r.ok) throw new Error(`gemini ${r.status}`);
+    if (!r.ok) {
+      const corpo = (await r.text().catch(() => "")).slice(0, 200);
+      throw new Error(`gemini ${r.status} ${corpo}`);
+    }
     const j = await r.json();
     return (j.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? "").join("").trim();
   } finally {
@@ -136,7 +139,7 @@ export async function tratar({ body, ip = "local", env = {}, fetchImpl = fetch, 
   if (!limitar(ip, agora)) return { status: 429, json: { erro: "muitas consultas; tente de novo em um minuto" } };
   if (!env.GEMINI_API_KEY) return { status: 500, json: { erro: "serviço de explicação não configurado" } };
 
-  const modelo = env.GEMINI_MODEL || "gemini-2.5-flash";
+  const modelo = env.GEMINI_MODEL || "gemini-3.8-flash";
   let correcao;
   for (let tentativa = 0; tentativa < 2; tentativa++) {
     let texto;
@@ -145,7 +148,9 @@ export async function tratar({ body, ip = "local", env = {}, fetchImpl = fetch, 
         apiKey: env.GEMINI_API_KEY, modelo, fetchImpl, timeoutMs: 15_000,
         prompt: montarPrompt(entrada.topico, entrada.numeros, correcao),
       });
-    } catch {
+    } catch (e) {
+      // o motivo vai só para o log do servidor; a resposta ao usuário não revela detalhes
+      console.error("[explicar] falha ao chamar o Gemini:", e instanceof Error ? e.message : String(e));
       return { status: 502, json: { erro: "não foi possível gerar a explicação agora" } };
     }
     if (!texto) return { status: 502, json: { erro: "resposta vazia" } };
