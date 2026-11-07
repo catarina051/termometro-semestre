@@ -150,3 +150,19 @@ def test_dez_alunos_conferidos_contra_os_csv(con):
         ).fetchall()
     }
     assert obtido == esperado
+
+
+def test_desistencia_e_coluna_separada(con):
+    # desistiu = TRANCADO ou DESISTENCIA, e nunca conta como aprovacao nem reprovacao
+    assert um(con, "SELECT COUNT(*) FROM tentativas WHERE desistiu AND situacao NOT IN ('TRANCADO', 'DESISTENCIA')") == 0
+    assert um(con, "SELECT COUNT(*) FROM tentativas WHERE NOT desistiu AND situacao IN ('TRANCADO', 'DESISTENCIA')") == 0
+    assert um(con, "SELECT COUNT(*) FROM tentativas WHERE desistiu AND resultado <> 'OUTRO'") == 0
+    assert um(con, "SELECT COUNT(*) FROM tentativas WHERE desistiu") > 0
+
+
+def test_escopo_tem_15_disciplinas_e_so_dados_agregados():
+    arq = RAIZ / "dados" / "disciplinas_escopo.csv"
+    linhas = list(csv.DictReader(open(arq, encoding="utf-8")))
+    assert len(linhas) == 15
+    assert [int(r["posicao"]) for r in linhas] == list(range(1, 16))
+    assert "Cálculo I" in {r["nome"] for r in linhas}

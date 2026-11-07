@@ -9,8 +9,9 @@ Decisoes de metodo (ver DIARIO.md):
 - Populacao hibrida: todas as linhas valem para taxas e curva por carga;
   `coorte_calouro` marca quem foi visto entrando (1o semestre observado >= 2015.2),
   e so essa coorte tem `numero_tentativa` e `desempenho_anterior` confiaveis.
-- `resultado` (APROVADO / REPROVADO / OUTRO) e PROVISORIO ate a decisao da Catarina
-  sobre o que conta como reprovacao.
+- `resultado` (APROVADO / REPROVADO / OUTRO): REPROVADO e qualquer situacao que comece com
+  "REPROVADO"; CANCELADO, EXCLUIDA, INDEFERIDO etc. nao sao reprovacao.
+- `desistiu` (TRANCADO ou DESISTENCIA) e uma coluna a parte, pedida pela Catarina.
 """
 import sys
 from pathlib import Path
@@ -84,6 +85,9 @@ base AS (
            CASE WHEN s.situacao LIKE 'APROVADO%' OR s.situacao = 'CUMPRIU' THEN 'APROVADO'
                 WHEN s.situacao LIKE 'REPROVADO%' THEN 'REPROVADO'
                 ELSE 'OUTRO' END AS resultado,
+           -- desistencia: o aluno chegou a se matricular e saiu (trancou ou desistiu).
+           -- Fica separada de `resultado`: nao e reprovacao nem aprovacao.
+           s.situacao IN ('TRANCADO', 'DESISTENCIA') AS desistiu,
            -- conta na carga do semestre: matricula que existiu de fato
            s.situacao NOT IN ('CANCELADO', 'EXCLUIDA', 'INDEFERIDO', 'AGUARDANDO DEFERIMENTO',
                               'EM ESPERA', 'DISPENSADO', 'TRANSFERIDO', 'INCORPORADO') AS efetiva
@@ -96,7 +100,7 @@ primeiro AS (
 )
 SELECT b.aluno, b.id_curso, b.id_turma, b.codigo_disciplina, b.nome_disciplina,
        b.semestre, b.semestre_idx, b.a_distancia,
-       b.situacao, b.resultado, b.nota, b.faltas, b.efetiva,
+       b.situacao, b.resultado, b.desistiu, b.nota, b.faltas, b.efetiva,
        -- carga do semestre: disciplinas distintas com matricula efetiva
        COUNT(DISTINCT CASE WHEN b.efetiva THEN b.codigo_disciplina END)
            OVER (PARTITION BY b.aluno, b.semestre_idx) AS disciplinas_no_semestre,
