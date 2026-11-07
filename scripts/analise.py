@@ -36,7 +36,7 @@ RNG = np.random.default_rng(SEED)
 def carregar():
     con = duckdb.connect(str(DB), read_only=True)
     df = con.execute(
-        f"""SELECT t.aluno, t.semestre_idx, t.codigo_disciplina AS cod, t.resultado, t.desistiu,
+        f"""SELECT t.aluno, t.semestre_idx, t.codigo_disciplina AS cod, t.resultado, t.situacao, t.desistiu,
                    t.desempenho_anterior AS desemp, t.numero_tentativa AS tentativa,
                    t.disciplinas_no_semestre AS carga, t.coorte_calouro AS calouro, c.grupo
             FROM tentativas t
@@ -98,6 +98,8 @@ def comparar(a_rows, expo, estrato):
     """a_rows: linhas de A (concluidas). expo: serie 0/1 'cursou B junto'. estrato: serie."""
     t = pd.DataFrame({"y": a_rows["reprovou"].values, "e": expo.values, "s": estrato.values})
     g = t.groupby(["s", "e"])["y"].agg(["sum", "count"]).unstack("e")
+    if ("sum", 1) not in g.columns or ("sum", 0) not in g.columns:
+        return None  # um dos grupos ficou vazio
     g = g.dropna()
     if g.empty:
         return None
@@ -163,12 +165,16 @@ def curva_carga(df):
     d["faixa_carga"] = d["carga"].clip(upper=9)
     linhas = []
     pesos = d.groupby("cod").size() / len(d)
+    d["nao_aprovou"] = ((d["reprovou"] == 1) | d["desistiu"]).astype(int)
     for desfecho, marca, base_ in (
         ("reprovacao", d["reprovou"], d[d["concluiu"]]),
         ("desistencia", d["desistiu"].astype(int), d),
+        # reprovou OU trancou/desistiu, sobre todas as matriculas: junta os dois desfechos
+        ("nao_aprovacao", d["nao_aprovou"], d),
     ):
         b = base_.copy()
-        b["y"] = (b["reprovou"] if desfecho == "reprovacao" else b["desistiu"].astype(int))
+        b["y"] = {"reprovacao": b["reprovou"], "desistencia": b["desistiu"].astype(int),
+                  "nao_aprovacao": b["nao_aprovou"]}[desfecho]
         for f, g in b.groupby("faixa_carga"):
             n, k = len(g), int(g["y"].sum())
             lo, hi = wilson(k, n)
@@ -221,12 +227,16 @@ def verificar_regressao(com_hist, nomes, tabela, n_max=12):
             {
                 "disciplina": r["disciplina"], "nome": r["nome"], "dado_par": r["dado_par"], "nome_par": r["nome_par"],
                 "n": int(len(ra)), "n_com_par": int(ra["expo"].sum()),
-                "dif_risco_simples_pp": r["dif_risco_pp"], "odds_ratio_simples": r["odds_ratio_mh"],
+                "dif_risco_mh_pp": r["dif_risco_pp"], "odds_ratio_mh": r["odds_ratio_mh"],
                 "odds_ratio_regressao": float(np.exp(b)), "or_ic_inf": float(np.exp(ic[0])), "or_ic_sup": float(np.exp(ic[1])),
-                "p_regressao": float(p), "direcao_mantida": bool(b > 0 and p < ALFA),
+                "p_regressao": float(p),
             }
         )
-    return pd.DataFrame(linhas)
+    out = pd.DataFrame(linhas)
+    # Benjamini-Hochberg tambem aqui: "p < 0,05" solto nao serve para 12 regressoes
+    out["q_bh_regressao"] = multipletests(out["p_regressao"], alpha=ALFA, method="fdr_bh")[1]
+    out["mantem_apos_bh"] = (out["odds_ratio_regressao"] > 1) & (out["q_bh_regressao"] < ALFA)
+    return out
 
 
 def main():

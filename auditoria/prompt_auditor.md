@@ -103,43 +103,52 @@ cursou A sem B. A coluna q BH é o p-valor depois da correção.
 | Cálculo I dado Pré-Cálculo                                     |        3948 |           65.6 |           76.9 |    -11.3 |    -16.6 |     -5.8 | 0,002  |
 
 ### Verificação por regressão (candidatos de risco)
-| par                                                        |   n com par |   dif simples pp |   OR regressão |   IC inf |   IC sup | p      | direção mantida   |
-|:-----------------------------------------------------------|------------:|-----------------:|---------------:|---------:|---------:|:-------|:------------------|
-| Leitura e Escrita II dado Ciência, Tecnologia e Sociedade  |         242 |            17.98 |           1.79 |     1.32 |     2.44 | <0,001 | True              |
-| Física Clássica I dado Vetores e Geom. Analítica           |         475 |            16.86 |           1.77 |     1.36 |     2.3  | <0,001 | True              |
-| Probabilidade e Estatística dado Vetores e Geom. Analítica |         271 |            16.85 |           1.78 |     1.3  |     2.44 | <0,001 | True              |
-| Linguagem de Programação dado Cálculo I                    |         195 |            16.18 |           1.47 |     1.02 |     2.13 | 0,038  | True              |
-| Probabilidade e Estatística dado Pré-Cálculo               |         114 |            16.12 |           1.42 |     0.92 |     2.18 | 0,115  | False             |
-| Física Clássica I dado Pré-Cálculo                         |         216 |            15.58 |           1.51 |     1.06 |     2.15 | 0,022  | True              |
-| Probabilidade e Estatística dado Leitura e Escrita II      |         854 |            14.35 |           2.42 |     1.87 |     3.13 | <0,001 | True              |
-| Probabilidade e Estatística dado Física Clássica I         |        1291 |            13.13 |           1.71 |     1.36 |     2.14 | <0,001 | True              |
-| Probabilidade e Estatística dado Lógica de Programação     |         840 |            11.82 |           1.86 |     1.44 |     2.39 | <0,001 | True              |
-| Linguagem de Programação dado Vetores e Geom. Analítica    |         188 |             9.75 |           1.03 |     0.72 |     1.48 | 0,872  | False             |
-| Pré-Cálculo dado Química Geral                             |         229 |             9.15 |           1.41 |     0.98 |     2.04 | 0,063  | False             |
-| Cálculo I dado Ciência, Tecnologia e Sociedade             |         208 |             8.25 |           1.08 |     0.73 |     1.6  | 0,695  | False             |
+| par                                                        |   n com par |   dif MH pp |   OR regressão |   IC inf |   IC sup | p      | q BH   | mantém após BH   |
+|:-----------------------------------------------------------|------------:|------------:|---------------:|---------:|---------:|:-------|:-------|:-----------------|
+| Leitura e Escrita II dado Ciência, Tecnologia e Sociedade  |         242 |       17.98 |           1.79 |     1.32 |     2.44 | <0,001 | <0,001 | True             |
+| Física Clássica I dado Vetores e Geom. Analítica           |         475 |       16.86 |           1.77 |     1.36 |     2.3  | <0,001 | <0,001 | True             |
+| Probabilidade e Estatística dado Vetores e Geom. Analítica |         271 |       16.85 |           1.78 |     1.3  |     2.44 | <0,001 | <0,001 | True             |
+| Linguagem de Programação dado Cálculo I                    |         195 |       16.18 |           1.47 |     1.02 |     2.13 | 0,038  | 0,057  | False            |
+| Probabilidade e Estatística dado Pré-Cálculo               |         114 |       16.12 |           1.42 |     0.92 |     2.18 | 0,115  | 0,139  | False            |
+| Física Clássica I dado Pré-Cálculo                         |         216 |       15.58 |           1.51 |     1.06 |     2.15 | 0,022  | 0,038  | True             |
+| Probabilidade e Estatística dado Leitura e Escrita II      |         854 |       14.35 |           2.42 |     1.87 |     3.13 | <0,001 | <0,001 | True             |
+| Probabilidade e Estatística dado Física Clássica I         |        1291 |       13.13 |           1.71 |     1.36 |     2.14 | <0,001 | <0,001 | True             |
+| Probabilidade e Estatística dado Lógica de Programação     |         840 |       11.82 |           1.86 |     1.44 |     2.39 | <0,001 | <0,001 | True             |
+| Linguagem de Programação dado Vetores e Geom. Analítica    |         188 |        9.75 |           1.03 |     0.72 |     1.48 | 0,872  | 0,872  | False            |
+| Pré-Cálculo dado Química Geral                             |         229 |        9.15 |           1.41 |     0.98 |     2.04 | 0,063  | 0,084  | False            |
+| Cálculo I dado Ciência, Tecnologia e Sociedade             |         208 |        8.25 |           1.08 |     0.73 |     1.6  | 0,695  | 0,758  | False            |
 
 ### Reprovação e desistência por número de disciplinas no semestre (todos os alunos)
 "disciplinas" é a carga definida acima. A coluna padronizada ajusta pela mistura das 15 disciplinas.
-| desfecho    | disciplinas   |     n |   taxa % |   IC inf |   IC sup |   padronizada % |
-|:------------|:--------------|------:|---------:|---------:|---------:|----------------:|
-| reprovacao  | 1             |   300 |     59   |     53.4 |     64.4 |            63.6 |
-| reprovacao  | 2             |  1131 |     60.3 |     57.4 |     63.1 |            62.5 |
-| reprovacao  | 3             |  3096 |     54   |     52.2 |     55.8 |            55.1 |
-| reprovacao  | 4             |  6875 |     53.2 |     52   |     54.4 |            53   |
-| reprovacao  | 5             | 11540 |     45.9 |     45   |     46.8 |            46.7 |
-| reprovacao  | 6             | 37687 |     42   |     41.5 |     42.5 |            39.9 |
-| reprovacao  | 7             | 10568 |     30   |     29.1 |     30.8 |            35.5 |
-| reprovacao  | 8             |  3164 |     27.7 |     26.2 |     29.3 |            35.1 |
-| reprovacao  | 9+            |  1199 |     31.7 |     29.1 |     34.4 |            34.2 |
-| desistencia | 1             |   529 |     43.3 |     39.1 |     47.5 |            46   |
-| desistencia | 2             |  1364 |     17.1 |     15.2 |     19.2 |            17.5 |
-| desistencia | 3             |  3433 |      9.8 |      8.9 |     10.9 |            10.4 |
-| desistencia | 4             |  7362 |      6.6 |      6.1 |      7.2 |             7   |
-| desistencia | 5             | 12494 |      7.6 |      7.2 |      8.1 |             8.7 |
-| desistencia | 6             | 40208 |      6.3 |      6   |      6.5 |             5.9 |
-| desistencia | 7             | 11321 |      6.6 |      6.2 |      7.1 |            10.5 |
-| desistencia | 8             |  3662 |     13.6 |     12.5 |     14.8 |            22.7 |
-| desistencia | 9+            |  2317 |     48.2 |     46.2 |     50.3 |            47.4 |
+| desfecho      | disciplinas   |     n |   taxa % |   IC inf |   IC sup |   padronizada % |
+|:--------------|:--------------|------:|---------:|---------:|---------:|----------------:|
+| reprovacao    | 1             |   300 |     59   |     53.4 |     64.4 |            63.6 |
+| reprovacao    | 2             |  1131 |     60.3 |     57.4 |     63.1 |            62.5 |
+| reprovacao    | 3             |  3096 |     54   |     52.2 |     55.8 |            55.1 |
+| reprovacao    | 4             |  6875 |     53.2 |     52   |     54.4 |            53   |
+| reprovacao    | 5             | 11540 |     45.9 |     45   |     46.8 |            46.7 |
+| reprovacao    | 6             | 37687 |     42   |     41.5 |     42.5 |            39.9 |
+| reprovacao    | 7             | 10568 |     30   |     29.1 |     30.8 |            35.5 |
+| reprovacao    | 8             |  3164 |     27.7 |     26.2 |     29.3 |            35.1 |
+| reprovacao    | 9+            |  1199 |     31.7 |     29.1 |     34.4 |            34.2 |
+| desistencia   | 1             |   529 |     43.3 |     39.1 |     47.5 |            46   |
+| desistencia   | 2             |  1364 |     17.1 |     15.2 |     19.2 |            17.5 |
+| desistencia   | 3             |  3433 |      9.8 |      8.9 |     10.9 |            10.4 |
+| desistencia   | 4             |  7362 |      6.6 |      6.1 |      7.2 |             7   |
+| desistencia   | 5             | 12494 |      7.6 |      7.2 |      8.1 |             8.7 |
+| desistencia   | 6             | 40208 |      6.3 |      6   |      6.5 |             5.9 |
+| desistencia   | 7             | 11321 |      6.6 |      6.2 |      7.1 |            10.5 |
+| desistencia   | 8             |  3662 |     13.6 |     12.5 |     14.8 |            22.7 |
+| desistencia   | 9+            |  2317 |     48.2 |     46.2 |     50.3 |            47.4 |
+| nao_aprovacao | 1             |   529 |     76.8 |     73   |     80.2 |            78.6 |
+| nao_aprovacao | 2             |  1364 |     67.1 |     64.5 |     69.5 |            68.9 |
+| nao_aprovacao | 3             |  3433 |     58.5 |     56.9 |     60.2 |            59.5 |
+| nao_aprovacao | 4             |  7362 |     56.3 |     55.2 |     57.4 |            56.2 |
+| nao_aprovacao | 5             | 12494 |     50   |     49.1 |     50.9 |            51.2 |
+| nao_aprovacao | 6             | 40208 |     45.6 |     45.2 |     46.1 |            43.2 |
+| nao_aprovacao | 7             | 11321 |     34.6 |     33.8 |     35.5 |            42   |
+| nao_aprovacao | 8             |  3662 |     37.6 |     36   |     39.1 |            48.9 |
+| nao_aprovacao | 9+            |  2317 |     64.6 |     62.7 |     66.6 |            65.4 |
 
 ## O que eu quero de você
 1. Os 5 problemas mais graves de validade (confundimento, seleção, viés de sobrevivência, causalidade

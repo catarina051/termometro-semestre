@@ -1,0 +1,4 @@
+disciplina,nome,dado_par,nome_par,n_com_par,n_sem_par,dif_MH_pp,ic_cluster_inf,ic_cluster_sup,composto_dif_MH_pp,composto_ic_inf,composto_ic_sup,or_sem_carga,or_ic_inf,or_ic_sup,p
+ECT2207,Probabilidade e Estatística,ECT2205,Práticas de Leitura e Escrita II,778,768,11.058,6.397,15.538,10.482,5.675,15.172,1.925,1.353,2.74,0.0
+ECT2207,Probabilidade e Estatística,ECT2204,Introdução à Física Clássica I,1027,432,9.214,3.871,14.417,7.6,2.486,13.021,1.327,0.972,1.813,0.075
+ECT2207,Probabilidade e Estatística,ECT2203,Lógica de Programação,736,784,8.624,3.619,13.778,7.802,2.933,12.605,1.462,1.049,2.037,0.025

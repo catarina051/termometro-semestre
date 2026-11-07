@@ -40,10 +40,22 @@ def test_regressao_so_para_candidatos_que_passaram_na_correcao():
     ok = ph[ph["passa_bh"] & (ph["dif_risco_pp"] > 0)][["disciplina", "dado_par"]]
     juntos = reg.merge(ok, on=["disciplina", "dado_par"])
     assert len(juntos) == len(reg) > 0
-    assert (reg["direcao_mantida"] == ((reg["odds_ratio_regressao"] > 1) & (reg["p_regressao"] < 0.05))).all()
+    assert (reg["q_bh_regressao"] >= reg["p_regressao"] - 1e-9).all()
+    assert (reg["mantem_apos_bh"] == ((reg["odds_ratio_regressao"] > 1) & (reg["q_bh_regressao"] < 0.05))).all()
 
 
 def test_curva_cobre_todas_as_faixas_de_carga():
     c = ler("curva_carga.csv")
-    assert set(c["desfecho"]) == {"reprovacao", "desistencia"}
+    assert set(c["desfecho"]) == {"reprovacao", "desistencia", "nao_aprovacao"}
     assert c.groupby("desfecho")["disciplinas_no_semestre"].nunique().eq(9).all()
+
+
+def test_checagens_da_auditoria():
+    chk = ler("checagens_auditoria.csv")
+    assert len(chk) == 12
+    # nos candidatos de risco mais fortes, quase todo "cursou B junto" e B repetido (atraso no fluxo)
+    assert (chk["pct_B_repeticao_entre_expostos"] > 90).sum() >= 5
+    sob = ler("sobreviventes_auditoria.csv")
+    assert len(sob) >= 1
+    assert (sob["n_com_par"] >= 100).all() and (sob["n_sem_par"] >= 100).all()
+    assert (sob["ic_cluster_inf"] > 0).all()  # a regra de entrada exige IC por aluno acima de zero

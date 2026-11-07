@@ -46,7 +46,7 @@ def main():
         return "<0,001" if x < 0.001 else f"{x:.3f}".replace(".", ",")
 
     ph["par"], pp["par"], reg["par"] = rot(ph), rot(pp), rot(reg)
-    for df_, col in ((ph, "q_bh"), (pp, "q_bh"), (reg, "p_regressao")):
+    for df_, col in ((ph, "q_bh"), (pp, "q_bh"), (reg, "p_regressao"), (reg, "q_bh_regressao")):
         df_[col + "_t"] = df_[col].map(fp)
     disc["disciplina"] = disc["codigo"].map(CURTO)
     pos = int((ph.passa_bh & (ph.dif_risco_pp > 0)).sum())
@@ -123,7 +123,7 @@ cursou A sem B. A coluna q BH é o p-valor depois da correção.
 {md(top_pp, ["par", "n_com_par", "reprov_com_par_pct", "reprov_sem_par_pct", "dif_risco_pp", "ic_inf_pp", "ic_sup_pp", "q_bh_t"], ["par", "n com par", "reprov com %", "reprov sem %", "dif pp", "IC inf", "IC sup", "q BH"], 1)}
 
 ### Verificação por regressão (candidatos de risco)
-{md(reg, ["par", "n_com_par", "dif_risco_simples_pp", "odds_ratio_regressao", "or_ic_inf", "or_ic_sup", "p_regressao_t", "direcao_mantida"], ["par", "n com par", "dif simples pp", "OR regressão", "IC inf", "IC sup", "p", "direção mantida"], 2)}
+{md(reg, ["par", "n_com_par", "dif_risco_mh_pp", "odds_ratio_regressao", "or_ic_inf", "or_ic_sup", "p_regressao_t", "q_bh_regressao_t", "mantem_apos_bh"], ["par", "n com par", "dif MH pp", "OR regressão", "IC inf", "IC sup", "p", "q BH", "mantém após BH"], 2)}
 
 ### Reprovação e desistência por número de disciplinas no semestre (todos os alunos)
 "disciplinas" é a carga definida acima. A coluna padronizada ajusta pela mistura das 15 disciplinas.
