@@ -33,13 +33,17 @@ def main():
     bloco_gm = ""
     if gm and gm.get("definicao") == "reprovacao_REP_REPMF_entre_concluidas":
         import csv
-        tent = [int(r["gradment_tentativas"]) for r in csv.DictReader(open(RAIZ / "resultados" / "gradment_vs_ufrn.csv", encoding="utf-8"))]
+        linhas_gm = list(csv.DictReader(open(RAIZ / "resultados" / "gradment_vs_ufrn.csv", encoding="utf-8")))
+        taxas = [float(r["gradment_taxa_pct"]) for r in linhas_gm if float(r["gradment_taxa_pct"]) > 0]
+        n_zero = sum(float(r["gradment_taxa_pct"]) == 0 for r in linhas_gm)
         bloco_gm = f"""
 ## Conferência com alunos reais do GradMent
 
-Rodei consultas somente de leitura, com agregados, no banco de produção do GradMent e comparei a ordem de dificuldade. Nas {gm["n_pares"]} disciplinas da UFRN que têm equivalente no CEFET-MG (pelo mapeamento que revisei) e pelo menos {gm["min_tentativas_publicadas"]} tentativas no GradMent, a correlação de Spearman entre a reprovação da UFRN e a taxa de "não aprovadas" do GradMent é **ρ = {f(gm["spearman_rho"], 2)}** (p = {f(gm["spearman_p"], 4)}). Ou seja, as disciplinas que mais reprovam lá também são as que menos aprovam aqui, e as de menor reprovação, como Inglês e Metodologia, ficam entre as mais baixas nos dois lados. A tabela está em [`resultados/gradment_vs_ufrn.csv`](resultados/gradment_vs_ufrn.csv).
+Rodei consultas somente de leitura, com agregados, no banco de produção do GradMent e comparei a ordem de dificuldade. Nas {gm["n_pares"]} disciplinas da UFRN que têm equivalente no CEFET-MG (pelo mapeamento que revisei) e pelo menos {gm["min_tentativas_publicadas"]} matrículas concluídas no GradMent, a correlação de Spearman entre a reprovação da UFRN e a do GradMent é **ρ = {f(gm["spearman_rho"], 2)}** (p = {f(gm["spearman_p"], 4)}). No GradMent, "reprovou" é a situação REP ou REPMF entre as disciplinas concluídas.
 
-Ressalvas: no GradMent, "reprovou" é a situação REP ou REPMF entre as disciplinas concluídas; é uma amostra pequena de alunos reais (de {min(tent)} a {max(tent)} tentativas por disciplina); e Pré-Cálculo e Cálculo I compartilham o mesmo equivalente. Isso confere a direção, não a taxa.
+Boa parte dessa correlação vem do contraste entre exatas e formação geral: {n_zero} das {gm["n_pares"]} disciplinas (as equivalentes de Ciência, Tecnologia e Sociedade, de Metodologia e de Inglês) não tiveram nenhuma reprovação no GradMent. Só entre as {gm["spearman_so_com_reprovacao_n"]} disciplinas com alguma reprovação a correlação cai para **ρ = {f(gm["spearman_so_com_reprovacao_rho"], 2)}** (p = {f(gm["spearman_so_com_reprovacao_p"], 2)}), o que não é distinguível de acaso com tão poucos alunos. Ou seja: a direção geral bate, a ordem fina entre as disciplinas de exatas não se confirma. As taxas do GradMent ({f(min(taxas), 0)}% a {f(max(taxas), 0)}% nessas {gm["spearman_so_com_reprovacao_n"]}) são menores que as da UFRN, e isso confere direção, não taxa. A tabela está em [`resultados/gradment_vs_ufrn.csv`](resultados/gradment_vs_ufrn.csv).
+
+Ressalvas: é uma amostra pequena de alunos reais, de quem enviou o histórico; e Pré-Cálculo e Cálculo I compartilham o mesmo equivalente.
 """
     achados = "\n\n".join(
         f"### {a['id']}. {a['titulo']}\n\n**Número.** {cap(a['numero'])}\n\n**E daí?** {cap(a['e_dai'])}\n\n**Limitação.** {cap(a['limitacao'])}"

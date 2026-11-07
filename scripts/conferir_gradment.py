@@ -74,8 +74,12 @@ def main():
         )
     df = pd.DataFrame(linhas)
     rho, p = spearmanr(df["ufrn_reprovacao_pct"], df["gradment_taxa_pct"])
+    sub = df[df["gradment_taxa_pct"] > 0]  # tira as disciplinas sem nenhuma reprovacao no GradMent (formacao geral e ingles)
+    rho2, p2 = spearmanr(sub["ufrn_reprovacao_pct"], sub["gradment_taxa_pct"])
     resumo = {
         "definicao": definicao,
+        "spearman_so_com_reprovacao_rho": round(float(rho2), 2), "spearman_so_com_reprovacao_p": round(float(p2), 4),
+        "spearman_so_com_reprovacao_n": int(len(sub)),
         "n_pares": int(len(df)), "n_codigos_cefet_distintos": int(df["cefet_codigos"].nunique()),
         "spearman_rho": round(float(rho), 2), "spearman_p": round(float(p), 4),
         "min_tentativas_publicadas": MIN_TENTATIVAS,

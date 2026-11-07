@@ -1,0 +1,15 @@
+{
+  "definicao": "reprovacao_REP_REPMF_entre_concluidas",
+  "spearman_so_com_reprovacao_rho": 0.58,
+  "spearman_so_com_reprovacao_p": 0.1344,
+  "spearman_so_com_reprovacao_n": 8,
+  "n_pares": 11,
+  "n_codigos_cefet_distintos": 10,
+  "spearman_rho": 0.83,
+  "spearman_p": 0.0015,
+  "min_tentativas_publicadas": 10,
+  "ressalvas": [
+    "UFRN: reprovacao por tentativa concluida, 2015 a 2019. GradMent: amostra pequena de alunos reais",
+    "duas disciplinas da UFRN (Pre-Calculo e Calculo I) compartilham o mesmo equivalente do CEFET"
+  ]
+}

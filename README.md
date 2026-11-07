@@ -65,6 +65,14 @@ Todo número abaixo vem de `resultados/*.csv`, gerados pelos scripts da pasta `s
 - Validei por divisão de alunos, repetida 100 vezes: escolho os pares numa metade e estimo na outra. O efeito dos finalistas cai de 10,3 para 7,6 pontos percentuais, o que mede quanto a escolha pelo maior efeito infla o resultado.
 - Os testes automáticos conferem, entre outras coisas, que o suporte mínimo foi respeitado, que nenhum dado de aluno entra nos resultados e que 10 alunos recalculados por um código independente, direto dos arquivos brutos, batem com a tabela.
 
+## Conferência com alunos reais do GradMent
+
+Rodei consultas somente de leitura, com agregados, no banco de produção do GradMent e comparei a ordem de dificuldade. Nas 11 disciplinas da UFRN que têm equivalente no CEFET-MG (pelo mapeamento que revisei) e pelo menos 10 matrículas concluídas no GradMent, a correlação de Spearman entre a reprovação da UFRN e a do GradMent é **ρ = 0,83** (p = 0,0015). No GradMent, "reprovou" é a situação REP ou REPMF entre as disciplinas concluídas.
+
+Boa parte dessa correlação vem do contraste entre exatas e formação geral: 3 das 11 disciplinas (as equivalentes de Ciência, Tecnologia e Sociedade, de Metodologia e de Inglês) não tiveram nenhuma reprovação no GradMent. Só entre as 8 disciplinas com alguma reprovação a correlação cai para **ρ = 0,58** (p = 0,13), o que não é distinguível de acaso com tão poucos alunos. Ou seja: a direção geral bate, a ordem fina entre as disciplinas de exatas não se confirma. As taxas do GradMent (18% a 36% nessas 8) são menores que as da UFRN, e isso confere direção, não taxa. A tabela está em [`resultados/gradment_vs_ufrn.csv`](resultados/gradment_vs_ufrn.csv).
+
+Ressalvas: é uma amostra pequena de alunos reais, de quem enviou o histórico; e Pré-Cálculo e Cálculo I compartilham o mesmo equivalente.
+
 ## O que eu não afirmo
 
 > Dados históricos agregados da UFRN (2015 a 2019). As taxas são por tentativa de matrícula. Os resultados mostram associações, não causas, e não são previsão individual nem recomendação de grade. Este projeto não classifica alunos nem estima a chance de evasão de ninguém.

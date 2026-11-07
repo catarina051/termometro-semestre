@@ -1,0 +1,12 @@
+ufrn_codigo,ufrn_nome,ufrn_reprovacao_pct,cefet_codigos,gradment_tentativas,gradment_taxa_pct,gradment_ic_inf,gradment_ic_sup
+ECT2101,Pré-Cálculo,54.7,CFVR0,42,33.3,21.0,48.4
+ECT2102,Vetores e Geometria Analítica,64.4,GAAL0,30,33.3,19.2,51.2
+ECT2103,Cálculo I,65.5,CFVR0,42,33.3,21.0,48.4
+ECT2106,"Ciência, Tecnologia e Sociedade",28.2,FTEC0,25,0.0,0.0,13.3
+ECT2201,Cálculo II,54.3,CFVV1; CFVV2,53,35.8,24.3,49.3
+ECT2203,Lógica de Programação,39.7,APCO0,33,18.2,8.6,34.4
+ECT2204,Introdução à Física Clássica I,50.4,FMEC0,33,36.4,22.2,53.4
+ECT2207,Probabilidade e Estatística,45.2,ESTA0,14,28.6,11.7,54.6
+ECT2302,Metodologia Científica e Tecnológica,19.6,MCIE0,15,0.0,0.0,20.4
+ECT2303,Linguagem de Programação,45.2,AEDA0,31,29.0,16.1,46.6
+ECT2305,Prática de Leitura em Inglês,12.1,IINS1,24,0.0,0.0,13.8
